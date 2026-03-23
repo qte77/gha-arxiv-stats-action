@@ -1,0 +1,58 @@
+# https://docs.github.com/en/actions/sharing-automations/creating-actions/creating-a-composite-action
+name: "ArXiv Stats Action"
+description: "Log daily stats of papers submitted to arxiv.org for selected categories."
+author: "qte77"
+branding:
+  icon: "book-open"
+  color: "orange"
+inputs:
+  OUT_DIR:
+    description: "Directory to write CSV output files."
+    default: "./data"
+  TOPICS:
+    description: "ArXiv category query (OR-separated)."
+    default: "cat:cs.CV+OR+cat:cs.LG+OR+cat:cs.CL+OR+cat:cs.AI+OR+cat:cs.NE+OR+cat:cs.RO"
+  PY_VER:
+    description: "Python version to use."
+    default: "3.10"
+  TOKEN:
+    description: "GitHub token for pushing changes."
+    default: ""
+runs:
+  using: "composite"
+  steps:
+    - name: Checkout repository
+      uses: actions/checkout@v6
+      with:
+        fetch-depth: 1
+        token: ${{ inputs.TOKEN || github.token }}
+
+    - name: Setup Python
+      uses: actions/setup-python@v6
+      with:
+        python-version: ${{ inputs.PY_VER }}
+        cache: "pip"
+
+    - name: Install dependencies and run
+      shell: bash
+      env:
+        OUT_DIR: ${{ inputs.OUT_DIR }}
+        TOPICS: ${{ inputs.TOPICS }}
+        PYTHONPATH: ${{ github.action_path }}/app
+      run: |
+        pip install -qqr "${{ github.action_path }}/app/requirements.txt"
+        python "${{ github.action_path }}/app/app.py"
+
+    - name: Commit and push if changes
+      shell: bash
+      env:
+        GITHUB_TOKEN: ${{ inputs.TOKEN || github.token }}
+        OUT_DIR: ${{ inputs.OUT_DIR }}
+      run: |
+        set +e
+        git add "$OUT_DIR"
+        git diff --cached --quiet && echo "No changes. Nothing to do." && exit 0
+        git config --local user.name "github-actions[bot]"
+        git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
+        git commit -m "Updated $OUT_DIR"
+        git push

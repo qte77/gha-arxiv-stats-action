@@ -2,7 +2,8 @@
 
 Logs daily stats of papers submitted to [arxiv.org](https://arxiv.org/). Inspired by [stats@arxiv-sanity-lite.com](https://arxiv-sanity-lite.com/stats).
 
-[![Update arxiv.org stats](https://github.com/qte77/arxiv-stats-action/actions/workflows/write-arxiv-stats.yml/badge.svg)](https://github.com/qte77/arxiv-stats-action/actions/workflows/write-arxiv-stats.yml)
+![Version](https://img.shields.io/badge/version-0.0.0-8A2BE2)
+[![Update arxiv.org stats](https://github.com/qte77/gha-arxiv-stats-action/actions/workflows/write-arxiv-stats.yml/badge.svg)](https://github.com/qte77/gha-arxiv-stats-action/actions/workflows/write-arxiv-stats.yml)
 [![CodeFactor](https://www.codefactor.io/repository/github/qte77/arxiv-stats-action/badge)](https://www.codefactor.io/repository/github/qte77/arxiv-stats-action)
 [![CodeQL](https://github.com/qte77/arxiv-stats-action/actions/workflows/codeql.yml/badge.svg)](https://github.com/qte77/arxiv-stats-action/actions/workflows/codeql.yml)
 [![Ruff](https://github.com/qte77/arxiv-stats-action/actions/workflows/ruff.yml/badge.svg)](https://github.com/qte77/arxiv-stats-action/actions/workflows/ruff.yml)
