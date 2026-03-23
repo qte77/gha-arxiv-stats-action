@@ -16,6 +16,10 @@ Types of changes:
 
 ## [Unreleased]
 
+---
+
+## [0.0.1] - 2026-03-23
+
 ### Added
 
 - Composite `action.yaml` with inputs (OUT_DIR, TOPICS, PY_VER, TOKEN) and branding
