@@ -1,0 +1,29 @@
+# Python bytecode
+__pycache__/
+*.py[cod]
+
+# Environment
+.venv/
+*.env
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+
+# Testing
+.pytest_cache/
+.coverage
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Claude Code local (user-specific, not shared)
+.claude/settings.local.json
+
+# Sandbox artifacts (Claude Code worktree bare git files)
+/HEAD
+/hooks
+/objects
+/refs
