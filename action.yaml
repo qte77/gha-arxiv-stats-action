@@ -46,13 +46,25 @@ runs:
     - name: Commit and push if changes
       shell: bash
       env:
-        GITHUB_TOKEN: ${{ inputs.TOKEN || github.token }}
+        GH_TOKEN: ${{ inputs.TOKEN || github.token }}
         OUT_DIR: ${{ inputs.OUT_DIR }}
+        REPO: ${{ github.repository }}
       run: |
-        set +e
         git add "$OUT_DIR"
         git diff --cached --quiet && echo "No changes. Nothing to do." && exit 0
-        git config --local user.name "github-actions[bot]"
-        git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
-        git commit -m "Updated $OUT_DIR"
-        git push
+        BASE_SHA=$(gh api "repos/$REPO/git/ref/heads/main" --jq '.object.sha')
+        BASE_TREE=$(gh api "repos/$REPO/git/commits/$BASE_SHA" --jq '.tree.sha')
+        TREE_ENTRIES="[]"
+        for file in $(git diff --cached --name-only); do
+          CONTENT=$(base64 -w0 "$file")
+          BLOB_SHA=$(gh api "repos/$REPO/git/blobs" -f content="$CONTENT" -f encoding=base64 --jq '.sha')
+          TREE_ENTRIES=$(echo "$TREE_ENTRIES" | jq --arg path "$file" --arg sha "$BLOB_SHA" \
+            '. + [{"path": $path, "mode": "100644", "type": "blob", "sha": $sha}]')
+        done
+        NEW_TREE=$(gh api "repos/$REPO/git/trees" \
+          --input <(jq -n --arg base "$BASE_TREE" --argjson tree "$TREE_ENTRIES" \
+            '{base_tree: $base, tree: $tree}') --jq '.sha')
+        COMMIT_SHA=$(gh api "repos/$REPO/git/commits" \
+          --input <(jq -n --arg msg "Updated $OUT_DIR" --arg tree "$NEW_TREE" --arg parent "$BASE_SHA" \
+            '{message: $msg, tree: $tree, parents: [$parent]}') --jq '.sha')
+        gh api "repos/$REPO/git/refs/heads/main" -X PATCH -f sha="$COMMIT_SHA" -F force=false

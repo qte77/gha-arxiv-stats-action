@@ -9,8 +9,6 @@ env:
   OUT_DIR: './data'
   APP_DIR: './app'
   PY_VER: '3.10'
-  GH_USER: 'action@github.com'
-  GH_EMAIL: 'GitHub Action'
 jobs:
   updateArxivCsv:
     runs-on: ubuntu-latest
@@ -25,20 +23,27 @@ jobs:
           cache: 'pip'
       - run: pip install -qqr ${{ env.APP_DIR }}/requirements.txt
       - run: python ${{ env.APP_DIR }}/app.py
-      - name: Check if there are any changes
-        id: diff_check_changed
-        run: |
-          set +e
-          git add $OUT_DIR
-          git diff --cached --quiet && \
-            echo "No changes added. Nothing to do." || \
-            echo "changed=true" >> $GITHUB_OUTPUT
       - name: Commit and push if changes
-        if: steps.diff_check_changed.outputs.changed == 'true'
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          REPO: ${{ github.repository }}
         run: |
-          git config --local user.email "$GH_USER"
-          git config --local user.name "$GH_EMAIL"
           git add "$OUT_DIR"
-          git commit -m "Updated $OUT_DIR"
-          git push
+          git diff --cached --quiet && echo "No changes. Nothing to do." && exit 0
+          BASE_SHA=$(gh api "repos/$REPO/git/ref/heads/main" --jq '.object.sha')
+          BASE_TREE=$(gh api "repos/$REPO/git/commits/$BASE_SHA" --jq '.tree.sha')
+          TREE_ENTRIES="[]"
+          for file in $(git diff --cached --name-only); do
+            CONTENT=$(base64 -w0 "$file")
+            BLOB_SHA=$(gh api "repos/$REPO/git/blobs" -f content="$CONTENT" -f encoding=base64 --jq '.sha')
+            TREE_ENTRIES=$(echo "$TREE_ENTRIES" | jq --arg path "$file" --arg sha "$BLOB_SHA" \
+              '. + [{"path": $path, "mode": "100644", "type": "blob", "sha": $sha}]')
+          done
+          NEW_TREE=$(gh api "repos/$REPO/git/trees" \
+            --input <(jq -n --arg base "$BASE_TREE" --argjson tree "$TREE_ENTRIES" \
+              '{base_tree: $base, tree: $tree}') --jq '.sha')
+          COMMIT_SHA=$(gh api "repos/$REPO/git/commits" \
+            --input <(jq -n --arg msg "Updated $OUT_DIR" --arg tree "$NEW_TREE" --arg parent "$BASE_SHA" \
+              '{message: $msg, tree: $tree, parents: [$parent]}') --jq '.sha')
+          gh api "repos/$REPO/git/refs/heads/main" -X PATCH -f sha="$COMMIT_SHA" -F force=false
 ...
