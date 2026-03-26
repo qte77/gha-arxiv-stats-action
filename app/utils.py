@@ -23,11 +23,13 @@ arxiv API output
   'summary': 'The robust association of the same'
 '''
 import csv
+import time
 from os import makedirs
 from os.path import exists, dirname
 from datetime import datetime
 from feedparser import FeedParserDict, parse
 from urllib.request import urlopen, Request
+from urllib.error import URLError
 
 def encode_feedparser_dict(d):
   """ helper function to strip feedparser objects using a deep copy """
@@ -51,15 +53,23 @@ def parse_arxiv_url(url):
     f"error splitting id and version in idv string: {idv}"
   return idv, rawid, int(version)
 
-def get_api_response(api_url):
-  if api_url.lower().startswith('https://'):
-    req = Request(api_url)
-  else:
+def get_api_response(api_url, max_retries=3, backoff_base=2.0):
+  if not api_url.lower().startswith('https://'):
     raise ValueError from None
-  with urlopen(req) as url:
-      assert url.status == 200, \
-        f"arxiv did not return status 200 response: {api_url}"
-      return url.read()
+  req = Request(api_url)
+  for attempt in range(max_retries):
+    try:
+      with urlopen(req, timeout=30) as url:
+        assert url.status == 200, \
+          f"arxiv did not return status 200 response: {api_url}"
+        return url.read()
+    except (URLError, AssertionError):
+      if attempt < max_retries - 1:
+        time.sleep(backoff_base ** attempt)
+      else:
+        raise RuntimeError(
+          f"arxiv API failed after {max_retries} attempts: {api_url}"
+        ) from None
 
 def get_parsed_output(response):
   '''
