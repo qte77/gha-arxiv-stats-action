@@ -18,6 +18,12 @@ inputs:
   TOKEN:
     description: "GitHub token for pushing changes."
     default: ""
+  INCLUDE_CITATIONS:
+    description: "Enrich output with Semantic Scholar citation counts (true/false)."
+    default: "false"
+  SEMANTIC_SCHOLAR_API_KEY:
+    description: "Optional Semantic Scholar API key for higher rate limits."
+    default: ""
 runs:
   using: "composite"
   steps:
@@ -38,6 +44,8 @@ runs:
       env:
         OUT_DIR: ${{ inputs.OUT_DIR }}
         TOPICS: ${{ inputs.TOPICS }}
+        INCLUDE_CITATIONS: ${{ inputs.INCLUDE_CITATIONS }}
+        SEMANTIC_SCHOLAR_API_KEY: ${{ inputs.SEMANTIC_SCHOLAR_API_KEY }}
         PYTHONPATH: ${{ github.action_path }}/app
       run: |
         pip install -qqr "${{ github.action_path }}/app/requirements.txt"
