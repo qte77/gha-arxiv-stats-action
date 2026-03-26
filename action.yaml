@@ -76,5 +76,4 @@ runs:
           -f head="$BRANCH" -f base=main --jq '.number')
         gh api "repos/$REPO/pulls/$PR_NUM/merge" -X PUT \
           -f merge_method=squash \
-          -f commit_title="chore: update $OUT_DIR" \
-          -f commit_message=""
+          -f commit_title="chore: update $OUT_DIR"
