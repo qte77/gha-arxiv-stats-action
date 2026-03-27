@@ -33,14 +33,14 @@ jobs:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           REPO: ${{ github.repository }}
         run: |
-          git add "$OUT_DIR"
+          find "$OUT_DIR" -type f | xargs git add
           git diff --cached --quiet && echo "No changes. Nothing to do." && exit 0
           DATE=$(date -u +%Y%m%d-%H%M%S)
           BRANCH="auto-update-$DATE"
           BASE_SHA=$(gh api "repos/$REPO/git/ref/heads/main" --jq '.object.sha')
           BASE_TREE=$(gh api "repos/$REPO/git/commits/$BASE_SHA" --jq '.tree.sha')
           echo '[]' > /tmp/tree_entries.json
-          for file in $(git diff --cached --name-only); do
+          git diff --cached --name-only | while IFS= read -r file; do
             CONTENT=$(base64 -w0 "$file")
             BLOB_SHA=$(gh api "repos/$REPO/git/blobs" -f content="$CONTENT" -f encoding=base64 --jq '.sha')
             jq --arg path "$file" --arg sha "$BLOB_SHA" \
