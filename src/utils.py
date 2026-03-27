@@ -93,26 +93,42 @@ def get_parsed_output(response):
             title = title.translate({ord(s): None})
         title = f"'{title}'"
         pub_date_utc = datetime.strptime(j["published"], "%Y-%m-%dT%H:%M:%SZ")
-        pub_weekday = pub_date_utc.isocalendar().week  # .strftime('%V')
-        if out.get(pub_weekday) is None:
-            out[pub_weekday] = []
-        out[pub_weekday].append([j["published"], pub_weekday, j["updated"], rawid, version, title])
+        iso = pub_date_utc.isocalendar()
+        key = (iso.year, iso.week)
+        if key not in out:
+            out[key] = []
+        out[key].append([j["published"], iso.week, j["updated"], rawid, version, title])
     return out
+
+
+def _load_existing_ids(out_file):
+    """Load set of (rawid, version) from existing CSV for dedup."""
+    existing = set()
+    if exists(out_file):
+        with open(out_file, newline="", encoding="UTF8") as f:
+            reader = csv.reader(f)
+            next(reader, None)  # skip header
+            for row in reader:
+                if len(row) >= 5:
+                    existing.add((row[3], str(row[4])))
+    return existing
 
 
 def write_file(
     content: list, file_name: str, out_dir: str = ".", header="", file_ext: str = "csv"
 ) -> None:
-    """TODO"""
+    """Write rows to CSV, skipping duplicates by (rawid, version)."""
     out_file = f"{out_dir}/{file_name}.{file_ext}"
     fopen_kw = {"file": out_file, "newline": "", "encoding": "UTF8"}
     if not exists(out_file):
-        # folder needs to exist before open() context
-        makedirs(dirname(out_file), exist_ok=True)
+        makedirs(dirname(out_file) if dirname(out_file) else out_dir, exist_ok=True)
         with open(mode="w+", **fopen_kw) as f:
             writer = csv.writer(f)
             writer.writerow(header)
-    with open(mode="a+", **fopen_kw) as f:
-        writer = csv.writer(f)
-        for o in content:
-            writer.writerow(o)
+    existing = _load_existing_ids(out_file)
+    new_rows = [row for row in content if (row[3], str(row[4])) not in existing]
+    if new_rows:
+        with open(mode="a+", **fopen_kw) as f:
+            writer = csv.writer(f)
+            for row in new_rows:
+                writer.writerow(row)
