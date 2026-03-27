@@ -1,8 +1,9 @@
 """Semantic Scholar citation enrichment for arxiv paper IDs."""
+
 import json
 import time
-from urllib.request import urlopen, Request
 from urllib.error import HTTPError, URLError
+from urllib.request import Request, urlopen
 
 API_BASE = "https://api.semanticscholar.org/graph/v1/paper"
 FIELDS = "citationCount,referenceCount,influentialCitationCount"
@@ -51,4 +52,8 @@ def enrich_row(row: list, citations: dict) -> list:
     Returns:
         New list with three citation columns appended.
     """
-    return row + [citations["citation_count"], citations["reference_count"], citations["influential_count"]]
+    return row + [
+        citations["citation_count"],
+        citations["reference_count"],
+        citations["influential_count"],
+    ]

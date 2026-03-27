@@ -1,10 +1,11 @@
 """Tests for Semantic Scholar citation enrichment in src/citations.py."""
+
 import json
-from unittest.mock import patch, MagicMock
+from unittest.mock import MagicMock, patch
 from urllib.error import HTTPError
 
 import src.citations as citations_module
-from src.citations import get_citations, enrich_row
+from src.citations import enrich_row, get_citations
 
 
 def _make_response(data: dict):
@@ -41,8 +42,10 @@ def test_get_citations_respects_rate_limit():
     # Reset module-level _last_call so first call does NOT sleep
     citations_module._last_call = 0.0
 
-    with patch("src.citations.urlopen", return_value=resp), \
-         patch("src.citations.time") as mock_time:
+    with (
+        patch("src.citations.urlopen", return_value=resp),
+        patch("src.citations.time") as mock_time,
+    ):
         mock_time.time.return_value = 0.0
         get_citations("2406.00001")
         mock_time.time.return_value = 0.5

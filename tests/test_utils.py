@@ -1,6 +1,8 @@
 """Tests for get_api_response() retry behavior in src/utils.py."""
-from unittest.mock import patch, MagicMock
+
+from unittest.mock import MagicMock, patch
 from urllib.error import URLError
+
 import pytest
 
 from src.utils import get_api_response

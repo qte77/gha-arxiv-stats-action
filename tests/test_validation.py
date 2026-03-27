@@ -1,5 +1,7 @@
 """Tests for env var validation (#11)."""
+
 import pytest
+
 from src.validation import validate_env
 
 
