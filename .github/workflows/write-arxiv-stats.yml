@@ -23,7 +23,11 @@ jobs:
           python-version: ${{ env.PY_VER }}
           cache: 'pip'
       - run: pip install -qqr ${{ env.APP_DIR }}/requirements.txt
-      - run: python ${{ env.APP_DIR }}/app.py
+      - name: Run arxiv stats
+        env:
+          INCLUDE_CITATIONS: ${{ vars.INCLUDE_CITATIONS || 'false' }}
+          SEMANTIC_SCHOLAR_API_KEY: ${{ secrets.SEMANTIC_SCHOLAR_API_KEY || '' }}
+        run: python ${{ env.APP_DIR }}/app.py
       - name: Commit via PR if changes
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}

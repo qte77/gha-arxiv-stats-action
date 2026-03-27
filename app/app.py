@@ -8,12 +8,16 @@ ADD_URL = getenv("ADD_URL", 'search_query=#TOPICS#&start=#STARTRES#&max_results=
 START_RESULT = getenv("START_RESULT", 0)
 RESULT_COUNT = getenv("END_RESULT", 199)
 MAX_RESULTS_PER_QUERY = getenv("MAX_RESULTS_PER_QUERY", 100)
+INCLUDE_CITATIONS = getenv("INCLUDE_CITATIONS", "false").lower() == "true"
 
 TOPICS_REPL_STR = "#TOPICS#"
 MAXRES_REPL_STR = "#MAXRES#"
 STARTRES_REPL_STR = "#STARTRES#"
 
 HEADER = ["Published", "ISOWeek", "Updated", "ID", "Version", "Title"]
+if INCLUDE_CITATIONS:
+  from citations import get_citations, enrich_row
+  HEADER = HEADER + ["Citations", "References", "InfluentialCitations"]
 
 # https://github.com/karpathy/arxiv-sanity-lite/blob/d7a303b410b0246fbd19087e37f1885f7ca8a9dc/aslite/arxiv.py#L15
 # https://info.arxiv.org/help/api/user-manual.html
@@ -27,4 +31,7 @@ for week_num in range(START_RESULT, START_RESULT + RESULT_COUNT, MAX_RESULTS_PER
   out = get_parsed_output(response)
   print(f"{len(out)=}, {out.keys()=}")
   for week_num in out.keys():
-    write_file(out[week_num], week_num, OUT_DIR, HEADER)
+    rows = out[week_num]
+    if INCLUDE_CITATIONS:
+      rows = [enrich_row(row, get_citations(row[3])) for row in rows]
+    write_file(rows, week_num, OUT_DIR, HEADER)
