@@ -27,6 +27,8 @@ def get_citations(arxiv_id: str) -> dict:
         time.sleep(1.0 - elapsed)
 
     url = f"{API_BASE}/ARXIV:{arxiv_id}?fields={FIELDS}"
+    if not url.lower().startswith("https://"):
+        raise ValueError(f"Only HTTPS URLs are allowed, got: {url[:50]}")
     try:
         req = Request(url)
         with urlopen(req, timeout=10) as resp:

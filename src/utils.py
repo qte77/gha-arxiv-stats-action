@@ -60,9 +60,14 @@ def parse_arxiv_url(url):
     return idv, rawid, int(version)
 
 
+def _ensure_https(url):
+    """Reject non-HTTPS URLs to prevent file:/ and custom scheme access."""
+    if not url.lower().startswith("https://"):
+        raise ValueError(f"Only HTTPS URLs are allowed, got: {url[:50]}")
+
+
 def get_api_response(api_url, max_retries=3, backoff_base=2.0):
-    if not api_url.lower().startswith("https://"):
-        raise ValueError from None
+    _ensure_https(api_url)
     req = Request(api_url)
     for attempt in range(max_retries):
         try:
