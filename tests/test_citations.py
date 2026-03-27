@@ -1,14 +1,10 @@
-"""Tests for Semantic Scholar citation enrichment in app/citations.py."""
-import sys
-import os
+"""Tests for Semantic Scholar citation enrichment in src/citations.py."""
 import json
 from unittest.mock import patch, MagicMock
 from urllib.error import HTTPError
-import pytest
 
-sys.path.insert(0, os.path.join(os.path.dirname(__file__), '..'))
-import app.citations as citations_module
-from app.citations import get_citations, enrich_row
+import src.citations as citations_module
+from src.citations import get_citations, enrich_row
 
 
 def _make_response(data: dict):
@@ -24,7 +20,7 @@ def test_get_citations_success():
     """Returns correct dict when API responds with citation data."""
     payload = {"citationCount": 42, "referenceCount": 10, "influentialCitationCount": 5}
     resp = _make_response(payload)
-    with patch("app.citations.urlopen", return_value=resp):
+    with patch("src.citations.urlopen", return_value=resp):
         result = get_citations("2406.04221")
     assert result == {"citation_count": 42, "reference_count": 10, "influential_count": 5}
 
@@ -32,7 +28,7 @@ def test_get_citations_success():
 def test_get_citations_not_found():
     """Returns zero-filled dict on 404 HTTPError (graceful fallback)."""
     http_error = HTTPError(url="", code=404, msg="Not Found", hdrs={}, fp=None)
-    with patch("app.citations.urlopen", side_effect=http_error):
+    with patch("src.citations.urlopen", side_effect=http_error):
         result = get_citations("9999.99999")
     assert result == {"citation_count": 0, "reference_count": 0, "influential_count": 0}
 
@@ -45,11 +41,11 @@ def test_get_citations_respects_rate_limit():
     # Reset module-level _last_call so first call does NOT sleep
     citations_module._last_call = 0.0
 
-    with patch("app.citations.urlopen", return_value=resp), \
-         patch("app.citations.time") as mock_time:
-        mock_time.time.return_value = 0.0  # first call: elapsed = 0 - 0 = 0, sleep 1.0
+    with patch("src.citations.urlopen", return_value=resp), \
+         patch("src.citations.time") as mock_time:
+        mock_time.time.return_value = 0.0
         get_citations("2406.00001")
-        mock_time.time.return_value = 0.5  # second call: elapsed = 0.5 - 0 = 0.5 < 1.0
+        mock_time.time.return_value = 0.5
         get_citations("2406.00002")
 
     mock_time.sleep.assert_called()
