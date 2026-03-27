@@ -2,9 +2,7 @@
 
 from unittest.mock import MagicMock, patch
 
-import pytest
-
-from src.utils import get_total_results, load_all_existing_ids, filter_new_rows
+from src.utils import filter_new_rows, get_total_results, load_all_existing_ids
 
 
 class TestGetTotalResults:
