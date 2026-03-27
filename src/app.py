@@ -16,6 +16,7 @@ TOPICS = getenv(
 )
 BASE_URL = getenv("BASE_URL", "https://export.arxiv.org/api/query?")
 PAGE_SIZE = int(getenv("PAGE_SIZE", "1000"))
+MAX_PAGES = int(getenv("MAX_PAGES", "5"))
 INCLUDE_CITATIONS = getenv("INCLUDE_CITATIONS", "false").lower() == "true"
 
 HEADER = ["Published", "ISOWeek", "Updated", "ID", "Version", "Title"]
@@ -32,22 +33,30 @@ print(f"Loaded {len(existing_ids)} existing paper IDs from {OUT_DIR}")
 probe_url = f"{BASE_URL}search_query={TOPICS}&start=0&max_results=1&sortBy=submittedDate"
 probe_response = get_api_response(probe_url)
 total_results = get_total_results(probe_response)
-print(f"arXiv reports {total_results} total results for query")
+# Reason: arXiv totalResults is entire corpus (564K+), not recent papers.
+# Cap to MAX_PAGES * PAGE_SIZE to stay within API pagination limits.
+fetch_limit = min(total_results, MAX_PAGES * PAGE_SIZE)
+print(f"arXiv reports {total_results} total results. Fetching up to {fetch_limit}.")
 
-# Paginate through all results
+# Paginate through recent results (sorted by submittedDate descending)
 start = 0
 total_new = 0
-while start < total_results:
+while start < fetch_limit:
     page_url = (
         f"{BASE_URL}search_query={TOPICS}"
         f"&start={start}&max_results={PAGE_SIZE}&sortBy=submittedDate"
     )
-    response = get_api_response(page_url)
-    out = get_parsed_output(response)
+    try:
+        response = get_api_response(page_url)
+    except RuntimeError as e:
+        print(f"API error at start={start}, stopping pagination: {e}")
+        break
 
+    out = get_parsed_output(response)
     if not out:
         break
 
+    page_new = 0
     for year, week in out.keys():
         rows = out[(year, week)]
         new_rows = filter_new_rows(rows, existing_ids)
@@ -57,6 +66,12 @@ while start < total_results:
             year_dir = f"{OUT_DIR}/{year}"
             write_file(new_rows, str(week), year_dir, HEADER)
             total_new += len(new_rows)
+            page_new += len(new_rows)
+
+    # Stop early if a full page yielded no new papers (all already known)
+    if page_new == 0:
+        print(f"No new papers on page starting at {start}. Stopping.")
+        break
 
     start += PAGE_SIZE
 
