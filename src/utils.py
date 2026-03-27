@@ -24,6 +24,7 @@ arxiv API output
 """
 
 import csv
+import os
 import time
 from datetime import datetime
 from os import makedirs
@@ -99,6 +100,57 @@ def get_parsed_output(response):
             out[key] = []
         out[key].append([j["published"], iso.week, j["updated"], rawid, version, title])
     return out
+
+
+def get_total_results(response):
+    """Read opensearch:totalResults from arXiv API response.
+
+    Args:
+        response: Raw API response bytes.
+
+    Returns:
+        Total number of matching results, or 0 if not available.
+    """
+    parsed = parse(response)
+    try:
+        return int(parsed.feed.opensearch_totalresults)
+    except (AttributeError, ValueError, TypeError):
+        return 0
+
+
+def load_all_existing_ids(data_dir):
+    """Load all (rawid, version) pairs from CSVs in data_dir/YYYY/ subdirs.
+
+    Args:
+        data_dir: Root data directory containing year subdirectories.
+
+    Returns:
+        Set of (rawid, version) string tuples.
+    """
+    existing = set()
+    if not exists(data_dir):
+        return existing
+    for entry in os.listdir(data_dir):
+        subdir = os.path.join(data_dir, entry)
+        if not os.path.isdir(subdir) or not entry.isdigit():
+            continue
+        for fname in os.listdir(subdir):
+            if fname.endswith(".csv"):
+                existing.update(_load_existing_ids(os.path.join(subdir, fname)))
+    return existing
+
+
+def filter_new_rows(rows, existing_ids):
+    """Filter out rows whose (rawid, version) is already known.
+
+    Args:
+        rows: List of CSV row lists (column 3=rawid, 4=version).
+        existing_ids: Set of (rawid, version) string tuples.
+
+    Returns:
+        List of rows not in existing_ids.
+    """
+    return [row for row in rows if (row[3], str(row[4])) not in existing_ids]
 
 
 def _load_existing_ids(out_file):
