@@ -83,27 +83,99 @@ def get_api_response(api_url, max_retries=3, backoff_base=2.0):
                 ) from None
 
 
-def get_parsed_output(response):
+def build_date_query(date_from=None, date_to=None):
+    """Build arXiv submittedDate range query fragment.
+
+    Args:
+        date_from: Start date as YYYY-MM-DD string, or None.
+        date_to: End date as YYYY-MM-DD string, or None (defaults to today).
+
+    Returns:
+        Query fragment like '+AND+submittedDate:[YYYYMMDDHHMM+TO+YYYYMMDDHHMM]',
+        or empty string if no dates provided.
     """
-    Expects API response for feedparser.parse().
-    Returns dict(list) of parsed API responses
+    if not date_from:
+        return ""
+
+    def _parse(d):
+        try:
+            return datetime.strptime(d, "%Y-%m-%d")
+        except ValueError:
+            raise ValueError(f"Invalid date format: {d}. Expected YYYY-MM-DD.") from None
+
+    start = _parse(date_from)
+    end = _parse(date_to) if date_to else datetime.now(tz=None)
+
+    return f"+AND+submittedDate:[{start:%Y%m%d}0000+TO+{end:%Y%m%d}2359]"
+
+
+def extract_categories(tags):
+    """Extract category terms from feedparser tags list.
+
+    Args:
+        tags: List of dicts with 'term' key, or None.
+
+    Returns:
+        List of category strings (e.g. ['cs.CV', 'cs.LG']).
+    """
+    if not tags:
+        return []
+    return [t["term"] for t in tags if "term" in t]
+
+
+def get_parsed_output(response, allowed_categories=None, max_age_days=None):
+    """Parse arXiv API response into rows grouped by (year, week).
+
+    Args:
+        response: Raw API response bytes.
+        allowed_categories: Set of category strings to filter by.
+            Papers must have at least one matching category. None = no filter.
+        max_age_days: If set, skip papers published more than N days ago.
+
+    Returns:
+        Dict mapping (year, week) tuples to lists of CSV rows.
+        Each row: [published, week, updated, rawid, version, title, categories]
     """
     out = {}
     parsed = parse(response)
+    now = datetime.now(tz=None)  # UTC-naive, matches arXiv timestamps
+
     for e in parsed.entries:
         j = encode_feedparser_dict(e)
+
+        # Extract and filter by categories
+        try:
+            tags = j["tags"]
+        except (KeyError, TypeError):
+            tags = []
+        categories = extract_categories(tags)
+        if allowed_categories and not any(c in allowed_categories for c in categories):
+            continue
+
         idv, rawid, version = parse_arxiv_url(j["id"])
-        # TODO simplify title prep
+
+        pub_date_utc = datetime.strptime(j["published"], "%Y-%m-%dT%H:%M:%SZ")
+
+        # Skip papers not published recently (only updated)
+        if max_age_days is not None:
+            age = (now - pub_date_utc).days
+            if age > max_age_days:
+                continue
+
         title = str(j["title"])
         for s in "\n\r\"'":
             title = title.translate({ord(s): None})
         title = f"'{title}'"
-        pub_date_utc = datetime.strptime(j["published"], "%Y-%m-%dT%H:%M:%SZ")
+
         iso = pub_date_utc.isocalendar()
         key = (iso.year, iso.week)
         if key not in out:
             out[key] = []
-        out[key].append([j["published"], iso.week, j["updated"], rawid, version, title])
+
+        categories_str = ";".join(categories)
+        out[key].append(
+            [j["published"], iso.week, j["updated"], rawid, version, title, categories_str]
+        )
     return out
 
 
