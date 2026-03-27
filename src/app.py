@@ -40,8 +40,9 @@ for week_num in range(START_RESULT, START_RESULT + RESULT_COUNT, MAX_RESULTS_PER
     response = get_api_response(api_url_k)
     out = get_parsed_output(response)
     print(f"{len(out)=}, {out.keys()=}")
-    for week_num in out.keys():
-        rows = out[week_num]
+    for year, week in out.keys():
+        rows = out[(year, week)]
         if INCLUDE_CITATIONS:
             rows = [enrich_row(row, get_citations(row[3])) for row in rows]
-        write_file(rows, week_num, OUT_DIR, HEADER)
+        year_dir = f"{OUT_DIR}/{year}"
+        write_file(rows, str(week), year_dir, HEADER)

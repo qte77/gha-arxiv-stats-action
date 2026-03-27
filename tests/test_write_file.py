@@ -49,7 +49,10 @@ def test_get_parsed_output_keys_include_year():
 
     mock_entry = MagicMock()
     mock_entry.keys.return_value = [
-        "id", "published", "updated", "title",
+        "id",
+        "published",
+        "updated",
+        "title",
     ]
     mock_entry.__getitem__ = lambda self, key: {
         "id": "http://arxiv.org/abs/2603.00001v1",
@@ -63,6 +66,7 @@ def test_get_parsed_output_keys_include_year():
 
     with patch("src.utils.parse", return_value=mock_parsed):
         from src.utils import get_parsed_output
+
         result = get_parsed_output(b"mock")
 
     # Keys should be (year, week) tuples
