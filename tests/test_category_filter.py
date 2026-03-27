@@ -79,6 +79,32 @@ class TestGetParsedOutputCategories:
         total_rows = sum(len(rows) for rows in result.values())
         assert total_rows == 1  # Only the cs.CV paper
 
+    def test_parsed_output_filters_old_papers_by_max_age(self):
+        """Papers published more than max_age_days ago are excluded."""
+        # Paper from 2024 (old)
+        old_entry = self._make_entry(
+            "2401.00001",
+            "2024-01-15T17:00:00Z",
+            [{"term": "cs.CV"}],
+        )
+        # Paper from today-ish (recent) — use a date we know is within 7 days
+        from datetime import datetime, timedelta
+
+        recent_date = (datetime.now(tz=None) - timedelta(days=1)).strftime("%Y-%m-%dT%H:%M:%SZ")
+        recent_entry = self._make_entry(
+            "2603.99999",
+            recent_date,
+            [{"term": "cs.CV"}],
+        )
+        mock_parsed = MagicMock()
+        mock_parsed.entries = [old_entry, recent_entry]
+
+        with patch("src.utils.parse", return_value=mock_parsed):
+            result = get_parsed_output(b"mock", max_age_days=7)
+
+        total_rows = sum(len(rows) for rows in result.values())
+        assert total_rows == 1  # Only the recent paper
+
     def test_parsed_output_no_filter_when_none(self):
         """All papers pass when allowed_categories is None."""
         entry = self._make_entry(
