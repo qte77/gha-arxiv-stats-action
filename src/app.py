@@ -2,6 +2,7 @@ import re
 from os import getenv
 
 from utils import (
+    build_date_query,
     filter_new_rows,
     get_api_response,
     get_parsed_output,
@@ -19,10 +20,17 @@ BASE_URL = getenv("BASE_URL", "https://export.arxiv.org/api/query?")
 PAGE_SIZE = int(getenv("PAGE_SIZE", "1000"))
 MAX_PAGES = int(getenv("MAX_PAGES", "5"))
 MAX_AGE_DAYS = int(getenv("MAX_AGE_DAYS", "7"))
+DATE_FROM = getenv("DATE_FROM", "")
+DATE_TO = getenv("DATE_TO", "")
 INCLUDE_CITATIONS = getenv("INCLUDE_CITATIONS", "false").lower() == "true"
 
-# Parse allowed categories from TOPICS query string (e.g. "cat:cs.CV+OR+cat:cs.LG")
+# Parse allowed categories from TOPICS query string
 ALLOWED_CATEGORIES = set(re.findall(r"cat:([a-zA-Z\-]+\.[A-Z]+)", TOPICS))
+
+# Build date range query (server-side filter)
+date_query = build_date_query(date_from=DATE_FROM or None, date_to=DATE_TO or None)
+# Reason: when DATE_FROM is set, server filters by submittedDate — disable client-side age filter
+effective_max_age = None if date_query else MAX_AGE_DAYS
 
 HEADER = ["Published", "ISOWeek", "Updated", "ID", "Version", "Title", "Categories"]
 if INCLUDE_CITATIONS:
@@ -34,10 +42,15 @@ if INCLUDE_CITATIONS:
 existing_ids = load_all_existing_ids(OUT_DIR)
 print(f"Loaded {len(existing_ids)} existing paper IDs from {OUT_DIR}")
 print(f"Allowed categories: {sorted(ALLOWED_CATEGORIES)}")
-print(f"Max paper age: {MAX_AGE_DAYS} days")
+if date_query:
+    print(f"Date range filter: {DATE_FROM} to {DATE_TO or 'today'}")
+else:
+    print(f"Max paper age: {MAX_AGE_DAYS} days")
 
-# Get total results count with a probe request
-probe_url = f"{BASE_URL}search_query={TOPICS}&start=0&max_results=1&sortBy=submittedDate"
+# Build search query with optional date range
+search_query = f"{TOPICS}{date_query}"
+
+probe_url = f"{BASE_URL}search_query={search_query}&start=0&max_results=1&sortBy=submittedDate"
 probe_response = get_api_response(probe_url)
 total_results = get_total_results(probe_response)
 fetch_limit = min(total_results, MAX_PAGES * PAGE_SIZE)
@@ -49,7 +62,7 @@ total_new = 0
 total_filtered = 0
 while start < fetch_limit:
     page_url = (
-        f"{BASE_URL}search_query={TOPICS}"
+        f"{BASE_URL}search_query={search_query}"
         f"&start={start}&max_results={PAGE_SIZE}&sortBy=submittedDate"
     )
     try:
@@ -61,7 +74,7 @@ while start < fetch_limit:
     out = get_parsed_output(
         response,
         allowed_categories=ALLOWED_CATEGORIES,
-        max_age_days=MAX_AGE_DAYS,
+        max_age_days=effective_max_age,
     )
     if not out:
         print(f"No matching papers on page starting at {start}. Stopping.")

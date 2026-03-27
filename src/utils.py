@@ -83,6 +83,32 @@ def get_api_response(api_url, max_retries=3, backoff_base=2.0):
                 ) from None
 
 
+def build_date_query(date_from=None, date_to=None):
+    """Build arXiv submittedDate range query fragment.
+
+    Args:
+        date_from: Start date as YYYY-MM-DD string, or None.
+        date_to: End date as YYYY-MM-DD string, or None (defaults to today).
+
+    Returns:
+        Query fragment like '+AND+submittedDate:[YYYYMMDDHHMM+TO+YYYYMMDDHHMM]',
+        or empty string if no dates provided.
+    """
+    if not date_from:
+        return ""
+
+    def _parse(d):
+        try:
+            return datetime.strptime(d, "%Y-%m-%d")
+        except ValueError:
+            raise ValueError(f"Invalid date format: {d}. Expected YYYY-MM-DD.") from None
+
+    start = _parse(date_from)
+    end = _parse(date_to) if date_to else datetime.now(tz=None)
+
+    return f"+AND+submittedDate:[{start:%Y%m%d}0000+TO+{end:%Y%m%d}2359]"
+
+
 def extract_categories(tags):
     """Extract category terms from feedparser tags list.
 
