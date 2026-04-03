@@ -2438,3 +2438,45 @@ Published,ISOWeek,Updated,ID,Version,Title
 2026-03-24T04:32:48Z,13,2026-03-30T08:42:02Z,2603.23562,2,'Synthetic Mixed Training: Scaling Parametric Knowledge Acquisition Beyond RAG',cs.LG;cs.AI
 2026-03-24T03:38:42Z,13,2026-03-24T03:38:42Z,2603.26766,1,'JND-Guided Neural Watermarking with Spatial Transformer Decoding for Screen-Capture Robustness',cs.CV
 2026-03-24T02:35:09Z,13,2026-03-24T02:35:09Z,2603.26765,1,'Bitboard version of Tetris AI',cs.AI
+2026-03-29T21:45:15Z,13,2026-03-29T21:45:15Z,2604.00046,1,'Large Language Models for Analyzing Enterprise Architecture Debt in Unstructured Documentation',cs.SE;cs.LG
+2026-03-29T16:58:29Z,13,2026-03-31T07:04:03Z,2603.27765,2,'Let the Agent Steer: Closed-Loop Ranking Optimization via Influence Exchange',cs.AI
+2026-03-29T16:21:01Z,13,2026-03-31T07:05:07Z,2603.27756,2,'Heracles: Bridging Precise Tracking and Generative Synthesis for General Humanoid Control',cs.RO;cs.AI
+2026-03-29T12:38:06Z,13,2026-03-29T12:38:06Z,2604.00043,1,'DriftScript: A Domain-Specific Language for Programming Non-Axiomatic Reasoning Agents',cs.PL;cs.AI
+2026-03-29T12:01:34Z,13,2026-03-29T12:01:34Z,2603.28825,1,"'Incentives, Equilibria, and the Limits of Healthcare AI: A Game-Theoretic Perspective'",cs.GT;cs.AI
+2026-03-29T09:18:00Z,13,2026-04-01T02:10:09Z,2603.27592,2,'Fundamental Limits of Man-in-the-Middle Attack Detection in Model-Free Reinforcement Learning',eess.SY;cs.LG
+2026-03-29T09:00:25Z,13,2026-03-29T09:00:25Z,2603.28824,1,'SNEAKDOOR: Stealthy Backdoor Attacks against Distribution Matching-based Dataset Condensation',cs.CR;cs.AI
+2026-03-29T07:30:50Z,13,2026-03-29T07:30:50Z,2603.28823,1,'Time is Not Compute: Scaling Laws for Wall-Clock Constrained Training on Consumer GPUs',cs.PF;cs.AI
+2026-03-29T05:43:29Z,13,2026-03-31T04:46:36Z,2603.27529,2,'Cross-attentive Cohesive Subgraph Embedding to Mitigate Oversquashing in GNNs',cs.LG;cs.AI
+2026-03-29T04:45:31Z,13,2026-03-31T10:36:33Z,2603.27516,2,'SGS-Intrinsic: Semantic-Invariant Gaussian Splatting for Sparse-View Indoor Inverse Rendering',cs.CV
+2026-03-28T21:41:58Z,13,2026-04-01T02:30:55Z,2603.27420,2,'CarbonEdge: Carbon-Aware Deep Learning Inference Framework for Sustainable Edge Computing',cs.DC;cs.AI;cs.LG
+2026-03-28T19:17:46Z,13,2026-03-28T19:17:46Z,2603.28817,1,'GUARD-SLM: Token Activation-Based Defense Against Jailbreak Attacks for Small Language Models',cs.CR;cs.AI
+2026-03-28T17:09:17Z,13,2026-03-28T17:09:17Z,2603.28816,1,"'ARTLAS: Mapping Art-Technology Institutions via Conceptual Axes, Text Embeddings, and Unsupervised Clustering'",cs.DL;cs.AI
+2026-03-28T15:50:54Z,13,2026-04-01T17:22:43Z,2603.27317,2,'Where-to-Learn: Analytical Policy Gradient Directed Exploration for On-Policy Robotic Reinforcement Learning',cs.RO
+2026-03-28T14:56:18Z,13,2026-03-28T14:56:18Z,2603.28815,1,'SkillTester: Benchmarking Utility and Security of Agent Skills',cs.CR;cs.AI
+2026-03-28T11:36:56Z,13,2026-03-28T11:36:56Z,2603.28813,1,'The impact of multi-agent debate protocols on debate quality: a controlled case study',cs.MA;cs.AI
+2026-03-28T09:39:23Z,13,2026-03-28T09:39:23Z,2603.28812,1,'Data-Driven Estimation of the interfacial Dzyaloshinskii-Moriya Interaction with Machine Learning',cond-mat.mtrl-sci;cond-mat.mes-hall;cs.LG
+2026-03-28T08:01:50Z,13,2026-04-01T11:34:57Z,2603.27183,2,'Communicating about Space: Language-Mediated Spatial Integration Across Partial Views',cs.CV
+2026-03-28T06:00:53Z,13,2026-03-28T06:00:53Z,2603.28809,1,'WAter: A Workload-Adaptive Knob Tuning System based on Workload Compression',cs.DB;cs.AI;cs.LG
+2026-03-28T02:04:48Z,13,2026-03-31T02:59:07Z,2603.27084,2,'SceneExpander: Expanding 3D Scenes with Free-Form Inserted Views',cs.CV
+2026-03-27T23:52:32Z,13,2026-03-27T23:52:32Z,2603.28804,1,'Generalizable Foundation Models for Calorimetry via Mixtures-of-Experts and Parameter Efficient Fine Tuning',physics.ins-det;cs.LG;hep-ex;nucl-ex
+2026-03-27T23:33:33Z,13,2026-03-31T19:19:38Z,2603.27048,2,'MOOZY: A Patient-First Foundation Model for Computational Pathology',cs.CV
+2026-03-27T23:14:57Z,13,2026-03-27T23:14:57Z,2603.28803,1,'CREST: Constraint-Release Execution for Multi-Robot Warehouse Shelf Rearrangement',cs.RO;cs.AI;cs.MA
+2026-03-27T20:53:04Z,13,2026-03-31T12:59:02Z,2603.26984,2,'A Provable Energy-Guided Test-Time Defense Boosting Adversarial Robustness of Large Vision-Language Models',cs.CV
+2026-03-27T19:37:13Z,13,2026-03-31T05:54:42Z,2603.26948,2,'Compliance-Aware Predictive Process Monitoring: A Neuro-Symbolic Approach',cs.AI
+2026-03-27T18:17:21Z,13,2026-03-31T10:22:41Z,2603.26898,2,'Magic Words or Methodical Work? Challenging Conventional Wisdom in LLM-Based Political Text Annotation',cs.CL;cs.AI;cs.LG
+2026-03-27T17:50:45Z,13,2026-04-01T15:06:02Z,2603.26648,2,'Vision2Web: A Hierarchical Benchmark for Visual Website Development with Agent Verification',cs.SE;cs.AI
+2026-03-27T15:56:47Z,13,2026-03-31T03:08:07Z,2603.26546,2,'AutoWeather4D: Autonomous Driving Video Weather Conversion via G-Buffer Dual-Pass Editing',cs.CV
+2026-03-27T14:30:30Z,13,2026-04-01T08:56:04Z,2603.26461,2,'Neuro-Symbolic Process Anomaly Detection',cs.LG;cs.AI;cs.SC
+2026-03-27T11:38:43Z,13,2026-03-31T14:58:55Z,2603.26320,2,'DFM-VLA: Iterative Action Refinement for Robot Manipulation via Discrete Flow Matching',cs.RO;cs.CV
+2026-03-27T10:33:08Z,13,2026-03-31T08:17:51Z,2603.26266,2,'GUIDE: Resolving Domain Bias in GUI Agents through Real-Time Web Video Retrieval and Plug-and-Play Annotation',cs.AI;cs.CV
+2026-03-27T05:32:16Z,13,2026-04-01T02:09:58Z,2603.26835,3,'ANVIL: Accelerator-Native Video Interpolation via Codec Motion Vector Priors',eess.IV;cs.CV
+2026-03-27T03:21:19Z,13,2026-03-31T04:25:35Z,2603.26041,2,"'Rethinking Token Pruning for Historical Screenshots in GUI Visual Agents: Semantic, Spatial, and Temporal Perspectives'",cs.CV
+2026-03-26T23:16:16Z,13,2026-03-31T01:56:42Z,2603.25968,2,'Neuro-Cognitive Reward Modeling for Human-Centered Autonomous Vehicle Control',cs.CV
+2026-03-26T14:59:57Z,13,2026-04-01T13:18:33Z,2603.25527,2,'Beyond the Golden Data: Resolving the Motion-Vision Quality Dilemma via Timestep Selective Training',cs.CV
+2026-03-26T11:49:53Z,13,2026-03-26T11:49:53Z,2603.28798,1,'Design and Development of an ML/DL Attack Resistance of RC-Based PUF for IoT Security',cs.CR;cs.AI
+2026-03-26T10:05:19Z,13,2026-04-01T15:02:25Z,2603.25267,3,'EagleNet: Energy-Aware Fine-Grained Relationship Learning Network for Text-Video Retrieval',cs.CV
+2026-03-26T08:31:06Z,13,2026-03-31T08:13:29Z,2603.25165,2,'Towards Foundation Models for 3D Scene Understanding: Instance-Aware Self-Supervised Learning for Point Clouds',cs.CV
+2026-03-26T08:26:38Z,13,2026-03-31T04:56:03Z,2603.25158,3,'Trace2Skill: Distill Trajectory-Local Lessons into Transferable Agent Skills',cs.AI
+2026-03-26T08:13:43Z,13,2026-03-31T01:39:20Z,2603.25152,2,"'UniAI-GraphRAG: Synergizing Ontology-Guided Extraction, Multi-Dimensional Clustering, and Dual-Channel Fusion for Robust Multi-Hop Reasoning'",cs.AI;cs.IR
+2026-03-26T05:42:04Z,13,2026-04-01T05:05:49Z,2603.25052,2,'Closing the Confidence-Faithfulness Gap in Large Language Models',cs.CL;cs.AI
+2026-03-26T04:52:19Z,13,2026-03-31T06:25:45Z,2603.25029,2,'Optimal High-Probability Regret for Online Convex Optimization with Two-Point Bandit Feedback',cs.LG
