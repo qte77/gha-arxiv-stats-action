@@ -2481,3 +2481,25 @@ Published,ISOWeek,Updated,ID,Version,Title,Categories
 2026-04-01T03:55:42Z,14,2026-04-04T05:44:27Z,2604.00449,2,'Convergence of Byzantine-Resilient Gradient Tracking via Probabilistic Edge Dropout',cs.LG;cs.MA;eess.SY
 2026-04-01T02:16:42Z,14,2026-04-04T07:18:50Z,2604.00387,2,'RAGShield: Detecting Numerical Claim Manipulation in Government RAG Systems',cs.CR;cs.AI
 2026-04-01T01:37:24Z,14,2026-04-01T01:37:24Z,2604.03314,1,'CoLA: Cross-Modal Low-rank Adaptation for Multimodal Downstream Tasks',cs.CV;cs.CL
+2026-04-05T18:43:23Z,14,2026-04-07T21:39:59Z,2604.04221,2,'RK-MPC: Residual Koopman Model Predictive Control for Quadruped Locomotion in Offroad Environments',cs.RO
+2026-04-05T06:26:05Z,14,2026-04-05T06:26:05Z,2604.06240,1,'The Art of Building Verifiers for Computer Use Agents',cs.CR;cs.AI;cs.MA
+2026-04-04T17:45:50Z,14,2026-04-07T19:22:13Z,2604.03815,2,'k-Maximum Inner Product Attention for Graph Transformers and the Expressive Power of GraphGPS',cs.LG;cs.AI
+2026-04-04T08:52:43Z,14,2026-04-08T02:08:51Z,2604.03647,2,'Stabilizing Unsupervised Self-Evolution of MLLMs via Continuous Softened Retracing reSampling',cs.CV;cs.AI
+2026-04-04T08:08:34Z,14,2026-04-07T20:01:11Z,2604.03634,2,'Algebraic Diversity: Group-Theoretic Spectral Estimation from Single Observations',cs.LG;cs.IT;eess.SP
+2026-04-04T06:35:59Z,14,2026-04-04T06:35:59Z,2604.06235,1,'Negotiating Privacy with Smart Voice Assistants: Risk-Benefit and Control-Acceptance Tensions',cs.CR;cs.AI;cs.CY
+2026-04-03T22:17:10Z,14,2026-04-08T04:29:20Z,2604.03486,2,'VisionClaw: Always-On AI Agents through Smart Glasses',cs.HC;cs.AI;cs.CV;cs.LG;cs.MA
+2026-04-03T15:56:38Z,14,2026-04-08T13:25:18Z,2604.03136,3,'StoryScope: Investigating idiosyncrasies in AI fiction',cs.CL
+2026-04-03T15:50:07Z,14,2026-04-08T08:22:36Z,2604.03128,2,'Self-Distilled RLVR',cs.LG;cs.CL
+2026-04-03T13:53:23Z,14,2026-04-03T13:53:23Z,2604.06233,1,"'Blind Refusal: Language Models Refuse to Help Users Evade Unjust, Absurd, and Illegitimate Rules'",cs.AI
+2026-04-03T13:52:38Z,14,2026-04-08T07:22:54Z,2604.03044,2,'JoyAI-LLM Flash: Advancing Mid-Scale LLMs with Token Efficiency',cs.CL;cs.AI
+2026-04-03T13:46:41Z,14,2026-04-08T06:17:57Z,2604.04958,2,'Self-Supervised Foundation Model for Calcium-imaging Population Dynamics',q-bio.QM;cs.AI;q-bio.NC
+2026-04-03T12:20:36Z,14,2026-04-08T01:47:29Z,2604.02996,2,'Rendering Multi-Human and Multi-Object with 3D Gaussian Splatting',cs.CV
+2026-04-03T10:42:33Z,14,2026-04-08T06:18:33Z,2604.04956,2,"'The Planetary Cost of AI Acceleration, Part II: The 10th Planetary Boundary and the 6.5-Year Countdown'",physics.soc-ph;cs.AI;cs.CY;physics.pop-ph
+2026-04-03T06:58:03Z,14,2026-04-08T03:25:35Z,2604.03336,2,"'NativeTernary: A Self-Delimiting Binary Encoding with Unary Run-Length Hierarchy Markers for Ternary Neural Network Weights, Structured Data, and General Computing Infrastructure'",cs.LG;eess.SP
+2026-04-03T02:13:47Z,14,2026-04-07T23:57:44Z,2604.02643,2,'Differentiable SpaTiaL: Symbolic Learning and Reasoning with Geometric Temporal Logic for Manipulation Tasks',cs.RO
+2026-04-02T18:16:33Z,14,2026-04-07T21:58:49Z,2604.02445,2,'Matrix Profile for Time-Series Anomaly Detection: A Reproducible Open-Source Benchmark on TSB-AD',cs.LG
+2026-04-02T13:26:20Z,14,2026-04-08T07:11:07Z,2604.02022,2,'ATBench: A Diverse and Realistic Agent Trajectory Benchmark for Safety Evaluation and Diagnosis',cs.AI
+2026-04-02T12:33:01Z,14,2026-04-08T02:52:09Z,2604.01972,3,'SDesc3D: Towards Layout-Aware 3D Indoor Scene Generation from Short Descriptions',cs.CV
+2026-04-02T09:53:20Z,14,2026-04-08T10:48:57Z,2604.01840,2,'Not All Tokens See Equally: Perception-Grounded Policy Optimization for Large Vision-Language Models',cs.AI
+2026-04-02T03:29:01Z,14,2026-04-08T08:46:53Z,2604.02387,2,'A Dynamic Toolkit for Transmission Characteristics of Precision Reducers with Explicit Contact Geometry',cs.RO
+2026-04-02T02:56:04Z,14,2026-04-02T02:56:04Z,2604.06231,1,'Automating Database-Native Function Code Synthesis with LLMs',cs.DB;cs.AI;cs.CL;cs.IR;cs.SE
