@@ -2503,3 +2503,8 @@ Published,ISOWeek,Updated,ID,Version,Title,Categories
 2026-04-02T09:53:20Z,14,2026-04-08T10:48:57Z,2604.01840,2,'Not All Tokens See Equally: Perception-Grounded Policy Optimization for Large Vision-Language Models',cs.AI
 2026-04-02T03:29:01Z,14,2026-04-08T08:46:53Z,2604.02387,2,'A Dynamic Toolkit for Transmission Characteristics of Precision Reducers with Explicit Contact Geometry',cs.RO
 2026-04-02T02:56:04Z,14,2026-04-02T02:56:04Z,2604.06231,1,'Automating Database-Native Function Code Synthesis with LLMs',cs.DB;cs.AI;cs.CL;cs.IR;cs.SE
+2026-04-05T12:02:25Z,14,2026-04-09T13:51:29Z,2604.04083,2,'Parent Selection Mechanisms in Elitist Crossover-Based Algorithms',cs.NE;cs.AI
+2026-04-04T20:42:05Z,14,2026-04-08T22:03:38Z,2604.03858,2,'A Bayesian Information-Theoretic Approach to Data Attribution',cs.LG;stat.ML
+2026-04-04T19:27:48Z,14,2026-04-08T18:48:33Z,2604.03836,2,'Cost-Efficient Multi-Scale Fovea for Semantic-Based Visual Search Attention',eess.IV;cs.CV
+2026-04-04T01:32:01Z,14,2026-04-09T15:51:50Z,2604.03540,2,'Drift-Based Policy Optimization: Native One-Step Policy Learning for Online Robot Control',cs.RO
+2026-04-03T15:54:34Z,14,2026-04-09T06:56:24Z,2604.03134,2,'SD-FSMIS: Adapting Stable Diffusion for Few-Shot Medical Image Segmentation',cs.CV
