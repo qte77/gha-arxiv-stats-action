@@ -416,3 +416,866 @@ Published,ISOWeek,Updated,ID,Version,Title,Categories
 2026-04-13T00:27:32Z,16,2026-04-13T00:27:32Z,2604.10866,1,'OccuBench: Evaluating AI Agents on Real-World Professional Tasks via Language World Models',cs.CL
 2026-04-13T00:25:22Z,16,2026-04-13T00:25:22Z,2604.10865,1,'Beyond Statistical Co-occurrence: Unlocking Intrinsic Semantics for Tabular Data Clustering',cs.AI
 2026-04-13T00:04:31Z,16,2026-04-13T00:04:31Z,2604.10862,1,'LRD-Net: A Lightweight Real-Centered Detection Network for Cross-Domain Face Forgery Detection',cs.CV
+2026-04-15T17:59:52Z,16,2026-04-15T17:59:52Z,2604.14149,1,'One Token per Highly Selective Frame: Towards Extreme Compression for Long Video Understanding',cs.CV
+2026-04-15T17:59:40Z,16,2026-04-15T17:59:40Z,2604.14148,1,'Seedance 2.0: Advancing Video Generation for World Complexity',cs.CV
+2026-04-15T17:59:35Z,16,2026-04-15T17:59:35Z,2604.14147,1,'ROSE: Retrieval-Oriented Segmentation Enhancement',cs.CV
+2026-04-15T17:59:12Z,16,2026-04-15T17:59:12Z,2604.14144,1,'SpatialEvo: Self-Evolving Spatial Intelligence via Deterministic Geometric Environments',cs.CV;cs.CL
+2026-04-15T17:59:01Z,16,2026-04-15T17:59:01Z,2604.14142,1,'From $P(y|x)$ to $P(y)$: Investigating Reinforcement Learning in Pre-train Space',cs.LG;cs.AI;cs.CL
+2026-04-15T17:58:13Z,16,2026-04-15T17:58:13Z,2604.14141,1,'Geometric Context Transformer for Streaming 3D Reconstruction',cs.CV
+2026-04-15T17:58:05Z,16,2026-04-15T17:58:05Z,2604.14140,1,'LongCoT: Benchmarking Long-Horizon Chain-of-Thought Reasoning',cs.LG;cs.AI
+2026-04-15T17:57:08Z,16,2026-04-15T17:57:08Z,2604.14137,1,'From Feelings to Metrics: Understanding and Formalizing How Users Vibe-Test LLMs',cs.CL;cs.AI;cs.LG
+2026-04-15T17:51:28Z,16,2026-04-15T17:51:28Z,2604.14129,1,'Dont Let the Video Speak: Audio-Contrastive Preference Optimization for Audio-Visual Language Models',cs.CV
+2026-04-15T17:50:56Z,16,2026-04-15T17:50:56Z,2604.14128,1,'Rhetorical Questions in LLM Representations: A Linear Probing Study',cs.CL;cs.AI;cs.LG
+2026-04-15T17:50:07Z,16,2026-04-15T17:50:07Z,2604.14125,1,'HiVLA: A Visual-Grounded-Centric Hierarchical Embodied Manipulation System',cs.CV;cs.AI;cs.RO
+2026-04-15T17:43:10Z,16,2026-04-15T17:43:10Z,2604.14121,1,"'Correct Prediction, Wrong Steps? Consensus Reasoning Knowledge Graph for Robust Chain-of-Thought Synthesis'",cs.CL
+2026-04-15T17:40:37Z,16,2026-04-15T17:40:37Z,2604.14118,1,'Complex Interpolation of Matrices with an application to Multi-Manifold Learning',cs.LG;math.SP
+2026-04-15T17:38:06Z,16,2026-04-15T17:38:06Z,2604.14116,1,'TREX: Automating LLM Fine-tuning via Agent-Driven Tree-based Exploration',cs.AI;cs.CL
+2026-04-15T17:36:19Z,16,2026-04-15T17:36:19Z,2604.14114,1,'ID and Graph View Contrastive Learning with Multi-View Attention Fusion for Sequential Recommendation',cs.IR;cs.LG
+2026-04-15T17:32:28Z,16,2026-04-15T17:32:28Z,2604.14113,1,'UI-Zoomer: Uncertainty-Driven Adaptive Zoom-In for GUI Grounding',cs.CV;cs.AI;cs.CL
+2026-04-15T17:31:21Z,16,2026-04-15T17:31:21Z,2604.14111,1,"'Interpretable Stylistic Variation in Human and LLM Writing Across Genres, Models, and Decoding Strategies'",cs.CL
+2026-04-15T17:28:46Z,16,2026-04-15T17:28:46Z,2604.14108,1,'Momentum Further Constrains Sharpness at the Edge of Stochastic Stability',cs.LG;math.DS;math.OC;stat.ML
+2026-04-15T17:06:25Z,16,2026-04-15T17:06:25Z,2604.14090,1,'From Weights to Activations: Is Steering the Next Frontier of Adaptation?',cs.CL
+2026-04-15T17:04:34Z,16,2026-04-15T17:04:34Z,2604.14089,1,'UMI-3D: Extending Universal Manipulation Interface from Vision-Limited to 3D Spatial Perception',cs.RO;cs.AI
+2026-04-15T16:58:24Z,16,2026-04-15T16:58:24Z,2604.14084,1,'TIP: Token Importance in On-Policy Distillation',cs.LG;cs.AI
+2026-04-15T16:45:12Z,16,2026-04-15T16:45:12Z,2604.14075,1,'Multistage Conditional Compositional Optimization',math.OC;cs.LG;stat.ML
+2026-04-15T16:44:57Z,16,2026-04-15T16:44:57Z,2604.14074,1,'Training-Free Semantic Multi-Object Tracking with Vision-Language Models',cs.CV
+2026-04-15T16:44:56Z,16,2026-04-15T16:44:56Z,2604.14073,1,'Neural architectures for resolving references in program code',cs.LG;cs.NE
+2026-04-15T16:39:28Z,16,2026-04-15T16:39:28Z,2604.14069,1,'Towards Unconstrained Human-Object Interaction',cs.CV
+2026-04-15T16:38:03Z,16,2026-04-15T16:38:03Z,2604.14064,1,'Deep Neural Network-guided PSO for Tracking a Global Optimal Position in Complex Dynamic Environment',cs.NE
+2026-04-15T16:37:36Z,16,2026-04-15T16:37:36Z,2604.14062,1,'OneHOI: Unifying Human-Object Interaction Generation and Editing',cs.CV;cs.MM
+2026-04-15T16:36:45Z,16,2026-04-15T16:36:45Z,2604.14059,1,'A Comparative Study of Dynamic Programming and Reinforcement Learning in Finite Horizon Dynamic Pricing',econ.GN;cs.LG
+2026-04-15T16:34:39Z,16,2026-04-15T16:34:39Z,2604.14054,1,'$π$-Play: Multi-Agent Self-Play via Privileged Self-Distillation without External Data',cs.LG;cs.CL
+2026-04-15T16:32:06Z,16,2026-04-15T16:32:06Z,2604.14053,1,'From Where Words Come: Efficient Regularization of Code Tokenizers Through Source Attribution',cs.CL
+2026-04-15T16:24:03Z,16,2026-04-15T16:24:03Z,2604.14048,1,'Free Geometry: Refining 3D Reconstruction from Longer Versions of Itself',cs.CV
+2026-04-15T16:23:05Z,16,2026-04-15T16:23:05Z,2604.14044,1,'Decoding the Delta: Unifying Remote Sensing Change Detection and Understanding with Multimodal Large Language Models',cs.CV
+2026-04-15T16:22:10Z,16,2026-04-15T16:22:10Z,2604.14041,1,'Seek-and-Solve: Benchmarking MLLMs for Visual Clue-Driven Reasoning in Daily Scenarios',cs.CV
+2026-04-15T16:18:44Z,16,2026-04-15T16:18:44Z,2604.14037,1,'A Complete Symmetry Classification of Shallow ReLU Networks',cs.LG;math.AG;math.CO
+2026-04-15T16:15:25Z,16,2026-04-15T16:15:25Z,2604.14035,1,'First-See-Then-Design: A Multi-Stakeholder View for Optimal Performance-Fairness Trade-Offs',cs.LG;cs.AI
+2026-04-15T16:15:03Z,16,2026-04-15T16:15:03Z,2604.14034,1,"'Large Language Models to Enhance Business Process Modeling: Past, Present, and Future Trends'",cs.SE;cs.AI;cs.IR
+2026-04-15T16:11:10Z,16,2026-04-15T16:11:10Z,2604.14032,1,'Hierarchical Reinforcement Learning with Runtime Safety Shielding for Power Grid Operation',cs.AI;cs.LG
+2026-04-15T16:09:48Z,16,2026-04-15T16:09:48Z,2604.14030,1,'Dual-Enhancement Product Bundling: Bridging Interactive Graph and Large Language Model',cs.CL;cs.IR
+2026-04-15T16:09:37Z,16,2026-04-15T16:09:37Z,2604.14029,1,'POINTS-Seeker: Towards Training a Multimodal Agentic Search Model from Scratch',cs.CV
+2026-04-15T16:07:22Z,16,2026-04-15T16:07:22Z,2604.14026,1,'Scale-Invariant Sampling in Multi-Arm Bandit Motion Planning for Object Extraction',cs.RO
+2026-04-15T16:07:18Z,16,2026-04-15T16:07:18Z,2604.14025,1,'Feed-Forward 3D Scene Modeling: A Problem-Driven Perspective',cs.CV;cs.AI;cs.GR
+2026-04-15T16:04:16Z,16,2026-04-15T16:04:16Z,2604.14021,1,'Neuromorphic Spiking Ring Attractor for Proprioceptive Joint-State Estimation',cs.RO
+2026-04-15T15:57:34Z,16,2026-04-15T15:57:34Z,2604.14017,1,'Stochastic Trust-Region Methods for Over-parameterized Models',math.OC;cs.LG
+2026-04-15T15:57:23Z,16,2026-04-15T15:57:23Z,2604.14016,1,'MAny: Merge Anything for Multimodal Continual Instruction Tuning',cs.LG;cs.AI
+2026-04-15T15:57:05Z,16,2026-04-15T15:57:05Z,2604.14013,1,'Towards Multi-Object-Tracking with Radar on a Fast Moving Vehicle: On the Potential of Processing Radar in the Frequency Domain',cs.RO;cs.AI;cs.CV;eess.IV;eess.SP
+2026-04-15T15:55:38Z,16,2026-04-15T15:55:38Z,2604.14010,1,'Parameter Importance is Not Static: Evolving Parameter Isolation for Supervised Fine-Tuning',cs.LG;cs.CL
+2026-04-15T15:50:29Z,16,2026-04-15T15:50:29Z,2604.14004,1,'Memory Transfer Learning: How Memories are Transferred Across Domains in Coding Agents',cs.AI;cs.CL
+2026-04-15T15:46:15Z,16,2026-04-15T15:46:15Z,2604.14001,1,'Diffusion Language Models for Speech Recognition',cs.CL;cs.AI;cs.LG;cs.NE
+2026-04-15T15:38:56Z,16,2026-04-15T15:38:56Z,2604.13995,1,'Depth-Aware Image and Video Orientation Estimation',cs.CV
+2026-04-15T15:36:49Z,16,2026-04-15T15:36:49Z,2604.13994,1,'Remote Sensing Image Super-Resolution for Imbalanced Textures: A Texture-Aware Diffusion Framework',cs.CV
+2026-04-15T15:36:26Z,16,2026-04-15T15:36:26Z,2604.13993,1,'Reward Design for Physical Reasoning in Vision-Language Models',cs.AI;cs.CL;cs.CV
+2026-04-15T15:35:44Z,16,2026-04-15T15:35:44Z,2604.13992,1,"'Physics-Informed Neural Networks for Methane Sorption: Cross-Gas Transfer Learning, Ensemble Collapse Under Physics Constraints, and Monte Carlo Dropout Uncertainty Quantification'",cs.LG
+2026-04-15T15:35:42Z,16,2026-04-15T15:35:42Z,2604.13991,1,'Adaptive Conformal Prediction for Improving Factuality of Generations by Large Language Models',cs.CL;cs.AI;cs.LG
+2026-04-15T15:35:27Z,16,2026-04-15T15:35:27Z,2604.13988,1,'Unsupervised domain transfer: Overcoming signal degradation in sleep monitoring by increasing scoring realism',cs.LG;math.NA
+2026-04-15T15:33:07Z,16,2026-04-15T15:33:07Z,2604.13986,1,'PRiMeFlow: Capturing Complex Expression Heterogeneity in Perturbation Response Modelling',cs.LG
+2026-04-15T15:26:21Z,16,2026-04-15T15:26:21Z,2604.13981,1,'HiProto: Hierarchical Prototype Learning for Interpretable Object Detection Under Low-quality Conditions',cs.CV
+2026-04-15T15:25:52Z,16,2026-04-15T15:25:52Z,2604.13980,1,'BOAT: Navigating the Sea of In Silico Predictors for Antibody Design via Multi-Objective Bayesian Optimization',cs.LG;q-bio.QM;stat.ML
+2026-04-15T15:25:25Z,16,2026-04-15T15:25:25Z,2604.13979,1,'Leveraging LLM-GNN Integration for Open-World Question Answering over Knowledge Graphs',cs.CL;cs.AI;cs.DB
+2026-04-15T15:24:59Z,16,2026-04-15T15:24:59Z,2604.13977,1,"'How Can We Synthesize High-Quality Pretraining Data? A Systematic Study of Prompt Design, Generator Model, and Source Data'",cs.CL;cs.AI;cs.LG
+2026-04-15T15:19:54Z,16,2026-04-15T15:19:54Z,2604.13970,1,'MApLe: Multi-instance Alignment of Diagnostic Reports and Large Medical Images',cs.CV
+2026-04-15T15:17:40Z,16,2026-04-15T15:17:40Z,2604.13966,1,'Provably Efficient Offline-to-Online Value Adaptation with General Function Approximation',cs.LG
+2026-04-15T15:10:10Z,16,2026-04-15T15:10:10Z,2604.13959,1,"'[Emerging Ideas] Artificial Tripartite Intelligence: A Bio-Inspired, Sensor-First Architecture for Physical AI'",cs.AI
+2026-04-15T15:06:46Z,16,2026-04-15T15:06:46Z,2604.13956,1,"'Creo: From One-Shot Image Generation to Progressive, Co-Creative Ideation'",cs.HC;cs.AI;cs.CV
+2026-04-15T15:06:01Z,16,2026-04-15T15:06:01Z,2604.13954,1,'HINTBench: Horizon-agent Intrinsic Non-attack Trajectory Benchmark',cs.LG;cs.AI
+2026-04-15T15:03:37Z,16,2026-04-15T15:03:37Z,2604.13951,1,'Quantum Machine Learning for Colorectal Cancer Data: Anastomotic Leak Classification and Risk Factors',cs.LG;quant-ph
+2026-04-15T15:03:33Z,16,2026-04-15T15:03:33Z,2604.13950,1,'Causal Drawbridges: Characterizing Gradient Blocking of Syntactic Islands in Transformer LMs',cs.CL
+2026-04-15T15:01:29Z,16,2026-04-15T15:01:29Z,2604.13947,1,"'Heuristic Style Transfer for Real-Time, Efficient Weather Attribute Detection'",cs.CV
+2026-04-15T14:58:26Z,16,2026-04-15T14:58:26Z,2604.13946,1,'CollabCoder: Plan-Code Co-Evolution via Collaborative Decision-Making for Efficient Code Generation',cs.SE;cs.CL
+2026-04-15T14:53:09Z,16,2026-04-15T14:53:09Z,2604.13942,1,'Goal2Skill: Long-Horizon Manipulation with Adaptive Planning and Reflection',cs.RO
+2026-04-15T14:52:10Z,16,2026-04-15T14:52:10Z,2604.13941,1,'SceneGlue: Scene-Aware Transformer for Feature Matching without Scene-Level Annotation',cs.CV
+2026-04-15T14:51:07Z,16,2026-04-15T14:51:07Z,2604.13940,1,'AI-Assisted Peer Review at Scale: The AAAI-26 AI Review Pilot',cs.AI
+2026-04-15T14:50:59Z,16,2026-04-15T14:50:59Z,2604.13939,1,'A Multi-Stage Optimization Pipeline for Bethesda Cell Detection in Pap Smear Cytology',cs.CV
+2026-04-15T14:50:05Z,16,2026-04-15T14:50:05Z,2604.13938,1,'ASTRA: Enhancing Multi-Subject Generation with Retrieval-Augmented Pose Guidance and Disentangled Position Embedding',cs.CV
+2026-04-15T14:35:20Z,16,2026-04-15T14:35:20Z,2604.13928,1,'Unsupervised Anomaly Detection in Process-Complex Industrial Time Series: A Real-World Case Study',cs.LG
+2026-04-15T14:32:35Z,16,2026-04-15T14:32:35Z,2604.13924,1,'ASTER: Latent Pseudo-Anomaly Generation for Unsupervised Time-Series Anomaly Detection',cs.LG;cs.AI;cs.CV
+2026-04-15T14:29:41Z,16,2026-04-15T14:29:41Z,2604.13919,1,'Nested Fourier-enhanced neural operator for efficient modeling of radiation transfer in fires',physics.flu-dyn;cs.LG;physics.comp-ph
+2026-04-15T14:28:44Z,16,2026-04-15T14:28:44Z,2604.13918,1,'PartNerFace: Part-based Neural Radiance Fields for Animatable Facial Avatar Reconstruction',cs.CV
+2026-04-15T14:15:07Z,16,2026-04-15T14:15:07Z,2604.13906,1,'Blind Bitstream-corrupted Video Recovery via Metadata-guided Diffusion Model',cs.CV
+2026-04-15T14:15:02Z,16,2026-04-15T14:15:02Z,2604.13905,1,"'Rethinking Image-to-3D Generation with Sparse Queries: Efficiency, Capacity, and Input-View Bias'",cs.CV
+2026-04-15T14:12:10Z,16,2026-04-15T14:12:10Z,2604.13902,1,'DiPO: Disentangled Perplexity Policy Optimization for Fine-grained Exploration-Exploitation Trade-Off',cs.LG
+2026-04-15T14:10:58Z,16,2026-04-15T14:10:58Z,2604.13899,1,'Do We Still Need Humans in the Loop? Comparing Human and LLM Annotation in Active Learning for Hostility Detection',cs.CL;cs.AI
+2026-04-15T14:08:53Z,16,2026-04-15T14:08:53Z,2604.13897,1,'MolCryst-MLIPs: A Machine-Learned Interatomic Potentials Database for Molecular Crystals',cs.LG;physics.comp-ph
+2026-04-15T13:58:38Z,16,2026-04-15T13:58:38Z,2604.13891,1,'Beyond Conservative Automated Driving in Multi-Agent Scenarios via Coupled Model Predictive Control and Deep Reinforcement Learning',cs.RO;cs.AI;eess.SY
+2026-04-15T13:57:16Z,16,2026-04-15T13:57:16Z,2604.13890,1,"'Sandpile Economics: Theory, Identification, and Evidence'",physics.soc-ph;cs.LG;econ.EM;econ.TH;stat.ML
+2026-04-15T13:55:34Z,16,2026-04-15T13:55:34Z,2604.13888,1,'GeoAgentBench: A Dynamic Execution Benchmark for Tool-Augmented Agents in Spatial Analysis',cs.AI
+2026-04-15T13:47:08Z,16,2026-04-15T13:47:08Z,2604.13883,1,'Context Sensitivity Improves Human-Machine Visual Alignment',cs.CV;cs.LG
+2026-04-15T13:44:35Z,16,2026-04-15T13:44:35Z,2604.13882,1,"'Evaluating Supervised Machine Learning Models: Principles, Pitfalls, and Metric Selection'",cs.LG;cs.AI
+2026-04-15T13:39:56Z,16,2026-04-15T13:39:56Z,2604.13878,1,'Drowsiness-Aware Adaptive Autonomous Braking System based on Deep Reinforcement Learning for Enhanced Road Safety',cs.LG
+2026-04-15T13:34:10Z,16,2026-04-15T13:34:10Z,2604.13871,1,'Hardware-Efficient Neuro-Symbolic Networks with the Exp-Minus-Log Operator',cs.LG;eess.SY
+2026-04-15T13:33:08Z,16,2026-04-15T13:33:08Z,2604.13870,1,'Gradient Descents Last Iterate is Often (slightly) Suboptimal',math.OC;cs.LG
+2026-04-15T13:29:08Z,16,2026-04-15T13:29:08Z,2604.13863,1,'PostureObjectstitch: Anomaly Image Generation Considering Assembly Relationships in Industrial Scenarios',cs.CV
+2026-04-15T13:28:45Z,16,2026-04-15T13:28:45Z,2604.13861,1,'Simulation-Based Optimisation of Batting Order and Bowling Plans in T20 Cricket',cs.LG;stat.AP
+2026-04-15T13:24:47Z,16,2026-04-15T13:24:47Z,2604.13856,1,'Any3DAvatar: Fast and High-Quality Full-Head 3D Avatar Reconstruction from Single Portrait Image',cs.CV
+2026-04-15T13:23:47Z,16,2026-04-15T13:23:47Z,2604.13853,1,'Mosaic: An Extensible Framework for Composing Rule-Based and Learned Motion Planners',cs.RO
+2026-04-15T13:19:22Z,16,2026-04-15T13:19:22Z,2604.13849,1,'MCPThreatHive: Automated Threat Intelligence for Model Context Protocol Ecosystems',cs.CR;cs.AI
+2026-04-15T13:18:07Z,16,2026-04-15T13:18:07Z,2604.13847,1,'SparseBalance: Load-Balanced Long Context Training with Dynamic Sparse Attention',cs.LG;cs.AI
+2026-04-15T13:17:36Z,16,2026-04-15T13:17:36Z,2604.13846,1,'Beyond Static Personas: Situational Personality Steering for Large Language Models',cs.CL
+2026-04-15T13:13:04Z,16,2026-04-15T13:13:04Z,2604.13841,1,'DiffMagicFace: Identity Consistent Facial Editing of Real Videos',cs.CV
+2026-04-15T13:09:47Z,16,2026-04-15T13:09:47Z,2604.13835,1,'A Resource-Efficient Hybrid CNN-LSTM network for image-based bean leaf disease classification',cs.CV
+2026-04-15T13:07:11Z,16,2026-04-15T13:07:11Z,2604.13833,1,'Robust Reward Modeling for Large Language Models via Causal Decomposition',cs.CL
+2026-04-15T13:05:28Z,16,2026-04-15T13:05:28Z,2604.13830,1,'Randomized Neural Networks for Integro-Differential Equations with Application to Neutron Transport',math.NA;cs.LG
+2026-04-15T13:01:00Z,16,2026-04-15T13:01:00Z,2604.13828,1,'MUSE: Multi-Domain Chinese User Simulation via Self-Evolving Profiles and Rubric-Guided Alignment',cs.CL
+2026-04-15T12:58:38Z,16,2026-04-15T12:58:38Z,2604.13826,1,'Sentiment analysis for software engineering: How far can zero-shot learning (ZSL) go?',cs.SE;cs.AI
+2026-04-15T12:56:45Z,16,2026-04-15T12:56:45Z,2604.13824,1,'Beyond State Consistency: Behavior Consistency in Text-Based World Models',cs.LG
+2026-04-15T12:55:46Z,16,2026-04-15T12:55:46Z,2604.13822,1,'UI-Copilot: Advancing Long-Horizon GUI Automation via Tool-Integrated Policy Optimization',cs.LG
+2026-04-15T12:51:01Z,16,2026-04-15T12:51:01Z,2604.13817,1,'RPS: Information Elicitation with Reinforcement Prompt Selection',cs.LG
+2026-04-15T12:49:09Z,16,2026-04-15T12:49:09Z,2604.13816,1,'Composite Silhouette: A Subsampling-based Aggregation Strategy',cs.LG
+2026-04-15T12:48:29Z,16,2026-04-15T12:48:29Z,2604.13814,1,'Cognitive Offloading in Agile Teams: How Artificial Intelligence Reshapes Risk Assessment and Planning Quality',cs.HC;cs.AI
+2026-04-15T12:46:40Z,16,2026-04-15T12:46:40Z,2604.13812,1,'AlphaCNOT: Learning CNOT Minimization with Model-Based Planning',cs.AI;quant-ph
+2026-04-15T12:40:30Z,16,2026-04-15T12:40:30Z,2604.13806,1,'Robust Ultra Low-Bit Post-Training Quantization via Stable Diagonal Curvature Estimate',cs.LG
+2026-04-15T12:39:03Z,16,2026-04-15T12:39:03Z,2604.13804,1,'Character Beyond Speech: Leveraging Role-Playing Evaluation in Audio Large Language Models via Reinforcement Learning',cs.LG
+2026-04-15T12:38:51Z,16,2026-04-15T12:38:51Z,2604.13803,1,"'Gaslight, Gatekeep, V1-V3: Early Visual Cortex Alignment Shields Vision-Language Models from Sycophantic Manipulation'",cs.CV;cs.AI
+2026-04-15T12:36:59Z,16,2026-04-15T12:36:59Z,2604.13800,1,'EmbodiedClaw: Conversational Workflow Execution for Embodied AI Development',cs.RO
+2026-04-15T12:34:46Z,16,2026-04-15T12:34:46Z,2604.13797,1,'DRG-Font: Dynamic Reference-Guided Few-shot Font Generation via Contrastive Style-Content Disentanglement',cs.CV
+2026-04-15T12:34:20Z,16,2026-04-15T12:34:20Z,2604.13796,1,'Driving Engagement in Daily Fantasy Sports with a Scalable and Urgency-Aware Ranking Engine',cs.IR;cs.LG
+2026-04-15T12:33:17Z,16,2026-04-15T12:33:17Z,2604.13795,1,'Artificial intelligence application in lymphoma diagnosis with Vision Transformer using weakly supervised training',cs.CV;cs.LG
+2026-04-15T12:32:25Z,16,2026-04-15T12:32:25Z,2604.13793,1,'From Synchrony to Sequence: Exo-to-Ego Generation via Interpolation',cs.CV
+2026-04-15T12:31:20Z,16,2026-04-15T12:31:20Z,2604.13791,1,'PBE-UNet: A light weight Progressive Boundary-Enhanced U-Net with Scale-Aware Aggregation for Ultrasound Image Segmentation',cs.CV
+2026-04-15T12:30:42Z,16,2026-04-15T12:30:42Z,2604.13789,1,'Temporally Consistent Long-Term Memory for 3D Single Object Tracking',cs.CV
+2026-04-15T12:27:32Z,16,2026-04-15T12:27:32Z,2604.13788,1,'Failure Identification in Imitation Learning Via Statistical and Semantic Filtering',cs.RO;cs.CV
+2026-04-15T12:26:10Z,16,2026-04-15T12:26:10Z,2604.13787,1,'ToolOmni: Enabling Open-World Tool Use via Agentic learning with Proactive Retrieval and Grounded Execution',cs.CL
+2026-04-15T12:22:40Z,16,2026-04-15T12:22:40Z,2604.13786,1,'QuantileMark: A Message-Symmetric Multi-bit Watermark for LLMs',cs.CL
+2026-04-15T12:10:45Z,16,2026-04-15T12:10:45Z,2604.13780,1,'Soft $Q(λ)$: A multi-step off-policy method for entropy regularised reinforcement learning using eligibility traces',cs.LG;cs.AI
+2026-04-15T12:07:14Z,16,2026-04-15T12:07:14Z,2604.13777,1,'From Anchors to Supervision: Memory-Graph Guided Corpus-Free Unlearning for Large Language Models',cs.CL;cs.AI
+2026-04-15T12:06:56Z,16,2026-04-15T12:06:56Z,2604.13776,1,'Who Gets Flagged? The Pluralistic Evaluation Gap in AI Content Watermarking',cs.CY;cs.CL;cs.CR;cs.CV
+2026-04-15T11:48:51Z,16,2026-04-15T11:48:51Z,2604.13763,1,"'A Dynamic-Growing Fuzzy-Neuro Controller, Application to a 3PSP Parallel Robot'",eess.SY;cs.AI;cs.LG;cs.NE;cs.RO
+2026-04-15T11:47:34Z,16,2026-04-15T11:47:34Z,2604.13761,1,'Design and Behavior of Sparse Mixture-of-Experts Layers in CNN-based Semantic Segmentation',cs.CV;cs.LG
+2026-04-15T11:44:20Z,16,2026-04-15T11:44:20Z,2604.13759,1,'The cognitive companion: a lightweight parallel monitoring architecture for detecting and recovering from reasoning degradation in LLM agents',cs.AI;cs.LG
+2026-04-15T11:43:01Z,16,2026-04-15T11:43:01Z,2604.13757,1,'Rethinking AI Hardware: A Three-Layer Cognitive Architecture for Autonomous Agents',cs.AI;cs.HC
+2026-04-15T11:41:20Z,16,2026-04-15T11:41:20Z,2604.13756,1,'MedRCube: A Multidimensional Framework for Fine-Grained and In-Depth Evaluation of MLLMs in Medical Imaging',cs.CL;cs.CV
+2026-04-15T11:30:23Z,16,2026-04-15T11:30:23Z,2604.13746,1,'ClipGStream: Clip-Stream Gaussian Splatting for Any Length and Any Motion Multi-View Dynamic Scene Reconstruction',cs.CV
+2026-04-15T11:27:58Z,16,2026-04-15T11:27:58Z,2604.13740,1,'Online learning with noisy side observations',cs.LG;stat.ML
+2026-04-15T11:27:49Z,16,2026-04-15T11:27:49Z,2604.13739,1,'Spectral Thompson sampling',cs.LG;stat.ML
+2026-04-15T11:27:39Z,16,2026-04-15T11:27:39Z,2604.13738,1,'Covariance-adapting algorithm for semi-bandits with application to sparse rewards',stat.ML;cs.LG
+2026-04-15T11:25:46Z,16,2026-04-15T11:25:46Z,2604.13737,1,'TokenFormer: Unify the Multi-Field and Sequential Recommendation Worlds',cs.IR;cs.AI
+2026-04-15T11:21:53Z,16,2026-04-15T11:21:53Z,2604.13735,1,'Reachability Constraints in Variational Quantum Circuits: Optimization within Polynomial Group Module',quant-ph;cs.CC;cs.ET;cs.LG
+2026-04-15T11:17:54Z,16,2026-04-15T11:17:54Z,2604.13733,1,'Jump-Start Reinforcement Learning with Vision-Language-Action Regularization',cs.LG;cs.AI;cs.RO
+2026-04-15T11:12:27Z,16,2026-04-15T11:12:27Z,2604.13731,1,'Doc-V*:Coarse-to-Fine Interactive Visual Reasoning for Multi-Page Document VQA',cs.CL
+2026-04-15T11:11:36Z,16,2026-04-15T11:11:36Z,2604.13730,1,'ReConText3D: Replay-based Continual Text-to-3D Generation',cs.CV
+2026-04-15T11:05:46Z,16,2026-04-15T11:05:46Z,2604.13728,1,'Hybrid Retrieval for COVID-19 Literature: Comparing Rank Fusion and Projection Fusion with Diversity Reranking',cs.IR;cs.CL
+2026-04-15T10:57:22Z,16,2026-04-15T10:57:22Z,2604.13723,1,'Physics-Informed Neural Networks for Solving Derivative-Constrained PDEs',cs.LG;physics.comp-ph
+2026-04-15T10:53:51Z,16,2026-04-15T10:53:51Z,2604.13722,1,'Granularity-Aware Transfer for Tree Instance Segmentation in Synthetic and Real Forests',cs.CV
+2026-04-15T10:53:49Z,16,2026-04-15T10:53:49Z,2604.13721,1,'FRAGATA: Semantic Retrieval of HPC Support Tickets via Hybrid RAG over 20 Years of Request Tracker History',cs.IR;cs.AI
+2026-04-15T10:53:28Z,16,2026-04-15T10:53:28Z,2604.13719,1,'Modeling of Self-sustained Neuron Population without External Stimulus',cs.NE;q-bio.NC
+2026-04-15T10:52:33Z,16,2026-04-15T10:52:33Z,2604.13717,1,'An Empirical Investigation of Practical LLM-as-a-Judge Improvement Techniques on RewardBench 2',cs.CL
+2026-04-15T10:50:29Z,16,2026-04-15T10:50:29Z,2604.13715,1,'Towards Fine-grained Temporal Perception: Post-Training Large Audio-Language Models with Audio-Side Time Prompt',cs.SD;cs.AI
+2026-04-15T10:48:09Z,16,2026-04-15T10:48:09Z,2604.13713,1,'Learning the Cue or Learning the Word? Analyzing Generalization in Metaphor Detection for Verbs',cs.CL
+2026-04-15T10:39:42Z,16,2026-04-15T10:39:42Z,2604.13710,1,'SLQ: Bridging Modalities via Shared Latent Queries for Retrieval with Frozen MLLMs',cs.CV
+2026-04-15T10:35:00Z,16,2026-04-15T10:35:00Z,2604.13706,1,'Co-FactChecker: A Framework for Human-AI Collaborative Claim Verification Using Large Reasoning Models',cs.CL
+2026-04-15T10:34:35Z,16,2026-04-15T10:34:35Z,2604.13705,1,'Beyond Arrows Impossibility: Fairness as an Emergent Property of Multi-Agent Collaboration',cs.CL;cs.AI;cs.GT;cs.MA
+2026-04-15T10:27:01Z,16,2026-04-15T10:27:01Z,2604.13699,1,'MIND: AI Co-Scientist for Material Research',cs.MA;cs.AI;cs.CE
+2026-04-15T10:22:45Z,16,2026-04-15T10:22:45Z,2604.13695,1,'Med-CAM: Minimal Evidence for Explaining Medical Decision Making',cs.CV;cs.AI
+2026-04-15T10:21:38Z,16,2026-04-15T10:21:38Z,2604.13694,1,'Weight Patching: Toward Source-Level Mechanistic Localization in LLMs',cs.AI
+2026-04-15T10:14:06Z,16,2026-04-15T10:14:06Z,2604.13692,1,'Breaking the Generator Barrier: Disentangled Representation for Generalizable AI-Text Detection',cs.CL
+2026-04-15T10:10:27Z,16,2026-04-15T10:10:27Z,2604.13688,1,'Beyond Voxel 3D Editing: Learning from 3D Masks and Self-Constructed Data',cs.CV;cs.AI
+2026-04-15T10:09:24Z,16,2026-04-15T10:09:24Z,2604.13687,1,'VIGILant: an automatic classification pipeline for glitches in the Virgo detector',gr-qc;astro-ph.IM;cs.LG
+2026-04-15T10:07:37Z,16,2026-04-15T10:07:37Z,2604.13686,1,'IndicDB -- Benchmarking Multilingual Text-to-SQL Capabilities in Indian Languages',cs.CL;cs.AI;cs.DB
+2026-04-15T10:07:29Z,16,2026-04-15T10:07:29Z,2604.13685,1,'EMGFlow: Robust and Efficient Surface Electromyography Synthesis via Flow Matching',cs.HC;cs.LG
+2026-04-15T10:02:27Z,16,2026-04-15T10:02:27Z,2604.13681,1,"'node2vec or triangle-biased random walks: stationarity, regularity & recurrence'",math.PR;cs.LG
+2026-04-15T09:56:34Z,16,2026-04-15T09:56:34Z,2604.13677,1,'Empirical Prediction of Pedestrian Comfort in Mobile Robot Pedestrian Encounters',cs.RO;eess.SY
+2026-04-15T09:39:46Z,16,2026-04-15T09:39:46Z,2604.13672,1,'Optimization with SpotOptim',cs.LG
+2026-04-15T09:35:18Z,16,2026-04-15T09:35:18Z,2604.13667,1,'From Pixels to Nucleotides: End-to-End Token-Based Video Compression for DNA Storage',cs.CV;cs.ET
+2026-04-15T09:34:46Z,16,2026-04-15T09:34:46Z,2604.13666,1,'Automatically Inferring Teachers Geometric Content Knowledge: A Skills Based Approach',cs.CY;cs.AI;cs.LG
+2026-04-15T09:29:24Z,16,2026-04-15T09:29:24Z,2604.13662,1,'Automatic Charge State Tuning of 300 mm FDSOI Quantum Dots Using Neural Network Segmentation of Charge Stability Diagram',cond-mat.mes-hall;cs.CV;cs.LG
+2026-04-15T09:27:49Z,16,2026-04-15T09:27:49Z,2604.13660,1,'VRAG-DFD: Verifiable Retrieval-Augmentation for MLLM-based Deepfake Detection',cs.CV
+2026-04-15T09:22:47Z,16,2026-04-15T09:22:47Z,2604.13658,1,'A Bayesian Framework for Uncertainty-Aware Explanations in Power Quality Disturbance Classification',cs.LG
+2026-04-15T09:21:01Z,16,2026-04-15T09:21:01Z,2604.13656,1,'Ordinary Least Squares is a Special Case of Transformer',cs.LG;cs.AI;math.ST;stat.ML
+2026-04-15T09:20:02Z,16,2026-04-15T09:20:02Z,2604.13654,1,"'Vision-and-Language Navigation for UAVs: Progress, Challenges, and a Research Roadmap'",cs.RO
+2026-04-15T09:14:43Z,16,2026-04-15T09:14:43Z,2604.13645,1,'A Mechanistic Analysis of Sim-and-Real Co-Training in Generative Robot Policies',cs.RO;cs.AI;cs.LG
+2026-04-15T09:01:54Z,16,2026-04-15T09:01:54Z,2604.13634,1,'Calibrated Speculative Decoding: Frequency-Guided Candidate Selection for Efficient Inference',cs.CL;cs.LG
+2026-04-15T09:01:20Z,16,2026-04-15T09:01:20Z,2604.13633,1,'ESCAPE: Episodic Spatial Memory and Adaptive Execution Policy for Long-Horizon Mobile Manipulation',cs.CV;cs.RO
+2026-04-15T08:59:00Z,16,2026-04-15T08:59:00Z,2604.13630,1,'SafeHarness: Lifecycle-Integrated Security Architecture for LLM-based Agent Deployment',cs.CR;cs.AI
+2026-04-15T08:53:42Z,16,2026-04-15T08:53:42Z,2604.13627,1,'(How) Learning Rates Regulate Catastrophic Overtraining',cs.LG;cs.CL
+2026-04-15T08:42:49Z,16,2026-04-15T08:42:49Z,2604.13622,1,'Self-Organizing Maps with Optimized Latent Positions',cs.LG
+2026-04-15T08:39:26Z,16,2026-04-15T08:39:26Z,2604.13620,1,'Syn-TurnTurk: A Synthetic Dataset for Turn-Taking Prediction in Turkish Dialogues',cs.CL;cs.AI
+2026-04-15T08:33:55Z,16,2026-04-15T08:33:55Z,2604.13618,1,'C2: Scalable Rubric-Augmented Reward Modeling from Binary Preferences',cs.CL;cs.LG
+2026-04-15T08:24:42Z,16,2026-04-15T08:24:42Z,2604.13612,1,'General aspects of internal noise in spiking neural networks',cs.NE;nlin.AO;physics.data-an
+2026-04-15T08:23:33Z,16,2026-04-15T08:23:33Z,2604.13610,1,'What Are We Really Measuring? Rethinking Dataset Bias in Web-Scale Natural Image Collections via Unsupervised Semantic Clustering',cs.CV
+2026-04-15T08:23:13Z,16,2026-04-15T08:23:13Z,2604.13609,1,'Golden Handcuffs make safer AI agents',cs.LG;cs.AI
+2026-04-15T08:23:01Z,16,2026-04-15T08:23:01Z,2604.13608,1,'Design Space Exploration of Hybrid Quantum Neural Networks for Chronic Kidney Disease',cs.LG;cs.AI
+2026-04-15T08:13:53Z,16,2026-04-15T08:13:53Z,2604.13604,1,'Irregularly Sampled Time Series Interpolation for Binary Evolution Simulations Using Dynamic Time Warping',astro-ph.SR;cs.LG
+2026-04-15T08:11:34Z,16,2026-04-15T08:11:34Z,2604.13602,1,"'Reward Hacking in the Era of Large Models: Mechanisms, Emergent Misalignment, Challenges'",cs.LG
+2026-04-15T08:08:06Z,16,2026-04-15T08:08:06Z,2604.13598,1,'Enhancing Reinforcement Learning for Radiology Report Generation with Evidence-aware Rewards and Self-correcting Preference Learning',cs.LG;stat.ME
+2026-04-15T08:05:13Z,16,2026-04-15T08:05:13Z,2604.13596,1,'VGGT-Segmentor: Geometry-Enhanced Cross-View Segmentation',cs.CV
+2026-04-15T07:58:48Z,16,2026-04-15T07:58:48Z,2604.13594,1,'Data-driven Learning of Probabilistic Model of Binary Droplet Collision for Spray Simulation',physics.flu-dyn;cs.LG
+2026-04-15T07:55:41Z,16,2026-04-15T07:55:41Z,2604.13592,1,'Foresight Optimization for Strategic Reasoning in Large Language Models',cs.CL
+2026-04-15T07:52:53Z,16,2026-04-15T07:52:53Z,2604.13589,1,'Dehaze-then-Splat: Generative Dehazing with Physics-Informed 3D Gaussian Splatting for Smoke-Free Novel View Synthesis',cs.CV
+2026-04-15T07:44:01Z,16,2026-04-15T07:44:01Z,2604.13586,1,'Efficient Multi-View 3D Object Detection by Dynamic Token Selection and Fine-Tuning',cs.CV
+2026-04-15T07:43:06Z,16,2026-04-15T07:43:06Z,2604.13584,1,'UNRIO: Uncertainty-Aware Velocity Learning for Radar-Inertial Odometry',cs.RO
+2026-04-15T07:43:01Z,16,2026-04-15T07:43:01Z,2604.13583,1,'BenGER: A Collaborative Web Platform for End-to-End Benchmarking of German Legal Tasks',cs.CL;cs.AI
+2026-04-15T07:41:52Z,16,2026-04-15T07:41:52Z,2604.13581,1,'SocialMirror: Reconstructing 3D Human Interaction Behaviors from Monocular Videos with Semantic and Geometric Guidance',cs.CV
+2026-04-15T07:39:08Z,16,2026-04-15T07:39:08Z,2604.13579,1,'MM-Doc-R1: Training Agents for Long Document Visual Question Answering through Multi-turn Reinforcement Learning',cs.CL
+2026-04-15T07:34:46Z,16,2026-04-15T07:34:46Z,2604.13574,1,'From Brain Models to Executable Digital Twins: Execution Semantics and Neuro-Neuromorphic Systems',cs.CE;cs.NE;cs.SE;q-bio.NC
+2026-04-15T07:31:54Z,16,2026-04-15T07:31:54Z,2604.13571,1,'Radar-Informed 3D Multi-Object Tracking under Adverse Conditions',cs.CV
+2026-04-15T07:29:25Z,16,2026-04-15T07:29:25Z,2604.13568,1,'ZoomSpec: A Physics-Guided Coarse-to-Fine Framework for Wideband Spectrum Sensing',cs.CV
+2026-04-15T07:28:12Z,16,2026-04-15T07:28:12Z,2604.13567,1,'Comparison of window shapes and lengths in short-time feature extraction for classification of heart sound signals',cs.SD;cs.AI
+2026-04-15T07:21:37Z,16,2026-04-15T07:21:37Z,2604.13565,1,'UHR-BAT: Budget-Aware Token Compression Vision-Language model for Ultra-High-Resolution Remote Sensing',cs.CV;cs.AI
+2026-04-15T07:10:01Z,16,2026-04-15T07:10:01Z,2604.13561,1,'CLIP Architecture for Abdominal CT Image-Text Alignment and Zero-Shot Learning: Investigating Batch Composition and Data Scaling',cs.CV;cs.AI
+2026-04-15T07:09:05Z,16,2026-04-15T07:09:05Z,2604.13560,1,'Parameter-efficient Quantum Multi-task Learning',cs.LG;cs.ET;quant-ph
+2026-04-15T07:05:14Z,16,2026-04-15T07:05:14Z,2604.13556,1,'YOCO++: Enhancing YOCO with KV Residual Connections for Efficient LLM Inference',cs.CL
+2026-04-15T07:04:02Z,16,2026-04-15T07:04:02Z,2604.13555,1,'AI Powered Image Analysis for Phishing Detection',cs.CV;cs.NI
+2026-04-15T06:56:35Z,16,2026-04-15T06:56:35Z,2604.13552,1,'Training-Free Test-Time Contrastive Learning for Large Language Models',cs.CL;cs.AI
+2026-04-15T06:54:27Z,16,2026-04-15T06:54:27Z,2604.13551,1,'Debate to Align: Reliable Entity Alignment through Two-Stage Multi-Agent Debate',cs.CL;cs.IR
+2026-04-15T06:52:04Z,16,2026-04-15T06:52:04Z,2604.13549,1,'Reconstruction of a 3D wireframe from a single line drawing via generative depth estimation',cs.CV
+2026-04-15T06:49:16Z,16,2026-04-15T06:49:16Z,2604.13546,1,'Learning Inference Concurrency in DynamicGate MLP Structural and Mathematical Justification',cs.LG
+2026-04-15T06:46:15Z,16,2026-04-15T06:46:15Z,2604.13543,1,'Cross-Layer Co-Optimized LSTM Accelerator for Real-Time Gait Analysis',cs.AR;cs.LG
+2026-04-15T06:45:54Z,16,2026-04-15T06:45:54Z,2604.13542,1,'Self-adaptive Multi-Access Edge Architectures: A Robotics Case',cs.RO;cs.DC;cs.SE
+2026-04-15T06:41:56Z,16,2026-04-15T06:41:56Z,2604.13540,1,'Free Lunch for Unified Multimodal Models: Enhancing Generation via Reflective Rectification with Inherent Understanding',cs.CV;cs.AI
+2026-04-15T06:37:26Z,16,2026-04-15T06:37:26Z,2604.13538,1,'Synthesizing Instruction-Tuning Datasets with Contrastive Decoding',cs.CL
+2026-04-15T06:29:02Z,16,2026-04-15T06:29:02Z,2604.13533,1,'Evolvable Embodied Agent for Robotic Manipulation via Long Short-Term Reflection and Optimization',cs.RO;cs.CV
+2026-04-15T06:27:49Z,16,2026-04-15T06:27:49Z,2604.13531,1,'RiskWebWorld: A Realistic Interactive Benchmark for GUI Agents in E-commerce Risk Management',cs.AI;cs.LG
+2026-04-15T06:25:11Z,16,2026-04-15T06:25:11Z,2604.13530,1,'Stability Principle Underlying Passive Dynamic Walking of Rimless Wheel',cs.RO
+2026-04-15T06:20:28Z,16,2026-04-15T06:20:28Z,2604.13525,1,'Robust Low-Rank Tensor Completion based on M-product with Weighted Correlated Total Variation and Sparse Regularization',stat.ML;cs.LG;math.OC
+2026-04-15T06:10:12Z,16,2026-04-15T06:10:12Z,2604.13521,1,'C-voting: Confidence-Based Test-Time Voting without Explicit Energy Functions',cs.LG;cs.AI
+2026-04-15T06:06:11Z,16,2026-04-15T06:06:11Z,2604.13520,1,"'LEGO-MOF: Equivariant Latent Manipulation for Editable, Generative, and Optimizable MOF Design'",cs.LG
+2026-04-15T06:05:11Z,16,2026-04-15T06:05:11Z,2604.13519,1,'ToolSpec: Accelerating Tool Calling via Schema-Aware and Retrieval-Augmented Speculative Decoding',cs.CL
+2026-04-15T06:04:45Z,16,2026-04-15T06:04:45Z,2604.13518,1,'From Alignment to Prediction: A Study of Self-Supervised Learning and Predictive Representation Learning',cs.LG;cs.AI
+2026-04-15T06:03:07Z,16,2026-04-15T06:03:07Z,2604.13517,1,'Representation over Routing: Overcoming Surrogate Hacking in Multi-Timescale PPO',cs.LG;cs.AI
+2026-04-15T06:00:25Z,16,2026-04-15T06:00:25Z,2604.13515,1,'SFT-GRPO Data Overlap as a Post-Training Hyperparameter for Autoformalization',cs.LG;cs.AI;cs.LO
+2026-04-15T05:58:05Z,16,2026-04-15T05:58:05Z,2604.13513,1,'A transformable slender microrobot inspired by nematode parasites for interventional endovascular surgery',cs.RO
+2026-04-15T05:52:43Z,16,2026-04-15T05:52:43Z,2604.13509,1,'DiT as Real-Time Rerenderer: Streaming Video Stylization with Autoregressive Diffusion Transformer',cs.CV
+2026-04-15T05:52:25Z,16,2026-04-15T05:52:25Z,2604.13508,1,'Enhancing Mixture-of-Experts Specialization via Cluster-Aware Upcycling',cs.CV
+2026-04-15T05:44:14Z,16,2026-04-15T05:44:14Z,2604.13504,1,'Chain of Uncertain Rewards with Large Language Models for Reinforcement Learning',cs.LG;cs.AI;cs.CL;cs.MA;cs.RO
+2026-04-15T05:40:24Z,16,2026-04-15T05:40:24Z,2604.13502,1,'Using reasoning LLMs to extract SDOH events from clinical notes',cs.CL
+2026-04-15T05:30:14Z,16,2026-04-15T05:30:14Z,2604.13495,1,'ADP-DiT: Text-Guided Diffusion Transformer for Brain Image Generation in Alzheimers Disease Progression',cs.CV
+2026-04-15T05:26:46Z,16,2026-04-15T05:26:46Z,2604.13492,1,'RadarSplat-RIO: Indoor Radar-Inertial Odometry with Gaussian Splatting-Based Radar Bundle Adjustment',cs.RO;cs.CV
+2026-04-15T05:24:29Z,16,2026-04-15T05:24:29Z,2604.13491,1,'Enhanced Text-to-Image Generation by Fine-grained Multimodal Reasoning',cs.CV
+2026-04-15T05:23:04Z,16,2026-04-15T05:23:04Z,2604.13488,1,'Towards Scalable Lightweight GUI Agents via Multi-role Orchestration',cs.AI
+2026-04-15T05:18:27Z,16,2026-04-15T05:18:27Z,2604.13484,1,'Joint Representation Learning and Clustering via Gradient-Based Manifold Optimization',stat.ML;cs.LG
+2026-04-15T05:08:49Z,16,2026-04-15T05:08:49Z,2604.13481,1,'Monthly Diffusion v0.9: A Latent Diffusion Model for the First AI-MIP',cs.LG;cs.AI;physics.ao-ph
+2026-04-15T05:06:39Z,16,2026-04-15T05:06:39Z,2604.13479,1,'Learning Class Difficulty in Imbalanced Histopathology Segmentation via Dynamic Focal Attention',eess.IV;cs.CV
+2026-04-15T04:58:23Z,16,2026-04-15T04:58:23Z,2604.13476,1,'RobotPan: A 360$^\circ$ Surround-View Robotic Vision System for Embodied Perception',cs.RO;cs.CV
+2026-04-15T04:55:40Z,16,2026-04-15T04:55:40Z,2604.13474,1,'Secure and Privacy-Preserving Vertical Federated Learning',cs.CR;cs.AI;cs.DC
+2026-04-15T04:52:22Z,16,2026-04-15T04:52:22Z,2604.13472,1,'Bridging MARL to SARL: An Order-Independent Multi-Agent Transformer via Latent Consensus',cs.LG;cs.AI;cs.MA
+2026-04-15T04:50:56Z,16,2026-04-15T04:50:56Z,2604.13471,1,'Computational framework for multistep metabolic pathway design',cs.LG
+2026-04-15T04:48:31Z,16,2026-04-15T04:48:31Z,2604.13470,1,'Universality of Gaussian-Mixture Reverse Kernels in Conditional Diffusion',cs.LG;stat.ML
+2026-04-15T04:47:15Z,16,2026-04-15T04:47:15Z,2604.13469,1,'Greedy Approaches for Packing While Travelling with Deterministic and Stochastic Constraints',cs.NE
+2026-04-15T04:44:45Z,16,2026-04-15T04:44:45Z,2604.13468,1,'From Relevance to Authority: Authority-aware Generative Retrieval in Web Search Engines',cs.IR;cs.CL
+2026-04-15T04:37:11Z,16,2026-04-15T04:37:11Z,2604.13465,1,'Adaptive Unknown Fault Detection and Few-Shot Continual Learning for Condition Monitoring in Ultrasonic Metal Welding',cs.LG;eess.SP
+2026-04-15T04:33:46Z,16,2026-04-15T04:33:46Z,2604.13462,1,'Learning from Change: Predictive Models for Incident Prevention in a Regulated IT Environment',cs.SE;cs.AI;cs.CE;cs.LG
+2026-04-15T04:29:00Z,16,2026-04-15T04:29:00Z,2604.13460,1,'From Order to Distribution: A Spectral Characterization of Forgetting in Continual Learning',cs.LG;cs.AI
+2026-04-15T04:25:38Z,16,2026-04-15T04:25:38Z,2604.13459,1,'Asymmetric-Loss-Guided Hybrid CNN-BiLSTM-Attention Model for Industrial RUL Prediction with Interpretable Failure Heatmaps',cs.LG;cs.AI;eess.SY
+2026-04-15T04:21:38Z,16,2026-04-15T04:21:38Z,2604.13456,1,'MyoVision: A Mobile Research Tool and NEATBoost-Attention Ensemble Framework for Real Time Chicken Breast Myopathy Detection',cs.LG;cs.CV
+2026-04-15T04:17:20Z,16,2026-04-15T04:17:20Z,2604.13455,1,'Outperforming Self-Attention Mechanisms in Solar Irradiance Forecasting via Physics-Guided Neural Networks',cs.LG;cs.AI;eess.SY
+2026-04-15T04:05:10Z,16,2026-04-15T04:05:10Z,2604.13453,1,'FAST: A Synergistic Framework of Attention and State-space Models for Spatiotemporal Traffic Prediction',cs.LG
+2026-04-15T04:03:47Z,16,2026-04-15T04:03:47Z,2604.13452,1,'CANVAS: Continuity-Aware Narratives via Visual Agentic Storyboarding',cs.CL
+2026-04-15T04:01:23Z,16,2026-04-15T04:01:23Z,2604.13448,1,'A Study of Failure Modes in Two-Stage Human-Object Interaction Detection',cs.CV;cs.AI
+2026-04-15T03:43:18Z,16,2026-04-15T03:43:18Z,2604.13441,1,'Robust Energy-Aware Routing for Air-Ground Cooperative Multi-UAV Delivery in Wind-Uncertain Environments',cs.RO
+2026-04-15T03:40:30Z,16,2026-04-15T03:40:30Z,2604.13440,1,"'A KL Lens on Quantization: Fast, Forward-Only Sensitivity for Mixed-Precision SSM-Transformer Models'",cs.LG;cs.AI
+2026-04-15T03:32:41Z,16,2026-04-15T03:32:41Z,2604.13438,1,'WIN-U: Woodbury-Informed Newton-Unlearning as a retain-free Machine Unlearning Framework',cs.LG
+2026-04-15T03:06:24Z,16,2026-04-15T03:06:24Z,2604.13432,1,'MaMe & MaRe: Matrix-Based Token Merging and Restoration for Efficient Visual Perception and Synthesis',cs.CV;cs.AI
+2026-04-15T02:53:07Z,16,2026-04-15T02:53:07Z,2604.13427,1,"'A Unified Conditional Flow for Motion Generation, Editing, and Intra-Structural Retargeting'",cs.GR;cs.AI;cs.CV
+2026-04-15T02:51:35Z,16,2026-04-15T02:51:35Z,2604.13426,1,'Event-Adaptive State Transition and Gated Fusion for RGB-Event Object Tracking',cs.CV;cs.AI
+2026-04-15T02:51:26Z,16,2026-04-15T02:51:26Z,2604.13425,1,'VibeFlow: Versatile Video Chroma-Lux Editing through Self-Supervised Learning',cs.CV
+2026-04-15T02:41:26Z,16,2026-04-15T02:41:26Z,2604.13419,1,'Physically-Guided Optical Inversion Enable Non-Contact Side-Channel Attack on Isolated Screens',cs.CV
+2026-04-15T02:37:47Z,16,2026-04-15T02:37:47Z,2604.13418,1,'MERRIN: A Benchmark for Multimodal Evidence Retrieval and Reasoning in Noisy Web Environments',cs.CL;cs.AI;cs.CV
+2026-04-15T02:34:37Z,16,2026-04-15T02:34:37Z,2604.13417,1,'The Cognitive Circuit Breaker: A Systems Engineering Framework for Intrinsic AI Reliability',cs.SE;cs.AI
+2026-04-15T02:33:44Z,16,2026-04-15T02:33:44Z,2604.13416,1,'DF3DV-1K: A Large-Scale Dataset and Benchmark for Distractor-Free Novel View Synthesis',cs.CV;cs.AI
+2026-04-15T02:32:30Z,16,2026-04-15T02:32:30Z,2604.13414,1,'Minimax Optimality and Spectral Routing for Majority-Vote Ensembles under Markov Dependence',cs.LG;cs.AI
+2026-04-15T02:31:31Z,16,2026-04-15T02:31:31Z,2604.13413,1,'Dataset-Level Metrics Attenuate Non-Determinism: A Fine-Grained Non-Determinism Evaluation in Diffusion Language Models',cs.LG
+2026-04-15T02:21:15Z,16,2026-04-15T02:21:15Z,2604.13410,1,'Estimating Continuous Treatment Effects with Two-Stage Kernel Ridge Regression',stat.ME;cs.LG;stat.ML
+2026-04-15T02:20:09Z,16,2026-04-15T02:20:09Z,2604.13409,1,'CausalDisenSeg: A Causality-Guided Disentanglement Framework with Counterfactual Reasoning for Robust Brain Tumor Segmentation Under Missing Modalities',cs.CV
+2026-04-15T02:14:01Z,16,2026-04-15T02:14:01Z,2604.13405,1,'Singularity Avoidance in Inverse Kinematics: A Unified Treatment of Classical and Learning-based Methods',cs.RO
+2026-04-15T02:12:51Z,16,2026-04-15T02:12:51Z,2604.13403,1,'Why Multimodal In-Context Learning Lags Behind? Unveiling the Inner Mechanisms and Bottlenecks',cs.CV
+2026-04-15T01:55:40Z,16,2026-04-15T01:55:40Z,2604.13398,1,'From Prediction to Justification: Aligning Sentiment Reasoning with Human Rationale via Reinforcement Learning',cs.CL;cs.AI
+2026-04-15T01:54:14Z,16,2026-04-15T01:54:14Z,2604.13397,1,'A Multimodal Clinically Informed Coarse-to-Fine Framework for Longitudinal CT Registration in Proton Therapy',cs.CV
+2026-04-15T01:53:11Z,16,2026-04-15T01:53:11Z,2604.13395,1,'Quantifying and Understanding Uncertainty in Large Reasoning Models',cs.AI;cs.LG
+2026-04-15T01:43:24Z,16,2026-04-15T01:43:24Z,2604.13393,1,'A short proof of near-linear convergence of adaptive gradient descent under fourth-order growth and convexity',math.OC;cs.LG;stat.ML
+2026-04-15T01:43:00Z,16,2026-04-15T01:43:00Z,2604.13392,1,'ReSS: Learning Reasoning Models for Tabular Data Prediction via Symbolic Scaffold',cs.AI
+2026-04-15T01:21:52Z,16,2026-04-15T01:21:52Z,2604.13386,1,'Linear Probe Accuracy Scales with Model Size and Benefits from Multi-Layer Ensembling',cs.LG
+2026-04-15T01:16:01Z,16,2026-04-15T01:16:01Z,2604.13385,1,'On the Use of Evolutionary Optimization for the Dynamic Chance Constrained Open-Pit Mine Scheduling Problem',cs.NE;cs.AI
+2026-04-15T01:13:18Z,16,2026-04-15T01:13:18Z,2604.13383,1,"'UniBlendNet: Unified Global, Multi-Scale, and Region-Adaptive Modeling for Ambient Lighting Normalization'",cs.CV
+2026-04-15T01:10:23Z,16,2026-04-15T01:10:23Z,2604.13381,1,'Young peoples perceptions and recommendations for conversational generative artificial intelligence in youth mental health',cs.HC;cs.AI
+2026-04-15T00:35:22Z,16,2026-04-15T00:35:22Z,2604.13371,1,'Empirical Evidence of Complexity-Induced Limits in Large Language Models on Finite Discrete State-Space Problems with Explicit Validity Constraints',cs.CL
+2026-04-15T00:31:20Z,16,2026-04-15T00:31:20Z,2604.13369,1,'AeTHERON: Autoregressive Topology-aware Heterogeneous Graph Operator Network for Fluid-Structure Interaction',physics.comp-ph;cs.LG;physics.flu-dyn
+2026-04-15T00:30:57Z,16,2026-04-15T00:30:57Z,2604.13368,1,'TLoRA+: A Low-Rank Parameter-Efficient Fine-Tuning Method for Large Language Models',cs.CL
+2026-04-15T00:22:23Z,16,2026-04-15T00:22:23Z,2604.13367,1,'A 3D SAM-Based Progressive Prompting Framework for Multi-Task Segmentation of Radiotherapy-induced Normal Tissue Injuries in Limited-Data Settings',cs.CV;cs.AI
+2026-04-15T00:21:49Z,16,2026-04-15T00:21:49Z,2604.13366,1,'Diffusion Sequence Models for Generative In-Context Meta-Learning of Robot Dynamics',cs.LG;cs.RO;eess.SY
+2026-04-14T23:47:58Z,16,2026-04-14T23:47:58Z,2604.13359,1,"'BioTrain: Sub-MB, Sub-50mW On-Device Fine-Tuning for Edge-AI on Biosignals'",cs.LG;cs.AR;eess.SP
+2026-04-14T23:29:44Z,16,2026-04-14T23:29:44Z,2604.13356,1,'Peer-Predictive Self-Training for Language Model Reasoning',cs.CL;cs.AI;cs.GT
+2026-04-14T23:25:54Z,16,2026-04-14T23:25:54Z,2604.13354,1,'Finetuning-Free Diffusion Model with Adaptive Constraint Guidance for Inorganic Crystal Structure Generation',cond-mat.mtrl-sci;cs.AI
+2026-04-14T23:20:17Z,16,2026-04-14T23:20:17Z,2604.13349,1,'When Less Latent Leads to Better Relay: Information-Preserving Compression for Latent Multi-Agent LLM Collaboration',cs.LG
+2026-04-14T23:18:06Z,16,2026-04-14T23:18:06Z,2604.13348,1,"'Listening Alone, Understanding Together: Collaborative Context Recovery for Privacy-Aware AI'",cs.AI;cs.CR
+2026-04-14T23:16:25Z,16,2026-04-14T23:16:25Z,2604.13346,1,'AgentSPEX: An Agent SPecification and EXecution Language',cs.CL
+2026-04-14T23:15:38Z,16,2026-04-14T23:15:38Z,2604.13345,1,'Multi-Agent Object Detection Framework Based on Raspberry Pi YOLO Detector and Slack-Ollama Natural Language Interface',cs.CV
+2026-04-14T23:03:38Z,16,2026-04-14T23:03:38Z,2604.13340,1,'MSGS: Multispectral 3D Gaussian Splatting',cs.CV;cs.GR
+2026-04-14T22:55:09Z,16,2026-04-14T22:55:09Z,2604.13335,1,'SEDTalker: Emotion-Aware 3D Facial Animation Using Frame-Level Speech Emotion Diarization',cs.CV
+2026-04-14T22:47:04Z,16,2026-04-14T22:47:04Z,2604.13333,1,'SSD-GS: Scattering and Shadow Decomposition for Relightable 3D Gaussian Splatting',cs.CV;cs.GR
+2026-04-14T22:37:11Z,16,2026-04-14T22:37:11Z,2604.13332,1,'Selecting Feature Interactions for Generalized Additive Models by Distilling Foundation Models',cs.LG
+2026-04-14T22:29:18Z,16,2026-04-14T22:29:18Z,2604.13331,1,'Text-Attributed Knowledge Graph Enrichment with Large Language Models for Medical Concept Representation',cs.LG
+2026-04-14T22:26:30Z,16,2026-04-14T22:26:30Z,2604.13328,1,'Multi-Task LLM with LoRA Fine-Tuning for Automated Cancer Staging and Biomarker Extraction',cs.LG
+2026-04-14T22:19:51Z,16,2026-04-14T22:19:51Z,2604.13327,1,'Event Tensor: A Unified Abstraction for Compiling Dynamic Megakernel',cs.DC;cs.LG;cs.PL
+2026-04-14T22:15:17Z,16,2026-04-14T22:15:17Z,2604.13326,1,"'Right Regions, Wrong Labels: Semantic Label Flips in Segmentation under Correlation Shift'",cs.CV
+2026-04-14T22:13:25Z,16,2026-04-14T22:13:25Z,2604.13325,1,'Boundary Sampling to Learn Predictive Safety Filters via Pontryagins Maximum Principle',cs.RO;eess.SY
+2026-04-14T22:00:53Z,16,2026-04-14T22:00:53Z,2604.13323,1,'Vectorizing Projection in Manifold-Constrained Motion Planning for Real-Time Whole-Body Control',cs.RO
+2026-04-14T21:58:52Z,16,2026-04-14T21:58:52Z,2604.13322,1,"'Towards Successful Implementation of Automated Raveling Detection: Effects of Training Data Size, Illumination Difference, and Spatial Shift'",cs.CV
+2026-04-14T21:57:58Z,16,2026-04-14T21:57:58Z,2604.13321,1,'Why MLLMs Struggle to Determine Object Orientations',cs.CV
+2026-04-14T21:48:15Z,16,2026-04-14T21:48:15Z,2604.13318,1,'WebXSkill: Skill Learning for Autonomous Web Agents',cs.AI;cs.CL
+2026-04-14T21:43:09Z,16,2026-04-14T21:43:09Z,2604.13316,1,'Beyond Uniform Sampling: Synergistic Active Learning and Input Denoising for Robust Neural Operators',cs.LG;cs.AI
+2026-04-14T21:41:23Z,16,2026-04-14T21:41:23Z,2604.13315,1,'The Spectrascapes Dataset: Street-view imagery beyond the visible captured using a mobile platform',cs.CV;cs.LG
+2026-04-14T21:28:46Z,16,2026-04-14T21:28:46Z,2604.13313,1,'Concrete Jungle: Towards Concreteness Paved Contrastive Negative Mining for Compositional Understanding',cs.LG
+2026-04-14T21:23:26Z,16,2026-04-14T21:23:26Z,2604.13309,1,'Utilizing Inpainting for Keypoint Detection for Vision-Based Control of Robotic Manipulators',cs.RO
+2026-04-14T21:21:51Z,16,2026-04-14T21:21:51Z,2604.13307,1,'Deep Spatially-Regularized and Superpixel-Based Diffusion Learning for Unsupervised Hyperspectral Image Clustering',cs.CV;cs.LG
+2026-04-14T21:20:47Z,16,2026-04-14T21:20:47Z,2604.13305,1,'Bias at the End of the Score',cs.CV
+2026-04-14T21:18:08Z,16,2026-04-14T21:18:08Z,2604.13304,1,'Can Cross-Layer Transcoders Replace Vision Transformer Activations? An Interpretable Perspective on Vision',cs.CV;cs.AI
+2026-04-14T21:02:49Z,16,2026-04-14T21:02:49Z,2604.13297,1,'Structure- and Stability-Preserving Learning of Port-Hamiltonian Systems',eess.SY;cs.LG;math.DS
+2026-04-14T20:56:16Z,16,2026-04-14T20:56:16Z,2604.13295,1,'Some Theoretical Limitations of t-SNE',cs.LG;math.PR;stat.ML
+2026-04-14T20:55:17Z,16,2026-04-14T20:55:17Z,2604.13294,1,'PAT-VCM: Plug-and-Play Auxiliary Tokens for Video Coding for Machines',cs.CV
+2026-04-14T20:54:31Z,16,2026-04-14T20:54:31Z,2604.13292,1,'See&Say: Vision Language Guided Safe Zone Detection for Autonomous Package Delivery Drones',cs.CV
+2026-04-14T20:52:45Z,16,2026-04-14T20:52:45Z,2604.13291,1,'Physics-informed reservoir characterization from bulk and extreme pressure events with a differentiable simulator',cs.LG
+2026-04-14T20:32:29Z,16,2026-04-14T20:32:29Z,2604.13288,1,'Giving Voice to the Constitution: Low-Resource Text-to-Speech for Quechua and Spanish Using a Bilingual Legal Corpus',cs.CL;cs.AI;cs.DL
+2026-04-14T20:31:23Z,16,2026-04-14T20:31:23Z,2604.13287,1,'MOONSHOT : A Framework for Multi-Objective Pruning of Vision and Large Language Models',cs.LG
+2026-04-14T20:26:34Z,16,2026-04-14T20:26:34Z,2604.13286,1,'English is Not All You Need: Systematically Exploring the Role of Multilinguality in LLM Post-Training',cs.CL;cs.AI
+2026-04-14T20:23:45Z,16,2026-04-14T20:23:45Z,2604.13285,1,'L2D-Clinical: Learning to Defer for Adaptive Model Selection in Clinical Text Classification',cs.CL;cs.AI
+2026-04-14T20:19:28Z,16,2026-04-14T20:19:28Z,2604.13283,1,'Optimizing Earth Observation Satellite Schedules under Unknown Operational Constraints: An Active Constraint Acquisition Approach',cs.AI;cs.LG
+2026-04-14T20:17:39Z,16,2026-04-14T20:17:39Z,2604.13281,1,'Attention to task structure for cognitive flexibility',cs.NE;q-bio.NC
+2026-04-14T20:15:00Z,16,2026-04-14T20:15:00Z,2604.13279,1,'Explainable Fall Detection for Elderly Care via Temporally Stable SHAP in Skeleton-Based Human Activity Recognition',cs.CV;cs.AI
+2026-04-14T20:14:57Z,16,2026-04-14T20:14:57Z,2604.13278,1,'DroneScan-YOLO: Redundancy-Aware Lightweight Detection for Tiny Objects in UAV Imagery',cs.CV;cs.LG;eess.IV
+2026-04-14T20:12:05Z,16,2026-04-14T20:12:05Z,2604.13275,1,'Better and Worse with Scale: How Contextual Entrainment Diverges with Model Size',cs.CL;cs.LG
+2026-04-14T20:03:08Z,16,2026-04-14T20:03:08Z,2604.13271,1,'Enhancing Confidence Estimation in Telco LLMs via Twin-Pass CoT-Ensembling',cs.LG
+2026-04-14T19:59:36Z,16,2026-04-14T19:59:36Z,2604.13268,1,'Indexing Multimodal Language Models for Large-scale Image Retrieval',cs.CV;cs.CL;cs.IR
+2026-04-14T19:52:15Z,16,2026-04-14T19:52:15Z,2604.13263,1,'Binomial Gradient-Based Meta-Learning for Enhanced Meta-Gradient Estimation',cs.LG
+2026-04-14T19:52:05Z,16,2026-04-14T19:52:05Z,2604.13262,1,'Rethinking Uncertainty in Segmentation: From Estimation to Decision',cs.CV;cs.AI;cs.LG
+2026-04-14T19:43:43Z,16,2026-04-14T19:43:43Z,2604.13258,1,'Hessian-Enhanced Token Attribution (HETA): Interpreting Autoregressive LLMs',cs.CL;cs.AI
+2026-04-14T19:40:46Z,16,2026-04-14T19:40:46Z,2604.13256,1,'Counterfactual Peptide Editing for Causal TCR--pMHC Binding Inference',cs.LG;cs.GR
+2026-04-14T19:33:59Z,16,2026-04-14T19:33:59Z,2604.13253,1,'Bias-Corrected Adaptive Conformal Inference for Multi-Horizon Time Series Forecasting',cs.LG;stat.ME;stat.ML
+2026-04-14T19:32:55Z,16,2026-04-14T19:32:55Z,2604.13252,1,'Out of Context: Reliability in Multimodal Anomaly Detection Requires Contextual Inference',cs.LG;cs.AI
+2026-04-14T19:29:57Z,16,2026-04-14T19:29:57Z,2604.13251,1,'Analog Optical Inference on Million-Record Mortgage Data',cs.LG;cs.ET;cs.NE
+2026-04-14T19:23:32Z,16,2026-04-14T19:23:32Z,2604.13248,1,'GeoVision-Enabled Digital Twin for Hybrid Autonomous-Teleoperated Medical Responses',cs.RO;cs.AI
+2026-04-14T19:21:46Z,16,2026-04-14T19:21:46Z,2604.13245,1,'Capability-Aware Heterogeneous Control Barrier Functions for Decentralized Multi-Robot Safe Navigation',cs.RO;eess.SY
+2026-04-14T19:21:41Z,16,2026-04-14T19:21:41Z,2604.13244,1,'4th Workshop on Maritime Computer Vision (MaCVi): Challenge Overview',cs.CV;cs.AI;cs.RO
+2026-04-14T19:21:15Z,16,2026-04-14T19:21:15Z,2604.13243,1,'Lazy or Efficient? Towards Accessible Eye-Tracking Event Detection Using LLMs',cs.HC;cs.AI
+2026-04-14T19:19:59Z,16,2026-04-14T19:19:59Z,2604.13242,1,'On the Creativity of AI Agents',cs.CY;cs.AI
+2026-04-14T19:16:38Z,16,2026-04-14T19:16:38Z,2604.13240,1,'A High-Resolution Landscape Dataset for Concept-Based XAI With Application to Species Distribution Models',cs.CV;cs.LG
+2026-04-14T19:08:54Z,16,2026-04-14T19:08:54Z,2604.13236,1,'SemiFA: An Agentic Multi-Modal Framework for Autonomous Semiconductor Failure Analysis Report Generation',cs.CV;cs.AI;eess.IV
+2026-04-14T19:06:22Z,16,2026-04-14T19:06:22Z,2604.13235,1,'Neural 3D Reconstruction of Planetary Surfaces from Descent-Phase Wide-Angle Imagery',cs.CV
+2026-04-14T19:01:25Z,16,2026-04-14T19:01:25Z,2604.13232,1,'Evaluating the Evaluator: Problems with SemEval-2020 Task 1 for Lexical Semantic Change Detection',cs.CL
+2026-04-14T18:56:52Z,16,2026-04-14T18:56:52Z,2604.13230,1,'Does Dimensionality Reduction via Random Projections Preserve Landscape Features?',cs.LG;cs.NE
+2026-04-14T18:50:47Z,16,2026-04-14T18:50:47Z,2604.13226,1,'KV Packet: Recomputation-Free Context-Independent KV Caching for LLMs',cs.LG;cs.AI
+2026-04-14T18:39:08Z,16,2026-04-14T18:39:08Z,2604.13218,1,'Identifiability of Potentially Degenerate Gaussian Mixture Models With Piecewise Affine Mixing',stat.ML;cs.AI;cs.LG;math.ST
+2026-04-14T18:38:13Z,16,2026-04-14T18:38:13Z,2604.13217,1,'Multitasking Embedding for Embryo Blastocyst Grading Prediction (MEmEBG)',cs.CV;cs.AI
+2026-04-14T18:34:38Z,16,2026-04-14T18:34:38Z,2604.13213,1,'Rare Event Analysis via Stochastic Optimal Control',stat.ML;cs.LG;math.OC;physics.chem-ph
+2026-04-14T18:26:38Z,16,2026-04-14T18:26:38Z,2604.13206,1,'Numerical Instability and Chaos: Quantifying the Unpredictability of Large Language Models',cs.AI;cs.LG;math.NA
+2026-04-14T18:26:22Z,16,2026-04-14T18:26:22Z,2604.13204,1,'Weakly-supervised Learning for Physics-informed Neural Motion Planning via Sparse Roadmap',cs.RO
+2026-04-14T18:26:01Z,16,2026-04-14T18:26:01Z,2604.13203,1,'Inclusive Kitchen Design for Older Adults: Generative AI Visualizations to Support Mild Cognitive Impairment',cs.HC;cs.AI
+2026-04-14T18:23:02Z,16,2026-04-14T18:23:02Z,2604.13201,1,"'InfiniteScienceGym: An Unbounded, Procedurally-Generated Benchmark for Scientific Analysis'",cs.CL;cs.AI
+2026-04-14T18:19:54Z,16,2026-04-14T18:19:54Z,2604.13197,1,'Unleashing Implicit Rewards: Prefix-Value Learning for Distribution-Level Optimization',cs.CL
+2026-04-14T18:16:17Z,16,2026-04-14T18:16:17Z,2604.13192,1,'Synthesis and Deployment of Maximal Robust Control Barrier Functions through Adversarial Reinforcement Learning',eess.SY;cs.RO
+2026-04-14T18:16:15Z,16,2026-04-14T18:16:15Z,2604.13191,1,'Fast Voxelization and Level of Detail for Microgeometry Rendering',cs.GR;cs.LG
+2026-04-14T18:09:32Z,16,2026-04-14T18:09:32Z,2604.13186,1,'Towards Patient-Specific Deformable Registration in Laparoscopic Surgery',cs.CV
+2026-04-14T18:06:41Z,16,2026-04-14T18:06:41Z,2604.13183,1,'GeoLink: A 3D-Aware Framework Towards Better Generalization in Cross-View Geo-Localization',cs.CV;cs.MM
+2026-04-14T18:02:20Z,16,2026-04-14T18:02:20Z,2604.13180,1,"'SciFi: A Safe, Lightweight, User-Friendly, and Fully Autonomous Agentic AI Workflow for Scientific Applications'",cs.AI
+2026-04-14T18:01:48Z,16,2026-04-14T18:01:48Z,2604.13179,1,'HUANet: Hard-Constrained Unrolled ADMM for Constrained Convex Optimization',math.OC;cs.LG;eess.SY
+2026-04-14T18:00:39Z,16,2026-04-14T18:00:39Z,2604.13175,1,'Pareto-Optimal Offline Reinforcement Learning via Smooth Tchebysheff Scalarization',cs.LG;cs.AI;q-bio.QM
+2026-04-14T18:00:06Z,16,2026-04-14T18:00:06Z,2604.13171,1,'3DRealHead: Few-Shot Detailed Head Avatar',cs.CV
+2026-04-14T18:00:00Z,16,2026-04-14T18:00:00Z,2604.13153,1,'PatchPoison: Poisoning Multi-View Datasets to Degrade 3D Reconstruction',cs.CV;cs.CR;cs.LG
+2026-04-14T17:59:57Z,16,2026-04-14T17:59:57Z,2604.13151,1,'Exploration and Exploitation Errors Are Measurable for Language Model Agents',cs.AI
+2026-04-14T17:59:44Z,16,2026-04-14T17:59:44Z,2604.13036,1,'Lyra 2.0: Explorable Generative 3D Worlds',cs.CV
+2026-04-14T17:59:26Z,16,2026-04-14T17:59:26Z,2604.13035,1,'SceneCritic: A Symbolic Evaluator for 3D Indoor Scene Synthesis',cs.CV;cs.CL
+2026-04-14T17:59:03Z,16,2026-04-14T17:59:03Z,2604.13030,1,'Generative Refinement Networks for Visual Synthesis',cs.CV
+2026-04-14T17:58:22Z,16,2026-04-14T17:58:22Z,2604.13029,1,'Visual Preference Optimization with Rubric Rewards',cs.CV;cs.AI
+2026-04-14T17:58:07Z,16,2026-04-14T17:58:07Z,2604.13028,1,'Conflated Inverse Modeling to Generate Diverse and Temperature-Change Inducing Urban Vegetation Patterns',cs.CV
+2026-04-14T17:57:01Z,16,2026-04-14T17:57:01Z,2604.13024,1,'CLAD: Efficient Log Anomaly Detection Directly on Compressed Representations',cs.LG;cs.DB
+2026-04-14T17:56:33Z,16,2026-04-14T17:56:33Z,2604.13022,1,'Classical and Quantum Speedups for Non-Convex Optimization via Energy Conserving Descent',quant-ph;cs.LG;math.OC;stat.ML
+2026-04-14T17:56:23Z,16,2026-04-14T17:56:23Z,2604.13021,1,'Representation geometry shapes task performance in vision-language modeling for CT enterography',cs.CV;cs.AI
+2026-04-14T17:55:46Z,16,2026-04-14T17:55:46Z,2604.13019,1,"'See, Point, Refine: Multi-Turn Approach to GUI Grounding with Visual Feedback'",cs.CV
+2026-04-14T17:55:16Z,16,2026-04-14T17:55:16Z,2604.13018,1,'Toward Autonomous Long-Horizon Engineering for ML Research',cs.CL
+2026-04-14T17:54:37Z,16,2026-04-14T17:54:37Z,2604.13017,1,'PAL: Personal Adaptive Learner',cs.AI;cs.HC
+2026-04-14T17:54:28Z,16,2026-04-15T17:48:51Z,2604.13016,2,"'Rethinking On-Policy Distillation of Large Language Models: Phenomenology, Mechanism, and Recipe'",cs.LG;cs.AI;cs.CL
+2026-04-14T17:54:17Z,16,2026-04-14T17:54:17Z,2604.13015,1,'Learning Versatile Humanoid Manipulation with Touch Dreaming',cs.RO
+2026-04-14T17:47:12Z,16,2026-04-14T17:47:12Z,2604.13013,1,'Bilevel Late Acceptance Hill Climbing for the Electric Capacitated Vehicle Routing Problem',cs.AI;math.OC
+2026-04-14T17:44:50Z,16,2026-04-14T17:44:50Z,2604.13010,1,'Lightning OPD: Efficient Post-Training for Large Reasoning Models with Offline On-Policy Distillation',cs.LG;cs.AI
+2026-04-14T17:40:01Z,16,2026-04-14T17:40:01Z,2604.13006,1,'One Token Away from Collapse: The Fragility of Instruction-Tuned Helpfulness',cs.CL;cs.AI
+2026-04-14T17:34:21Z,16,2026-04-14T17:34:21Z,2604.13001,1,"'XRZero-G0: Pushing the Frontier of Dexterous Robotic Manipulation with Interfaces, Quality and Ratios'",cs.RO
+2026-04-14T17:34:05Z,16,2026-04-14T17:34:05Z,2604.12999,1,'Agentic Discovery with Active Hypothesis Exploration for Visual Recognition',cs.CV
+2026-04-14T17:27:50Z,16,2026-04-14T17:27:50Z,2604.12995,1,'PolicyLLM: Towards Excellent Comprehension of Public Policy for Large Language Models',cs.CL;cs.CY
+2026-04-14T17:26:07Z,16,2026-04-14T17:26:07Z,2604.12994,1,'LogicEval: A Systematic Framework for Evaluating Automated Repair Techniques for Logical Vulnerabilities in Real-World Software',cs.CR;cs.AI
+2026-04-14T17:25:53Z,16,2026-04-14T17:25:53Z,2604.12992,1,'Causal Diffusion Models for Counterfactual Outcome Distributions in Longitudinal Data',stat.ML;cs.LG;econ.EM
+2026-04-14T17:23:14Z,16,2026-04-14T17:23:14Z,2604.12989,1,'Accelerating Speculative Decoding with Block Diffusion Draft Trees',cs.CL
+2026-04-14T17:22:40Z,16,2026-04-14T17:22:40Z,2604.12988,1,'ROSE: An Intent-Centered Evaluation Metric for NL2SQL',cs.DB;cs.AI
+2026-04-14T17:20:48Z,16,2026-04-14T17:20:48Z,2604.12986,1,'Parallax: Why AI Agents That Think Must Never Act',cs.CR;cs.AI
+2026-04-14T17:12:41Z,16,2026-04-14T17:12:41Z,2604.12978,1,'GlotOCR Bench: OCR Models Still Struggle Beyond a Handful of Unicode Scripts',cs.CL;cs.CV
+2026-04-14T17:03:14Z,16,2026-04-14T17:03:14Z,2604.12970,1,'Probabilistic Feature Imputation and Uncertainty-Aware Multimodal Federated Aggregation',eess.IV;cs.CV
+2026-04-14T17:01:41Z,16,2026-04-14T17:01:41Z,2604.12969,1,'AbdomenGen: Sequential Volume-Conditioned Diffusion Framework for Abdominal Anatomy Generation',cs.CV
+2026-04-14T17:01:36Z,16,2026-04-14T17:01:36Z,2604.12968,1,"'Evolution of Optimization Methods: Algorithms, Scenarios, and Evaluations'",cs.LG;cs.CV
+2026-04-14T17:00:18Z,16,2026-04-14T17:00:18Z,2604.12967,1,'Cycle-Consistent Search: Question Reconstructability as a Proxy Reward for Search Agent Training',cs.AI
+2026-04-14T16:59:53Z,16,2026-04-14T16:59:53Z,2604.12966,1,'Boosting Visual Instruction Tuning with Self-Supervised Guidance',cs.CV
+2026-04-14T16:51:29Z,16,2026-04-14T16:51:29Z,2604.12955,1,'Modeling Co-Pilots for Text-to-Model Translation',cs.AI
+2026-04-14T16:50:38Z,16,2026-04-14T16:50:38Z,2604.12952,1,'An Optimal Sauer Lemma Over $k$-ary Alphabets',cs.LG;math.CO;stat.ML
+2026-04-14T16:48:24Z,16,2026-04-14T16:48:24Z,2604.12951,1,'The Verification Tax: Fundamental Limits of AI Auditing in the Rare-Error Regime',cs.LG
+2026-04-14T16:45:06Z,16,2026-04-14T16:45:06Z,2604.12948,1,'Drawing on Memory: Dual-Trace Encoding Improves Cross-Session Recall in LLM Agents',cs.AI
+2026-04-14T16:43:37Z,16,2026-04-14T16:43:37Z,2604.12946,1,'Parcae: Scaling Laws For Stable Looped Language Models',cs.LG
+2026-04-14T16:41:33Z,16,2026-04-14T16:41:33Z,2604.12945,1,'Adaptive Data Dropout: Towards Self-Regulated Learning in Deep Neural Networks',cs.LG;cs.CV
+2026-04-14T16:37:57Z,16,2026-04-14T16:37:57Z,2604.12944,1,'Distorted or Fabricated? A Survey on Hallucination in Video LLMs',cs.CV;cs.AI
+2026-04-14T16:36:11Z,16,2026-04-14T16:36:11Z,2604.12942,1,'RMGS-SLAM: Real-time Multi-sensor Gaussian Splatting SLAM',cs.RO
+2026-04-14T16:35:04Z,16,2026-04-14T16:35:04Z,2604.12941,1,'Direct Discrepancy Replay: Distribution-Discrepancy Condensation and Manifold-Consistent Replay for Continual Face Forgery Detection',cs.CV
+2026-04-14T16:32:46Z,16,2026-04-14T16:32:46Z,2604.13147,1,'Adaptive Learning via Off-Model Training and Importance Sampling for Fully Non-Markovian Optimal Stochastic Control. Complete version',stat.ML;cs.LG;math.PR
+2026-04-14T16:24:04Z,16,2026-04-14T16:24:04Z,2604.12935,1,'Task Alignment: A simple and effective proxy for model merging in computer vision',cs.CV
+2026-04-14T16:20:54Z,16,2026-04-14T16:20:54Z,2604.12933,1,'DINO-Explorer: Active Underwater Discovery via Ego-Motion Compensated Semantic Predictive Coding',cs.RO;cs.CV
+2026-04-14T16:20:28Z,16,2026-04-14T16:20:28Z,2604.12931,1,'Token Encoding for Semantic Recovery',eess.SP;cs.LG
+2026-04-14T16:19:12Z,16,2026-04-14T16:19:12Z,2604.12929,1,'Grasp in Gaussians: Fast Monocular Reconstruction of Dynamic Hand-Object Interactions',cs.CV
+2026-04-14T16:17:52Z,16,2026-04-14T16:17:52Z,2604.12928,1,'MoshiRAG: Asynchronous Knowledge Retrieval for Full-Duplex Speech Language Models',cs.CL;eess.AS
+2026-04-14T16:09:56Z,16,2026-04-14T16:09:56Z,2604.12923,1,'Pi-HOC: Pairwise 3D Human-Object Contact Estimation',cs.CV
+2026-04-14T16:02:24Z,16,2026-04-14T16:02:24Z,2604.12919,1,'MetFuse: Figurative Fusion between Metonymy and Metaphor',cs.CL
+2026-04-14T16:00:53Z,16,2026-04-14T16:00:53Z,2604.12918,1,'Radar-Camera BEV Multi-Task Learning with Cross-Task Attention Bridge for Joint 3D Detection and Segmentation',cs.CV
+2026-04-14T16:00:42Z,16,2026-04-14T16:00:42Z,2604.12917,1,'M3D-Stereo: A Multiple-Medium and Multiple-Degradation Dataset for Stereo Image Restoration',cs.CV
+2026-04-14T16:00:22Z,16,2026-04-14T16:00:22Z,2604.12916,1,'E2E-Fly: An Integrated Training-to-Deployment System for End-to-End Quadrotor Autonomy',cs.RO
+2026-04-14T15:58:38Z,16,2026-04-14T15:58:38Z,2604.12913,1,'CoDe-R: Refining Decompiler Output with LLMs via Rationale Guidance and Adaptive Inference',cs.SE;cs.AI;cs.CR
+2026-04-14T15:58:21Z,16,2026-04-14T15:58:21Z,2604.12911,1,'Round-Trip Translation Reveals What Frontier Multilingual Benchmarks Miss',cs.CL;cs.AI
+2026-04-14T15:57:27Z,16,2026-04-14T15:57:27Z,2604.12909,1,'Tree Learning: A Multi-Skill Continual Learning Framework for Humanoid Robots',cs.RO
+2026-04-14T15:57:16Z,16,2026-04-14T15:57:16Z,2604.12908,1,'Robotic Manipulation is Vision-to-Geometry Mapping ($f(v) \rightarrow G$): Vision-Geometry Backbones over Language and Video Models',cs.RO
+2026-04-14T15:54:29Z,16,2026-04-14T15:54:29Z,2604.12905,1,'Frequency-aware Decomposition Learning for Sensorless Wrench Forecasting on a Vibration-rich Hydraulic Manipulator',cs.RO;cs.LG
+2026-04-14T15:52:22Z,16,2026-04-14T15:52:22Z,2604.12904,1,'A Sanity Check on Composed Image Retrieval',cs.CV
+2026-04-14T15:46:47Z,16,2026-04-14T15:46:47Z,2604.12898,1,'BEAM: Bi-level Memory-adaptive Algorithmic Evolution for LLM-Powered Heuristic Design',cs.AI;math.CO
+2026-04-14T15:45:22Z,16,2026-04-14T15:45:22Z,2604.12896,1,"'Dont Show Pixels, Show Cues: Unlocking Visual Tool Reasoning in Language Models via Perception Programs'",cs.CV;cs.LG
+2026-04-14T15:42:48Z,16,2026-04-14T15:42:48Z,2604.12894,1,'Representing 3D Faces with Learnable B-Spline Volumes',cs.CV
+2026-04-14T15:40:30Z,16,2026-04-14T15:40:30Z,2604.12891,1,'TCL: Enabling Fast and Efficient Cross-Hardware Tensor Program Optimization via Continual Learning',cs.LG;cs.AR
+2026-04-14T15:40:28Z,16,2026-04-14T15:40:28Z,2604.12890,1,'Towards Long-horizon Agentic Multimodal Search',cs.CV;cs.AI
+2026-04-14T15:37:30Z,16,2026-04-14T15:37:30Z,2604.12887,1,'VideoFlexTok: Flexible-Length Coarse-to-Fine Video Tokenization',cs.CV;cs.LG
+2026-04-14T15:33:45Z,16,2026-04-14T15:33:45Z,2604.12884,1,"'An abstract model of nonrandom, non-Lamarckian mutation in evolution using a multivariate estimation-of-distribution algorithm'",cs.NE;q-bio.PE
+2026-04-14T15:30:57Z,16,2026-04-14T15:30:57Z,2604.12879,1,'FastGrasp: Learning-based Whole-body Control method for Fast Dexterous Grasping with Mobile Manipulators',cs.RO;cs.AI
+2026-04-14T15:26:03Z,16,2026-04-14T15:26:03Z,2604.12875,1,'AISafetyBenchExplorer: A Metric-Aware Catalogue of AI Safety Benchmarks Reveals Fragmented Measurement and Weak Benchmark Governance',cs.AI
+2026-04-14T15:23:36Z,16,2026-04-14T15:23:36Z,2604.12874,1,'LIFE -- an energy efficient advanced continual learning agentic AI framework for frontier systems',cs.AI
+2026-04-14T15:22:57Z,16,2026-04-14T15:22:57Z,2604.12872,1,'OVAL: Open-Vocabulary Augmented Memory Model for Lifelong Object Goal Navigation',cs.RO
+2026-04-14T15:17:21Z,16,2026-04-14T15:17:21Z,2604.12867,1,'QuarkMedSearch: A Long-Horizon Deep Search Agent for Exploring Medical Intelligence',cs.AI
+2026-04-14T15:16:09Z,16,2026-04-15T14:29:39Z,2604.12865,2,'From edges to meaning: Semantic line sketches as a cognitive scaffold for ancient pictograph invention',cs.AI
+2026-04-14T15:09:07Z,16,2026-04-14T15:09:07Z,2604.12857,1,'Artificial Intelligence for Modeling and Simulation of Mixed Automated and Human Traffic',cs.AI;cs.RO;eess.SY
+2026-04-14T15:07:21Z,16,2026-04-15T03:58:33Z,2604.12856,2,'PianoFlow: Music-Aware Streaming Piano Motion Generation with Bimanual Coordination',cs.CV
+2026-04-14T15:06:55Z,16,2026-04-14T15:06:55Z,2604.12855,1,'Evolving the Complete Muscle: Efficient Morphology-Control Co-design for Musculoskeletal Locomotion',cs.RO
+2026-04-14T15:06:38Z,16,2026-04-14T15:06:38Z,2604.12852,1,'PAINT: Partner-Agnostic Intent-Aware Cooperative Transport with Legged Robots',cs.RO
+2026-04-14T15:01:29Z,16,2026-04-15T05:42:39Z,2604.12843,2,'Growing Pains: Extensible and Efficient LLM Benchmarking Via Fixed Parameter Calibration',cs.CL
+2026-04-14T14:58:11Z,16,2026-04-14T14:58:11Z,2604.12837,1,'GGD-SLAM: Monocular 3DGS SLAM Powered by Generalizable Motion Model for Dynamic Environments',cs.RO
+2026-04-14T14:53:42Z,16,2026-04-14T14:53:42Z,2604.12834,1,'Rapid LoRA Aggregation for Wireless Channel Adaptation in Open-Set Radio Frequency Fingerprinting',eess.SP;cs.CR;cs.LG
+2026-04-14T14:52:15Z,16,2026-04-14T14:52:15Z,2604.12833,1,'Challenging Vision-Language Models with Physically Deployable Multimodal Semantic Lighting Attacks',cs.CV
+2026-04-14T14:52:00Z,16,2026-04-14T14:52:00Z,2604.12832,1,'Detecting and refurbishing ground truth errors during training of deep learning-based echocardiography segmentation models',cs.CV;cs.AI
+2026-04-14T14:50:43Z,16,2026-04-14T14:50:43Z,2604.12831,1,'VULCAN: Vision-Language-Model Enhanced Multi-Agent Cooperative Navigation for Indoor Fire-Disaster Response',cs.RO
+2026-04-14T14:48:41Z,16,2026-04-14T14:48:41Z,2604.12827,1,'Loop Corrections to the Training and Generalization Errors of Random Feature Models',cs.LG;cs.AI;stat.ML
+2026-04-14T14:44:45Z,16,2026-04-14T14:44:45Z,2604.12820,1,'RePAIR: Interactive Machine Unlearning through Prompt-Aware Model Repair',cs.AI;cs.CL
+2026-04-14T14:43:55Z,16,2026-04-14T14:43:55Z,2604.12817,1,'Understanding and Improving Continuous Adversarial Training for LLMs via In-context Learning Theory',cs.LG;cs.CR;stat.ML
+2026-04-14T14:43:50Z,16,2026-04-14T14:43:50Z,2604.13142,1,'Multi-modal panoramic 3D outdoor datasets for place categorization',cs.RO;cs.CV;cs.DB
+2026-04-14T14:43:39Z,16,2026-04-14T14:43:39Z,2604.12816,1,'The role of System 1 and System 2 semantic memory structure in human and LLM biases',cs.CL
+2026-04-14T14:40:23Z,16,2026-04-14T14:40:23Z,2604.12813,1,'DPC-VQA: Decoupling Quality Perception and Residual Calibration for Video Quality Assessment',cs.CV;cs.MM
+2026-04-14T14:39:26Z,16,2026-04-15T10:29:41Z,2604.12812,2,'DocSeeker: Structured Visual Reasoning with Evidence Grounding for Long Document Understanding',cs.AI
+2026-04-14T14:38:46Z,16,2026-04-14T14:38:46Z,2604.12811,1,'Algorithmic Analysis of Dense Associative Memory: Finite-Size Guarantees and Adversarial Robustness',cs.LG;cs.AI;cs.NE
+2026-04-14T14:37:26Z,16,2026-04-14T14:37:26Z,2604.12807,1,'Rethinking Satellite Image Restoration for Onboard AI: A Lightweight Learning-Based Approach',cs.CV;cs.AI
+2026-04-14T14:36:07Z,16,2026-04-14T14:36:07Z,2604.12806,1,'Interpretable Relational Inference with LLM-Guided Symbolic Dynamics Modeling',cs.LG
+2026-04-14T14:35:42Z,16,2026-04-14T14:35:42Z,2604.12805,1,'Image-to-Image Translation Framework Embedded with Rotation Symmetry Priors',cs.CV
+2026-04-14T14:33:28Z,16,2026-04-14T14:33:28Z,2604.12803,1,'Generative Anonymization in Event Streams',cs.CV;cs.LG
+2026-04-14T14:29:05Z,16,2026-04-14T14:29:05Z,2604.12799,1,'Efficiency of Proportional Mechanisms in Online Auto-Bidding Advertising',cs.GT;cs.AI;cs.DS
+2026-04-14T14:28:50Z,16,2026-04-14T14:28:50Z,2604.12798,1,'VFA: Relieving Vector Operations in Flash Attention with Global Maximum Pre-computation',cs.LG;cs.AI
+2026-04-14T14:25:08Z,16,2026-04-14T14:25:08Z,2604.12792,1,'Actuation space reduction to facilitate insightful shape matching in a novel reconfigurable tendon driven continuum manipulator',cs.RO
+2026-04-14T14:17:59Z,16,2026-04-14T14:17:59Z,2604.12782,1,'OSC: Hardware Efficient W4A4 Quantization via Outlier Separation in Channel Dimension',cs.LG;cs.AI
+2026-04-14T14:17:51Z,16,2026-04-14T14:17:51Z,2604.12781,1,'Fragile Reconstruction: Adversarial Vulnerability of Reconstruction-Based Detectors for Diffusion-Generated Images',cs.CV
+2026-04-14T14:17:38Z,16,2026-04-14T14:17:38Z,2604.12780,1,'Efficient Adversarial Training via Criticality-Aware Fine-Tuning',cs.CV;cs.AI
+2026-04-14T14:16:45Z,16,2026-04-14T14:16:45Z,2604.12778,1,'DoseRAD2026 Challenge dataset: AI accelerated photon and proton dose calculation for radiotherapy',physics.med-ph;cs.AI;cs.CV
+2026-04-14T14:16:18Z,16,2026-04-14T14:16:18Z,2604.12777,1,'Cognition-Inspired Dual-Stream Semantic Enhancement for Vision-Based Dynamic Emotion Modeling',cs.CV;cs.AI
+2026-04-14T14:16:06Z,16,2026-04-14T14:16:06Z,2604.12776,1,'EvoSpark: Endogenous Interactive Agent Societies for Unified Long-Horizon Narrative Evolution',cs.CL
+2026-04-14T14:12:19Z,16,2026-04-14T14:12:19Z,2604.12772,1,'A Multi-Agent Feedback System for Detecting and Describing News Events in Satellite Imagery',cs.CV;cs.MA
+2026-04-14T14:10:55Z,16,2026-04-14T14:10:55Z,2604.12770,1,'Teaching LLMs Human-Like Editing of Inappropriate Argumentation via Reinforcement Learning',cs.CL
+2026-04-14T14:08:57Z,16,2026-04-14T14:08:57Z,2604.12768,1,'Rethinking the Personalized Relaxed Initialization in the Federated Learning: Consistency and Generalization',cs.LG
+2026-04-14T14:08:20Z,16,2026-04-14T14:08:20Z,2604.12767,1,'CLASP: Class-Adaptive Layer Fusion and Dual-Stage Pruning for Multimodal Large Language Models',cs.CV;cs.AI
+2026-04-14T14:07:01Z,16,2026-04-14T14:07:01Z,2604.12766,1,'NaviRAG: Towards Active Knowledge Navigation for Retrieval-Augmented Generation',cs.CL
+2026-04-14T14:06:43Z,16,2026-04-14T14:06:43Z,2604.12765,1,'A Dataset and Evaluation for Complex 4D Markerless Human Motion Capture',cs.CV;cs.GR
+2026-04-14T14:06:19Z,16,2026-04-14T14:06:19Z,2604.12762,1,"'ARGOS: Who, Where, and When in Agentic Multi-Camera Person Search'",cs.CV;cs.AI;cs.MA
+2026-04-14T14:03:22Z,16,2026-04-14T14:03:22Z,2604.12757,1,'GF-Score: Certified Class-Conditional Robustness Evaluation with Fairness Guarantees',cs.LG;cs.AI
+2026-04-14T14:00:51Z,16,2026-04-14T14:00:51Z,2604.12753,1,'Reliability-Guided Depth Fusion for Glare-Resilient Navigation Costmaps',cs.RO
+2026-04-14T14:00:03Z,16,2026-04-14T14:00:03Z,2604.12752,1,'Scaling In-Context Segmentation with Hierarchical Supervision',cs.CV
+2026-04-14T13:59:06Z,16,2026-04-14T13:59:06Z,2604.12748,1,'Generating Effective CoT Traces for Mitigating Causal Hallucination',cs.CL
+2026-04-14T13:58:14Z,16,2026-04-14T13:58:14Z,2604.12746,1,'Stress Detection Using Wearable Physiological and Sociometric Sensors',cs.LG;eess.SP
+2026-04-14T13:57:29Z,16,2026-04-14T13:57:29Z,2604.12744,1,'Universal NER v2: Towards a Massively Multilingual Named Entity Recognition Benchmark',cs.CL
+2026-04-14T13:57:09Z,16,2026-04-14T13:57:09Z,2604.12743,1,'Can AI Tools Transform Low-Demand Math Tasks? An Evaluation of Task Modification Capabilities',cs.AI
+2026-04-14T13:51:02Z,16,2026-04-15T10:00:01Z,2604.12737,2,'Evaluating Differential Privacy Against Membership Inference in Federated Learning: Insights from the NIST Genomics Red Team Challenge',cs.CR;cs.LG
+2026-04-14T13:50:31Z,16,2026-04-14T13:50:31Z,2604.12736,1,'Token-Level Policy Optimization: Linking Group-Level Rewards to Token-Level Aggregation via Sequence-Level Likelihood',cs.CL
+2026-04-14T13:49:19Z,16,2026-04-14T13:49:19Z,2604.12735,1,'AffectAgent: Collaborative Multi-Agent Reasoning for Retrieval-Augmented Multimodal Emotion Recognition',cs.CV
+2026-04-14T13:47:41Z,16,2026-04-14T13:47:41Z,2604.12733,1,'Transformer Based Machine Fault Detection From Audio Input',cs.SD;cs.LG
+2026-04-14T13:40:13Z,16,2026-04-14T13:40:13Z,2604.12725,1,'On Higher-Order Geometric Refinements of Classical Covariance Asymptotics: An Approach via Intrinsic and Extrinsic Information Geometry',math.ST;cs.LG;math.AG;math.DG
+2026-04-14T13:36:18Z,16,2026-04-14T13:36:18Z,2604.12721,1,'InsightFlow: LLM-Driven Synthesis of Patient Narratives for Mental Health into Causal Models',cs.CL
+2026-04-14T13:34:44Z,16,2026-04-14T13:34:44Z,2604.12720,1,'Stability and Geometry of Attractors in Neural Cellular Automata',cs.NE;cs.ET
+2026-04-14T13:33:40Z,16,2026-04-14T13:33:40Z,2604.12719,1,'Monte Carlo Stochastic Depth for Uncertainty Estimation in Deep Learning',cs.LG;stat.ML
+2026-04-14T13:31:47Z,16,2026-04-14T13:31:47Z,2604.12717,1,'Transferable Expertise for Autonomous Agents via Real-World Case-Based Learning',cs.AI
+2026-04-14T13:23:19Z,16,2026-04-14T13:23:19Z,2604.12709,1,'Information-Theoretic Optimization for Task-Adapted Compressed Sensing Magnetic Resonance Imaging',cs.LG;cs.AI;cs.CV
+2026-04-14T13:07:54Z,16,2026-04-14T13:07:54Z,2604.12700,1,'MISID: A Multimodal Multi-turn Dataset for Complex Intent Recognition in Strategic Deception Games',cs.AI
+2026-04-14T13:04:17Z,16,2026-04-14T13:04:17Z,2604.12693,1,'Risk-Calibrated Learning: Minimizing Fatal Errors in Medical AI',cs.CV
+2026-04-14T12:57:56Z,16,2026-04-14T12:57:56Z,2604.12686,1,'BID-LoRA: A Parameter-Efficient Framework for Continual Learning and Unlearning',cs.LG;cs.AI
+2026-04-14T12:52:42Z,16,2026-04-14T12:52:42Z,2604.12683,1,'Brain-DiT: A Universal Multi-state fMRI Foundation Model with Metadata-Conditioned Pretraining',cs.CV;q-bio.NC
+2026-04-14T12:40:05Z,16,2026-04-14T12:40:05Z,2604.12669,1,'A hierarchical spatial-aware algorithm with efficient reinforcement learning for human-robot task planning and allocation in production',cs.AI
+2026-04-14T12:39:13Z,16,2026-04-14T12:39:13Z,2604.12668,1,'OFA-Diffusion Compression: Compressing Diffusion Model in One-Shot Manner',cs.CV
+2026-04-14T12:38:21Z,16,2026-04-14T12:38:21Z,2604.12667,1,'Safe reinforcement learning with online filtering for fatigue-predictive human-robot task planning and allocation in production',cs.AI
+2026-04-14T12:37:45Z,16,2026-04-14T12:37:45Z,2604.12666,1,'From Imitation to Discrimination: Progressive Curriculum Learning for Robust Web Navigation',cs.LG;cs.CL;cs.HC
+2026-04-14T12:37:39Z,16,2026-04-14T12:37:39Z,2604.12665,1,'Hypergraph-State Collaborative Reasoning for Multi-Object Tracking',cs.CV
+2026-04-14T12:31:26Z,16,2026-04-14T12:31:26Z,2604.12663,1,'Human-Centric Topic Modeling with Goal-Prompted Contrastive Learning and Optimal Transport',cs.AI
+2026-04-14T12:27:05Z,16,2026-04-14T12:27:05Z,2604.12660,1,'Broadening the Applicability of Conditional Syntax Splitting for Reasoning from Conditional Belief Bases',cs.AI
+2026-04-14T12:26:34Z,16,2026-04-14T12:26:34Z,2604.12659,1,'Do VLMs Truly Read Candlesticks? A Multi-Scale Benchmark for Visual Stock Price Forecasting',cs.LG;cs.CL
+2026-04-14T12:24:54Z,16,2026-04-14T12:24:54Z,2604.12656,1,'FeaXDrive: Feasibility-aware Trajectory-Centric Diffusion Planning for End-to-End Autonomous Driving',cs.RO;cs.LG
+2026-04-14T12:23:52Z,16,2026-04-14T12:23:52Z,2604.12655,1,'Robust Semi-Supervised Temporal Intrusion Detection for Adversarial Cloud Networks',cs.LG;cs.CR
+2026-04-14T12:23:14Z,16,2026-04-14T12:23:14Z,2604.12654,1,'Data-driven Reachable Set Estimation with Tunable Adversarial and Wasserstein Distributional Guarantees',math.OC;cs.LG;eess.SY
+2026-04-14T12:21:15Z,16,2026-04-14T12:21:15Z,2604.12652,1,'PromptEcho: Annotation-Free Reward from Vision-Language Models for Text-to-Image Reinforcement Learning',cs.CV;cs.AI
+2026-04-14T12:21:15Z,16,2026-04-14T12:21:15Z,2604.12651,1,"'Learning Chain Of Thoughts Prompts for Predicting Entities, Relations, and even Literals on Knowledge Graphs'",cs.CL;cs.AI
+2026-04-14T12:20:07Z,16,2026-04-14T12:20:07Z,2604.12650,1,'Listening Deepfake Detection: A New Perspective Beyond Speaking-Centric Forgery Analysis',cs.CV;cs.MM
+2026-04-14T12:18:00Z,16,2026-04-14T12:18:00Z,2604.12648,1,'TimeSAF: Towards LLM-Guided Semantic Asynchronous Fusion for Time Series Forecasting',cs.LG;cs.AI
+2026-04-14T12:17:50Z,16,2026-04-14T12:17:50Z,2604.12647,1,'Adaptive Test-Time Scaling for Zero-Shot Respiratory Audio Classification',cs.SD;cs.CL
+2026-04-14T12:16:56Z,16,2026-04-14T12:16:56Z,2604.12645,1,'Contextual Multi-Task Reinforcement Learning for Autonomous Reef Monitoring',cs.RO;cs.AI
+2026-04-14T12:04:21Z,16,2026-04-14T12:04:21Z,2604.12634,1,'RPRA: Predicting an LLM-Judge for Efficient but Performant Inference',cs.AI;cs.CL;cs.LG;cs.MA
+2026-04-14T12:04:17Z,16,2026-04-14T12:04:17Z,2604.12633,1,'Multilingual Multi-Label Emotion Classification at Scale with Synthetic Data',cs.CL
+2026-04-14T12:03:17Z,16,2026-04-14T12:03:17Z,2604.12632,1,'Calibration-Aware Policy Optimization for Reasoning LLMs',cs.LG;cs.AI
+2026-04-14T11:58:02Z,16,2026-04-14T11:58:02Z,2604.12630,1,'GeoAlign: Geometric Feature Realignment for MLLM Spatial Reasoning',cs.CV;cs.CL
+2026-04-14T11:55:15Z,16,2026-04-14T11:55:15Z,2604.12628,1,'A Comparison of Reinforcement Learning and Optimal Control Methods for Path Planning',math.OC;cs.RO
+2026-04-14T11:53:23Z,16,2026-04-14T11:53:23Z,2604.12627,1,'KnowRL: Boosting LLM Reasoning via Reinforcement Learning with Minimal-Sufficient Knowledge Guidance',cs.AI
+2026-04-14T11:52:59Z,16,2026-04-14T11:52:59Z,2604.12626,1,'Habitat-GS: A High-Fidelity Navigation Simulator with Dynamic Gaussian Splatting',cs.RO;cs.CV
+2026-04-14T11:52:57Z,16,2026-04-14T11:52:57Z,2604.12625,1,'Neural Dynamic GI: Random-Access Neural Compression for Temporal Lightmaps in Dynamic Lighting Environments',cs.GR;cs.AI
+2026-04-14T11:51:17Z,16,2026-04-14T11:51:17Z,2604.12622,1,'Efficient Semantic Image Communication for Traffic Monitoring at the Edge',cs.CV;cs.AI;cs.NI
+2026-04-14T11:45:15Z,16,2026-04-14T11:45:15Z,2604.12617,1,'SOAR: Self-Correction for Optimal Alignment and Refinement in Diffusion Models',cs.LG;cs.AI
+2026-04-14T11:44:59Z,16,2026-04-14T11:44:59Z,2604.12616,1,'Every Picture Tells a Dangerous Story: Memory-Augmented Multi-Agent Jailbreak Attacks on VLMs',cs.AI;cs.MM
+2026-04-14T11:44:43Z,16,2026-04-14T11:44:43Z,2604.12615,1,'DeepTest Tool Competition 2026: Benchmarking an LLM-Based Automotive Assistant',cs.AI
+2026-04-14T11:36:29Z,16,2026-04-14T11:36:29Z,2604.12610,1,'Transforming External Knowledge into Triplets for Enhanced Retrieval in RAG of LLMs',cs.CL
+2026-04-14T11:27:32Z,16,2026-04-14T11:27:32Z,2604.12601,1,'LLM-Guided Prompt Evolution for Password Guessing',cs.CR;cs.AI
+2026-04-14T11:27:23Z,16,2026-04-14T11:27:23Z,2604.12600,1,'Spatial-Spectral Adaptive Fidelity and Noise Prior Reduction Guided Hyperspectral Image Denoising',cs.CV;math.NA
+2026-04-14T11:24:11Z,16,2026-04-14T11:24:11Z,2604.12596,1,'KumoRFM-2: Scaling Foundation Models for Relational Learning',cs.LG;cs.AI
+2026-04-14T11:17:29Z,16,2026-04-14T11:17:29Z,2604.12592,1,'ELoG-GS: Dual-Branch Gaussian Splatting with Luminance-Guided Enhancement for Extreme Low-light 3D Reconstruction',cs.CV
+2026-04-14T11:17:05Z,16,2026-04-14T11:17:05Z,2604.12591,1,'Machine Learning-Based Real-Time Detection of Compensatory Trunk Movements Using Trunk-Wrist Inertial Measurement Units',cs.RO
+2026-04-14T11:05:42Z,16,2026-04-14T11:05:42Z,2604.12582,1,'Relaxing Anchor-Frame Dominance for Mitigating Hallucinations in Video Large Language Models',cs.CV
+2026-04-14T11:03:55Z,16,2026-04-14T11:03:55Z,2604.12580,1,'PDF-GS: Progressive Distractor Filtering for Robust 3D Gaussian Splatting',cs.CV
+2026-04-14T11:03:51Z,16,2026-04-14T11:03:51Z,2604.12579,1,'EEG-Based Multimodal Learning via Hyperbolic Mixture-of-Curvature Experts',cs.LG
+2026-04-14T10:55:43Z,16,2026-04-14T10:55:43Z,2604.12575,1,'StructDiff: A Structure-Preserving and Spatially Controllable Diffusion Model for Single-Image Generation',cs.CV
+2026-04-14T10:52:55Z,16,2026-04-14T10:52:55Z,2604.12574,1,'Cross-Modal Knowledge Distillation for PET-Free Amyloid-Beta Detection from MRI',cs.CV
+2026-04-14T10:50:49Z,16,2026-04-14T10:50:49Z,2604.12573,1,'IDEA: An Interpretable and Editable Decision-Making Framework for LLMs via Verbal-to-Numeric Calibration',cs.AI
+2026-04-14T10:48:01Z,16,2026-04-14T10:48:01Z,2604.12568,1,'Evolution-Inspired Sample Competition for Deep Neural Network Optimization',cs.CV
+2026-04-14T10:47:06Z,16,2026-04-14T10:47:06Z,2604.12565,1,'Scalable Trajectory Generation for Whole-Body Mobile Manipulation',cs.RO;cs.CV
+2026-04-14T10:41:36Z,16,2026-04-14T10:41:36Z,2604.12559,1,'FABLE: Fine-grained Fact Anchoring for Unstructured Model Editing',cs.CL
+2026-04-14T10:25:32Z,16,2026-04-14T10:25:32Z,2604.12551,1,'Cross-Attentive Multiview Fusion of Vision-Language Embeddings',cs.CV
+2026-04-14T10:17:31Z,16,2026-04-14T10:17:31Z,2604.12545,1,'Cross-Cultural Simulation of Citizen Emotional Responses to Bureaucratic Red Tape Using LLM Agents',cs.AI;cs.CY
+2026-04-14T10:15:57Z,16,2026-04-14T10:15:57Z,2604.12543,1,'A Two-Stage LLM Framework for Accessible and Verified XAI Explanations',cs.AI
+2026-04-14T10:14:58Z,16,2026-04-14T10:14:58Z,2604.12540,1,'When Does Data Augmentation Help? Evaluating LLM and Back-Translation Methods for Hausa and Fongbe NLP',cs.CL;cs.AI
+2026-04-14T10:12:24Z,16,2026-04-14T10:12:24Z,2604.12537,1,'MODIX: A Training-Free Multimodal Information-Driven Positional Index Scaling for Vision-Language Models',cs.CV;cs.AI
+2026-04-14T10:05:03Z,16,2026-04-14T10:05:03Z,2604.12534,1,'Technical Report -- A Context-Sensitive Multi-Level Similarity Framework for First-Order Logic Arguments: An Axiomatic Study',cs.AI;cs.LO
+2026-04-14T09:59:32Z,16,2026-04-14T09:59:32Z,2604.12526,1,'Orthogonal Subspace Projection for Continual Machine Unlearning via SVD-Based LoRA',cs.LG;cs.AI
+2026-04-14T09:56:25Z,16,2026-04-15T01:25:27Z,2604.12525,2,'CoD-Lite: Real-Time Diffusion-Based Generative Image Compression',cs.CV
+2026-04-14T09:54:32Z,16,2026-04-14T09:54:32Z,2604.12519,1,'Instantiating Bayesian CVaR lower bounds in Interactive Decision Making Problems',cs.LG;cs.IT
+2026-04-14T09:52:53Z,16,2026-04-14T09:52:53Z,2604.12518,1,'Enhance-then-Balance Modality Collaboration for Robust Multimodal Sentiment Analysis',cs.CL
+2026-04-14T09:47:53Z,16,2026-04-14T09:47:53Z,2604.12513,1,'Agentic Control in Variational Language Models',cs.LG
+2026-04-14T09:44:35Z,16,2026-04-14T09:44:35Z,2604.12512,1,'NTIRE 2026 The 3rd Restore Any Image Model (RAIM) Challenge: Professional Image Quality Assessment (Track 1)',cs.CV;cs.AI
+2026-04-14T09:32:24Z,16,2026-04-14T09:32:24Z,2604.12509,1,'Whole-Body Mobile Manipulation using Offline Reinforcement Learning on Sub-optimal Controllers',cs.RO;cs.CV
+2026-04-14T09:32:13Z,16,2026-04-14T09:32:13Z,2604.12508,1,'From Attenuation to Attention: Variational Information Flow Manipulation for Fine-Grained Visual Perception',cs.CV
+2026-04-14T09:30:12Z,16,2026-04-14T09:30:12Z,2604.12506,1,'Beyond Transcription: Unified Audio Schema for Perception-Aware AudioLLMs',cs.CL;cs.SD
+2026-04-14T09:27:52Z,16,2026-04-14T09:27:52Z,2604.12503,1,'Topology-Aware Reasoning over Incomplete Knowledge Graph with Graph-Based Soft Prompting',cs.CL;cs.AI
+2026-04-14T09:27:50Z,16,2026-04-14T09:27:50Z,2604.12502,1,"'SEATrack: Simple, Efficient, and Adaptive Multimodal Tracker'",cs.CV;cs.AI
+2026-04-14T09:26:37Z,16,2026-04-14T09:26:37Z,2604.12500,1,"'Safety Training Modulates Harmful Misalignment Under On-Policy RL, But Direction Depends on Environment Design'",cs.LG;cs.CR
+2026-04-14T09:26:11Z,16,2026-04-14T09:26:11Z,2604.12498,1,'Lit2Vec: A Reproducible Workflow for Building a Legally Screened Chemistry Corpus from S2ORC for Downstream Retrieval and Text Mining',cs.DB;cs.AI
+2026-04-14T09:25:34Z,16,2026-04-14T09:25:34Z,2604.12497,1,'Adaptive Budget Allocation in LLM-Augmented Surveys',cs.LG;stat.ML
+2026-04-14T09:18:53Z,16,2026-04-14T09:18:53Z,2604.12493,1,'Latent Planning Emerges with Scale',cs.CL;cs.AI
+2026-04-14T09:16:53Z,16,2026-04-14T09:16:53Z,2604.12491,1,'Calibrated Confidence Estimation for Tabular Question Answering',cs.CL
+2026-04-14T09:16:45Z,16,2026-04-14T09:16:45Z,2604.12490,1,'Deepfakes at Face Value: Image and Authority',cs.CY;cs.AI
+2026-04-14T09:14:21Z,16,2026-04-14T09:14:21Z,2604.12487,1,'KG-Reasoner: A Reinforced Model for End-to-End Multi-Hop Knowledge Graph Reasoning',cs.CL;cs.AI
+2026-04-14T09:11:55Z,16,2026-04-14T09:11:55Z,2604.12486,1,'DeCoNav: Dialog enhanced Long-Horizon Collaborative Vision-Language Navigation',cs.RO
+2026-04-14T09:09:30Z,16,2026-04-14T09:09:30Z,2604.12483,1,'Elastic Net Regularization and Gabor Dictionary for Classification of Heart Sound Signals using Deep Learning',cs.SD;cs.AI
+2026-04-14T09:05:56Z,16,2026-04-14T09:05:56Z,2604.12482,1,'Social Learning Strategies for Evolved Virtual Soft Robots',cs.RO;cs.AI
+2026-04-14T09:05:12Z,16,2026-04-14T09:05:12Z,2604.12481,1,'T2I-BiasBench: A Multi-Metric Framework for Auditing Demographic and Cultural Bias in Text-to-Image Models',cs.CV
+2026-04-14T09:03:17Z,16,2026-04-14T09:03:17Z,2604.12480,1,'Audio Source Separation in Reverberant Environments using $β$-divergence based Nonnegative Factorization',cs.SD;cs.AI
+2026-04-14T09:03:05Z,16,2026-04-14T09:03:05Z,2604.12479,1,'Meet Dynamic Individual Preferences: Resolving Conflicting Human Value with Paired Fine-Tuning',cs.CL
+2026-04-14T09:00:52Z,16,2026-04-14T09:00:52Z,2604.12477,1,'Mining Large Language Models for Low-Resource Language Data: Comparing Elicitation Strategies for Hausa and Fongbe',cs.CL;cs.AI
+2026-04-14T09:00:08Z,16,2026-04-14T09:00:08Z,2604.12474,1,'From Kinematics to Dynamics: Learning to Refine Hybrid Plans for Physically Feasible Execution',cs.RO;cs.AI
+2026-04-14T08:59:37Z,16,2026-04-14T08:59:37Z,2604.12473,1,'Designing for Error Recovery in Human-Robot Interaction',cs.RO;cs.HC
+2026-04-14T08:56:59Z,16,2026-04-14T08:56:59Z,2604.12471,1,"'Beyond Single-Dimension Novelty: How Combinations of Theory, Method, and Results-based Novelty Shape Scientific Impact'",cs.DL;cs.CL;cs.IR
+2026-04-14T08:55:12Z,16,2026-04-14T08:55:12Z,2604.12470,1,'Intelligent ROI-Based Vehicle Counting Framework for Automated Traffic Monitoring',cs.AI
+2026-04-14T08:54:49Z,16,2026-04-14T08:54:49Z,2604.12469,1,'Analyzing the Effect of Noise in LLM Fine-tuning',cs.LG
+2026-04-14T08:49:10Z,16,2026-04-14T08:49:10Z,2604.12463,1,'Euler-inspired Decoupling Neural Operator for Efficient Pansharpening',cs.CV;cs.AI
+2026-04-14T08:48:15Z,16,2026-04-14T08:48:15Z,2604.12461,1,'CIA: Inferring the Communication Topology from LLM-based Multi-Agent Systems',cs.AI
+2026-04-14T08:45:38Z,16,2026-04-14T08:45:38Z,2604.12460,1,'Enhancing Clustering: An Explainable Approach via Filtered Patterns',cs.AI
+2026-04-14T08:45:12Z,16,2026-04-14T08:45:12Z,2604.12459,1,'Operationalising the Right to be Forgotten in LLMs: A Lightweight Sequential Unlearning Framework for Privacy-Aligned Deployment in Politically Sensitive Environments',cs.AI
+2026-04-14T08:42:10Z,16,2026-04-14T08:42:10Z,2604.12456,1,'X-VC: Zero-shot Streaming Voice Conversion in Codec Space',eess.AS;cs.AI
+2026-04-14T08:40:31Z,16,2026-04-14T08:40:31Z,2604.12452,1,'Latent-Condensed Transformer for Efficient Long Context Modeling',cs.CL
+2026-04-14T08:32:02Z,16,2026-04-14T08:32:02Z,2604.12447,1,'HazardArena: Evaluating Semantic Safety in Vision-Language-Action Models',cs.RO
+2026-04-14T08:31:37Z,16,2026-04-14T08:31:37Z,2604.12446,1,'Scaling Exposes the Trigger: Input-Level Backdoor Detection in Text-to-Image Diffusion Models via Cross-Attention Scaling',cs.CR;cs.CV
+2026-04-14T08:30:21Z,16,2026-04-14T08:30:21Z,2604.12443,1,'DiffusionPrint: Learning Generative Fingerprints for Diffusion-Based Inpainting Localization',cs.CV
+2026-04-14T08:29:42Z,16,2026-04-14T08:29:42Z,2604.12442,1,'GLeMM: A large-scale multilingual dataset for morphological research',cs.CL
+2026-04-14T08:29:31Z,16,2026-04-14T08:29:31Z,2604.12440,1,"'IAD-Unify: A Region-Grounded Unified Model for Industrial Anomaly Segmentation, Understanding, and Generation'",cs.CV;cs.AI
+2026-04-14T08:28:21Z,16,2026-04-14T08:28:21Z,2604.12437,1,'A Hybrid Architecture for Benign-Malignant Classification of Mammography ROIs',cs.CV
+2026-04-14T08:27:03Z,16,2026-04-14T08:27:03Z,2604.12436,1,'D-BDM: A Direct and Efficient Boundary-Based Occupancy Grid Mapping Framework for LiDARs',cs.RO
+2026-04-14T08:25:07Z,16,2026-04-14T08:25:07Z,2604.12434,1,'A Bayesian Perspective on the Role of Epistemic Uncertainty for Delayed Generalization in In-Context Learning',stat.ML;cs.LG
+2026-04-14T08:22:18Z,16,2026-04-14T08:22:18Z,2604.12431,1,'VeriX-Anon: A Multi-Layered Framework for Mathematically Verifiable Outsourced Target-Driven Data Anonymization',cs.CR;cs.DB;cs.LG
+2026-04-14T08:16:49Z,16,2026-04-14T08:16:49Z,2604.12426,1,'Do Transformers Use their Depth Adaptively? Evidence from a Relational Reasoning Task',cs.LG;cs.CL
+2026-04-14T08:15:45Z,16,2026-04-14T08:15:45Z,2604.12425,1,'Forecasting the Past: Gradient-Based Distribution Shift Detection in Trajectory Prediction',cs.LG
+2026-04-14T08:15:44Z,16,2026-04-14T08:15:44Z,2604.12424,1,'Decoding by Perturbation: Mitigating MLLM Hallucinations via Dynamic Textual Perturbation',cs.CL;cs.AI;cs.CV
+2026-04-14T08:11:53Z,16,2026-04-14T08:11:53Z,2604.12421,1,'Agentic Insight Generation in VSM Simulations',cs.CL
+2026-04-14T08:06:09Z,16,2026-04-14T08:06:09Z,2604.12418,1,'RACF: A Resilient Autonomous Car Framework with Object Distance Correction',cs.RO;cs.AI
+2026-04-14T08:02:16Z,16,2026-04-14T08:02:16Z,2604.12416,1,'Machine learning for four-dimensional SU(3) lattice gauge theories',hep-lat;cs.LG
+2026-04-14T07:58:07Z,16,2026-04-14T07:58:07Z,2604.12413,1,'Learning step-level dynamic soaring in shear flow',physics.flu-dyn;cs.RO
+2026-04-14T07:50:31Z,16,2026-04-14T07:50:31Z,2604.12411,1,'DeferredSeg: A Multi-Expert Deferral Framework for Trustworthy Medical Image Segmentation',cs.CV
+2026-04-14T07:45:16Z,16,2026-04-14T07:45:16Z,2604.12408,1,'Security and Resilience in Autonomous Vehicles: A Proactive Design Approach',cs.CR;cs.AI
+2026-04-14T07:39:03Z,16,2026-04-14T07:39:03Z,2604.12403,1,'Dual-Modality Anchor-Guided Filtering for Test-time Prompt Tuning',cs.CV
+2026-04-14T07:33:14Z,16,2026-04-14T07:33:14Z,2604.12397,1,'KoCo: Conditioning Language Model Pre-training on Knowledge Coordinates',cs.CL
+2026-04-14T07:26:23Z,16,2026-04-14T07:26:23Z,2604.12391,1,'Chain-of-Models Pre-Training: Rethinking Training Acceleration of Vision Foundation Models',cs.CV;cs.AI
+2026-04-14T07:24:08Z,16,2026-04-14T07:24:08Z,2604.12390,1,'Heuristic Classification of Thoughts Prompting (HCoT): Integrating Expert System Heuristics for Structured Reasoning into Large Language Models',cs.AI
+2026-04-14T07:18:06Z,16,2026-04-14T07:18:06Z,2604.12385,1,'From Myopic Selection to Long-Horizon Awareness: Sequential LLM Routing for Multi-Turn Dialogue',cs.CL
+2026-04-14T07:17:55Z,16,2026-04-14T07:17:55Z,2604.12384,1,'Preventing Safety Drift in Large Language Models via Coupled Weight and Activation Constraints',cs.AI
+2026-04-14T07:13:28Z,16,2026-04-14T07:13:28Z,2604.12380,1,'Modality-Agnostic Prompt Learning for Multi-Modal Camouflaged Object Detection',cs.CV
+2026-04-14T07:12:46Z,16,2026-04-14T07:12:46Z,2604.12379,1,'Beyond Output Correctness: Benchmarking and Evaluating Large Language Model Reasoning in Coding Tasks',cs.SE;cs.AI;cs.LG
+2026-04-14T07:10:46Z,16,2026-04-14T07:10:46Z,2604.12378,1,'ReasonXL: Shifting LLM Reasoning Language Without Sacrificing Performance',cs.CL
+2026-04-14T07:09:44Z,16,2026-04-14T07:09:44Z,2604.12377,1,'SCRIPT: A Subcharacter Compositional Representation Injection Module for Korean Pre-Trained Language Models',cs.CL;cs.AI
+2026-04-14T07:06:35Z,16,2026-04-14T07:06:35Z,2604.12376,1,'Cooperative Memory Paging with Keyword Bookmarks for Long-Horizon LLM Conversations',cs.CL;cs.AI
+2026-04-14T07:02:32Z,16,2026-04-14T07:02:32Z,2604.12374,1,"'Nemotron 3 Super: Open, Efficient Mixture-of-Experts Hybrid Mamba-Transformer Model for Agentic Reasoning'",cs.LG;cs.AI;cs.CL
+2026-04-14T07:00:01Z,16,2026-04-15T05:55:27Z,2604.12373,2,'Masked by Consensus: Disentangling Privileged Knowledge in LLM Correctness',cs.CL
+2026-04-14T06:59:40Z,16,2026-04-14T06:59:40Z,2604.12372,1,'Is Sliding Window All You Need? An Open Framework for Long-Sequence Recommendation',cs.LG;cs.IR
+2026-04-14T06:59:27Z,16,2026-04-15T02:42:08Z,2604.12371,2,'Reading Between the Pixels: Linking Text-Image Embedding Alignment to Typographic Attack Success on Vision-Language Models',cs.CV
+2026-04-14T06:53:51Z,16,2026-04-14T06:53:51Z,2604.12365,1,'Adaptive Spiking Neurons for Vision and Language Modeling',cs.NE
+2026-04-14T06:53:22Z,16,2026-04-14T06:53:22Z,2604.12364,1,'Cross-Domain Transfer with Particle Physics Foundation Models: From Jets to Neutrino Interactions',hep-ex;cs.LG;hep-ph;physics.data-an
+2026-04-14T06:48:33Z,16,2026-04-14T06:48:33Z,2604.12359,1,'Compiling Activation Steering into Weights via Null-Space Constraints for Stealthy Backdoors',cs.CR;cs.CL
+2026-04-14T06:48:31Z,16,2026-04-15T17:43:53Z,2604.12358,2,'Why and When Visual Token Pruning Fails? A Study on Relevant Visual Information Shift in MLLMs Decoding',cs.CV
+2026-04-14T06:47:47Z,16,2026-04-14T06:47:47Z,2604.12357,1,'ReflectCAP: Detailed Image Captioning with Reflective Memory',cs.AI;cs.CV
+2026-04-14T06:45:32Z,16,2026-04-14T06:45:32Z,2604.12356,1,'OmniFood8K: Single-Image Nutrition Estimation via Hierarchical Frequency-Aligned Fusion',cs.CV
+2026-04-14T06:41:39Z,16,2026-04-14T06:41:39Z,2604.12353,1,'Combating Pattern and Content Bias: Adversarial Feature Learning for Generalized AI-Generated Image Detection',cs.CV
+2026-04-14T06:40:22Z,16,2026-04-14T06:40:22Z,2604.12352,1,'MultiDocFusion: Hierarchical and Multimodal Chunking Pipeline for Enhanced RAG on Long Industrial Documents',cs.AI;cs.CL
+2026-04-14T06:38:42Z,16,2026-04-14T06:38:42Z,2604.12351,1,'Fundus Image-based Glaucoma Screening via Retinal Knowledge-Oriented Dynamic Multi-Level Feature Integration',cs.CV
+2026-04-14T06:38:07Z,16,2026-04-14T06:38:07Z,2604.12350,1,'Scaffold-Conditioned Preference Triplets for Controllable Molecular Optimization with Large Language Models',cs.LG;cs.AI
+2026-04-14T06:33:58Z,16,2026-04-14T06:33:58Z,2604.12348,1,"'PrivEraserVerify: Efficient, Private, and Verifiable Federated Unlearning'",cs.LG
+2026-04-14T06:32:24Z,16,2026-04-14T06:32:24Z,2604.12346,1,'Unlocking the Potential of Grounding DINO in Videos: Parameter-Efficient Adaptation for Limited-Data Spatial-Temporal Localization',cs.CV
+2026-04-14T06:31:08Z,16,2026-04-14T06:31:08Z,2604.12344,1,'FRTSearch: Unified Detection and Parameter Inference of Fast Radio Transients using Instance Segmentation',astro-ph.IM;cs.AI
+2026-04-14T06:30:52Z,16,2026-04-14T06:30:52Z,2604.12343,1,'Detecting Precise Hand Touch Moments in Egocentric Video',cs.CV
+2026-04-14T06:26:04Z,16,2026-04-14T06:26:04Z,2604.12342,1,'CoLA: A Choice Leakage Attack Framework to Expose Privacy Risks in Subset Training',cs.CR;cs.CV
+2026-04-14T06:24:12Z,16,2026-04-14T06:24:12Z,2604.12341,1,'Bridging the Micro--Macro Gap: Frequency-Aware Semantic Alignment for Image Manipulation Localization',cs.CV
+2026-04-14T06:23:18Z,16,2026-04-14T06:23:18Z,2604.12340,1,'Information-Geometric Decomposition of Generalization Error in Unsupervised Learning',stat.ML;cond-mat.stat-mech;cs.IT;cs.LG;math.ST
+2026-04-14T06:19:35Z,16,2026-04-14T06:19:35Z,2604.12337,1,'Identifying and Mitigating Gender Cues in Academic Recommendation Letters: An Interpretability Case Study',cs.LG;cs.CY
+2026-04-14T06:18:54Z,16,2026-04-14T06:18:54Z,2604.12336,1,'GeM-EA: A Generative and Meta-learning Enhanced Evolutionary Algorithm for Streaming Data-Driven Optimization',cs.NE;cs.AI
+2026-04-14T06:17:35Z,16,2026-04-14T06:17:35Z,2604.12335,1,'All in One: A Unified Synthetic Data Pipeline for Multimodal Video Understanding',cs.CV;cs.LG
+2026-04-14T06:14:00Z,16,2026-04-14T06:14:00Z,2604.12331,1,'HyperLiDAR: Adaptive Post-Deployment LiDAR Segmentation via Hyperdimensional Computing',cs.CV
+2026-04-14T06:00:30Z,16,2026-04-14T06:00:30Z,2604.12325,1,'Black-Box Optimization From Small Offline Datasets via Meta Learning with Synthetic Tasks',cs.LG;cs.AI
+2026-04-14T05:54:33Z,16,2026-04-14T05:54:33Z,2604.12322,1,'Self-Adversarial One Step Generation via Condition Shifting',cs.CV
+2026-04-14T05:54:32Z,16,2026-04-14T05:54:32Z,2604.12321,1,'ToxiTrace: Gradient-Aligned Training for Explainable Chinese Toxicity Detection',cs.CL
+2026-04-14T05:53:16Z,16,2026-04-14T05:53:16Z,2604.12320,1,'EgoEsportsQA: An Egocentric Video Benchmark for Perception and Reasoning in Esports',cs.CV;cs.AI;cs.MM
+2026-04-14T05:51:15Z,16,2026-04-15T06:34:44Z,2604.12319,2,'RSGMamba: Reliability-Aware Self-Gated State Space Model for Multimodal Semantic Segmentation',cs.CV
+2026-04-14T05:50:10Z,16,2026-04-14T05:50:10Z,2604.12318,1,'Cell Instance Segmentation via Multi-Task Image-to-Image Schrödinger Bridge',cs.CV
+2026-04-14T05:45:55Z,16,2026-04-14T05:45:55Z,2604.12315,1,'GTPBD-MM: A Global Terraced Parcel and Boundary Dataset with Multi-Modality',cs.CV;cs.MM
+2026-04-14T05:42:41Z,16,2026-04-14T05:42:41Z,2604.12312,1,'CompliBench: Benchmarking LLM Judges for Compliance Violation Detection in Dialogue Systems',cs.CL
+2026-04-14T05:42:29Z,16,2026-04-14T05:42:29Z,2604.12311,1,'Is Vibe Coding the Future? An Empirical Assessment of LLM Generated Codes for Construction Safety',cs.SE;cs.AI;cs.HC
+2026-04-14T05:35:46Z,16,2026-04-14T05:35:46Z,2604.12309,1,'Towards Realistic and Consistent Orbital Video Generation via 3D Foundation Priors',cs.CV
+2026-04-14T05:35:38Z,16,2026-04-14T05:35:38Z,2604.12308,1,'ContextLens: Modeling Imperfect Privacy and Safety Context for Legal Compliance',cs.CL
+2026-04-14T05:35:32Z,16,2026-04-14T05:35:32Z,2604.12307,1,'Boosting Robust AIGI Detection with LoRA-based Pairwise Training',cs.CV
+2026-04-14T05:31:40Z,16,2026-04-14T05:31:40Z,2604.12306,1,'GCA Framework: A Gulf-Grounded Dataset and Agentic Pipeline for Climate Decision Support',cs.LG;cs.AI
+2026-04-14T05:27:39Z,16,2026-04-14T05:27:39Z,2604.12305,1,'CBAM-Enhanced DenseNet121 for Multi-Class Chest X-Ray Classification with Grad-CAM Explainability',eess.IV;cs.CV
+2026-04-14T05:23:37Z,16,2026-04-14T05:23:37Z,2604.12304,1,"'Beyond Weather Correlation: A Comparative Study of Static and Temporal Neural Architectures for Fine-Grained Residential Energy Consumption Forecasting in Melbourne, Australia'",cs.LG;eess.SY
+2026-04-14T05:22:59Z,16,2026-04-14T05:22:59Z,2604.12303,1,'Labeled TrustSet Guided: Batch Active Learning with Reinforcement Learning',cs.LG
+2026-04-14T05:19:33Z,16,2026-04-14T05:19:33Z,2604.12301,1,'Local-Splitter: A Measurement Study of Seven Tactics for Reducing Cloud LLM Token Usage on Coding-Agent Workloads',cs.DC;cs.AI;cs.SE
+2026-04-14T05:04:07Z,16,2026-04-14T05:04:07Z,2604.12293,1,'Defining and Evaluation Method for External Human-Machine Interfaces',cs.RO
+2026-04-14T05:03:57Z,16,2026-04-14T05:03:57Z,2604.12292,1,'CoSyncDiT: Cognitive Synchronous Diffusion Transformer for Movie Dubbing',cs.SD;cs.CV;cs.MM
+2026-04-14T05:02:06Z,16,2026-04-14T05:02:06Z,2604.12290,1,'Frontier-Eng: Benchmarking Self-Evolving Agents on Real-World Engineering Tasks with Generative Optimization',cs.AI;cs.CL
+2026-04-14T05:01:55Z,16,2026-04-14T05:01:55Z,2604.12289,1,'The Enforcement and Feasibility of Hate Speech Moderation on Twitter',cs.CY;cs.CL
+2026-04-14T05:01:18Z,16,2026-04-14T05:01:18Z,2604.12288,1,'Fine-tuning Factor Augmented Neural Lasso for Heterogeneous Environments',stat.ML;cs.LG;stat.ME
+2026-04-14T04:59:05Z,16,2026-04-14T04:59:05Z,2604.12286,1,'LiveMoments: Reselected Key Photo Restoration in Live Photos via Reference-guided Diffusion',cs.CV
+2026-04-14T04:53:00Z,16,2026-04-14T04:53:00Z,2604.12285,1,'GAM: Hierarchical Graph-based Agentic Memory for LLM Agents',cs.AI
+2026-04-14T04:47:21Z,16,2026-04-14T04:47:21Z,2604.12282,1,'Towards Robust Real-World Spreadsheet Understanding with Multi-Agent Multi-Format Reasoning',cs.CL
+2026-04-14T04:47:09Z,16,2026-04-14T04:47:09Z,2604.12281,1,'MAST: Mask-Guided Attention Mass Allocation for Training-Free Multi-Style Transfer',cs.CV;cs.AI
+2026-04-14T04:43:29Z,16,2026-04-14T04:43:29Z,2604.12277,1,'Models Know Their Shortcuts: Deployment-Time Shortcut Mitigation',cs.LG
+2026-04-14T04:36:59Z,16,2026-04-14T04:36:59Z,2604.12274,1,'Asymptotically Stable Gait Generation and Instantaneous Walkability Determination for Planar Almost Linear Biped with Knees',cs.RO
+2026-04-14T04:36:02Z,16,2026-04-14T04:36:02Z,2604.12273,1,'SubFlow: Sub-mode Conditioned Flow Matching for Diverse One-Step Generation',cs.LG;cs.CV
+2026-04-14T04:35:02Z,16,2026-04-14T04:35:02Z,2604.12271,1,'RoleMAG: Learning Neighbor Roles in Multimodal Graphs',cs.LG
+2026-04-14T04:34:48Z,16,2026-04-14T04:34:48Z,2604.12270,1,'DreamStereo: Towards Real-Time Stereo Inpainting for HD Videos',cs.CV
+2026-04-14T04:31:45Z,16,2026-04-14T04:31:45Z,2604.12268,1,'CodeSpecBench: Benchmarking LLMs for Executable Behavioral Specification Generation',cs.SE;cs.CL
+2026-04-14T04:26:39Z,16,2026-04-14T04:26:39Z,2604.12262,1,'CascadeDebate: Multi-Agent Deliberation for Cost-Aware LLM Cascades',cs.CL;cs.AI
+2026-04-14T04:23:50Z,16,2026-04-14T04:23:50Z,2604.12260,1,'Decentralized Learning via Random Walk with Jumps',cs.LG;cs.DC;eess.SP
+2026-04-14T04:22:44Z,16,2026-04-14T04:22:44Z,2604.12258,1,'Coding-Free and Privacy-Preserving MCP Framework for Clinical Agentic Research Intelligence System',cs.CL;cs.AI
+2026-04-14T04:13:44Z,16,2026-04-14T04:13:44Z,2604.12257,1,'Style-Decoupled Adaptive Routing Network for Underwater Image Enhancement',cs.CV
+2026-04-14T04:05:07Z,16,2026-04-14T04:05:07Z,2604.12255,1,'ARGen: Affect-Reinforced Generative Augmentation towards Vision-based Dynamic Emotion Perception',cs.CV;cs.AI
+2026-04-14T04:01:34Z,16,2026-04-14T04:01:34Z,2604.12254,1,'SpanKey: Dynamic Key Space Conditioning for Neural Network Access Control',cs.CR;cs.AI
+2026-04-14T03:58:11Z,16,2026-04-14T03:58:11Z,2604.12253,1,'A Scoping Review of Large Language Model-Based Pedagogical Agents',cs.AI
+2026-04-14T03:55:44Z,16,2026-04-14T03:55:44Z,2604.12251,1,'ArtifactWorld: Scaling 3D Gaussian Splatting Artifact Restoration via Video Generation Models',cs.CV
+2026-04-14T03:54:49Z,16,2026-04-14T03:54:49Z,2604.12250,1,'How memory can affect collective and cooperative behaviors in an LLM-Based Social Particle Swarm',cs.AI;cs.CL;cs.GT;cs.MA
+2026-04-14T03:47:04Z,16,2026-04-14T03:47:04Z,2604.12247,1,'SpecBound: Adaptive Bounded Self-Speculation with Layer-wise Confidence Calibration',cs.CL;cs.AI;cs.LG
+2026-04-14T03:43:15Z,16,2026-04-14T03:43:15Z,2604.12245,1,'Socrates Loss: Unifying Confidence Calibration and Classification by Leveraging the Unknown',cs.LG;cs.AI;cs.CV;cs.NE
+2026-04-14T03:41:53Z,16,2026-04-14T03:41:53Z,2604.12243,1,'Continuous Knowledge Metabolism: Generating Scientific Hypotheses from Evolving Literature',cs.CL;cs.AI
+2026-04-14T03:27:44Z,16,2026-04-14T03:27:44Z,2604.12239,1,'Physics-Grounded Monocular Vehicle Distance Estimation Using Standardized License Plate Typography',cs.CV;eess.IV
+2026-04-14T03:24:26Z,16,2026-04-14T03:24:26Z,2604.12237,1,'MolMem: Memory-Augmented Agentic Reinforcement Learning for Sample-Efficient Molecular Optimization',cs.LG;cs.AI;cs.CL
+2026-04-14T03:12:19Z,16,2026-04-14T03:12:19Z,2604.12232,1,'TEMPLATEFUZZ: Fine-Grained Chat Template Fuzzing for Jailbreaking and Red Teaming LLMs',cs.CR;cs.AI;cs.SE
+2026-04-14T03:11:36Z,16,2026-04-14T03:11:36Z,2604.12231,1,"'Thought-Retriever: Dont Just Retrieve Raw Data, Retrieve Thoughts for Memory-Augmented Agentic Systems'",cs.CL;cs.IR
+2026-04-14T03:09:26Z,16,2026-04-14T03:09:26Z,2604.12229,1,'HintMR: Eliciting Stronger Mathematical Reasoning in Small Language Models',cs.AI;cs.CL
+2026-04-14T03:04:44Z,16,2026-04-14T03:04:44Z,2604.12227,1,'Designing Reliable LLM-Assisted Rubric Scoring for Constructed Responses: Evidence from Physics Exams',cs.AI;cs.CL
+2026-04-14T03:02:25Z,16,2026-04-14T03:02:25Z,2604.12223,1,'LLM-Guided Semantic Bootstrapping for Interpretable Text Classification with Tsetlin Machines',cs.CL;cs.AI;cs.LG
+2026-04-14T03:01:35Z,16,2026-04-14T03:01:35Z,2604.12221,1,'BarbieGait: An Identity-Consistent Synthetic Human Dataset with Versatile Cloth-Changing for Gait Recognition',cs.CV
+2026-04-14T02:51:52Z,16,2026-04-14T02:51:52Z,2604.12219,1,'Ride the Wave: Precision-Allocated Sparse Attention for Smooth Video Generation',cs.CV;cs.AI
+2026-04-14T02:51:48Z,16,2026-04-14T02:51:48Z,2604.12218,1,'LLM-Enhanced Log Anomaly Detection: A Comprehensive Benchmark of Large Language Models for Automated System Diagnostics',cs.LG;cs.SE
+2026-04-14T02:51:14Z,16,2026-04-14T02:51:14Z,2604.12216,1,'TimeMark: A Trustworthy Time Watermarking Framework for Exact Generation-Time Recovery from AIGC',cs.CR;cs.CL
+2026-04-14T02:44:50Z,16,2026-04-14T02:44:50Z,2604.12213,1,'Modality-Native Routing in Agent-to-Agent Networks: A Multimodal A2A Protocol Extension',cs.AI;cs.MA;cs.SE
+2026-04-14T02:40:15Z,16,2026-04-14T02:40:15Z,2604.12211,1,'A Residual-Shell-Based Lower Bound for Ollivier-Ricci Curvature',cs.LG;cs.DS
+2026-04-14T02:37:46Z,16,2026-04-14T02:37:46Z,2604.12210,1,'Beyond Prompt: Fine-grained Simulation of Cognitively Impaired Standardized Patients via Stochastic Steering',cs.AI;cs.CL
+2026-04-14T02:34:44Z,16,2026-04-14T02:34:44Z,2604.12208,1,'Unveiling the Surprising Efficacy of Navigation Understanding in End-to-End Autonomous Driving',cs.RO;cs.AI
+2026-04-14T02:22:37Z,16,2026-04-14T02:22:37Z,2604.13133,1,'Automated co-design of high-performance thermodynamic cycles via graph-based hierarchical reinforcement learning',cs.LG
+2026-04-14T02:10:53Z,16,2026-04-14T02:10:53Z,2604.12202,1,'Latent patterns of urban mixing in mobility analysis across five global cities',cs.AI;cs.SI
+2026-04-14T02:06:59Z,16,2026-04-14T02:06:59Z,2604.12198,1,'Towards grounded autonomous research: an end-to-end LLM mini research loop on published computational physics',physics.comp-ph;cond-mat.mtrl-sci;cs.AI
+2026-04-14T02:02:20Z,16,2026-04-14T02:02:20Z,2604.12196,1,'Beyond Majority Voting: Efficient Best-Of-N with Radial Consensus Score',cs.CL
+2026-04-14T01:59:20Z,16,2026-04-14T01:59:20Z,2604.12195,1,'Representing expertise accelerates learning from pedagogical interaction data',cs.CL;cs.MA
+2026-04-14T01:48:22Z,16,2026-04-14T01:48:22Z,2604.12191,1,'Beyond Scores: Diagnostic LLM Evaluation via Fine-Grained Abilities',cs.AI
+2026-04-14T01:45:22Z,16,2026-04-14T01:45:22Z,2604.12190,1,'Characterizing Resource Sharing Practices on Underground Internet Forum Synthetic Non-Consensual Intimate Image Content Creation Communities',cs.CY;cs.AI;cs.HC
+2026-04-14T01:31:35Z,16,2026-04-14T01:31:35Z,2604.12185,1,'Knowledge Is Not Static: Order-Aware Hypergraph RAG for Language Models',cs.CL
+2026-04-14T01:31:14Z,16,2026-04-14T01:31:14Z,2604.12184,1,"'TRUST Agents: A Collaborative Multi-Agent Framework for Fake News Detection, Explainable Verification, and Logic-Aware Claim Reasoning'",cs.AI
+2026-04-14T01:25:59Z,16,2026-04-14T01:25:59Z,2604.12183,1,'Clustering-Enhanced Domain Adaptation for Cross-Domain Intrusion Detection in Industrial Control Systems',cs.LG;cs.AI;cs.CR
+2026-04-14T01:21:55Z,16,2026-04-14T01:21:55Z,2604.12180,1,'CycloneMAE: A Scalable Multi-Task Learning Model for Global Tropical Cyclone Probabilistic Forecasting',cs.LG;cs.AI
+2026-04-14T01:17:24Z,16,2026-04-14T01:17:24Z,2604.12179,1,'AgenticAI-DialogGen: Topic-Guided Conversation Generation for Fine-Tuning and Evaluating Short- and Long-Term Memories of LLMs',cs.CL;cs.IR
+2026-04-14T01:15:15Z,16,2026-04-14T01:15:15Z,2604.12177,1,'Policy-Invisible Violations in LLM-Based Agents',cs.AI;cs.CL;cs.CR;cs.LG
+2026-04-14T01:07:15Z,16,2026-04-14T01:07:15Z,2604.12176,1,'Evaluating Relational Reasoning in LLMs with REL',cs.AI
+2026-04-14T01:05:41Z,16,2026-04-14T01:05:41Z,2604.12175,1,'Redefining Quality Criteria and Distance-Aware Score Modeling for Image Editing Assessment',cs.CV
+2026-04-14T00:56:32Z,16,2026-04-14T00:56:32Z,2604.12171,1,'PipeLive: Efficient Live In-place Pipeline Parallelism Reconfiguration for Dynamic LLM Serving',cs.DC;cs.LG
+2026-04-14T00:54:42Z,16,2026-04-14T00:54:42Z,2604.12169,1,'Robotic Nanoparticle Synthesis via Solution-based Processes',cs.RO
+2026-04-14T00:54:24Z,16,2026-04-14T00:54:24Z,2604.12168,1,'Fully Homomorphic Encryption on Llama 3 model for privacy preserving LLM inference',cs.CR;cs.AI
+2026-04-14T00:51:47Z,16,2026-04-14T00:51:47Z,2604.12167,1,'EMBER: Autonomous Cognitive Behaviour from Learned Spiking Neural Network Dynamics in a Hybrid LLM Architecture',cs.AI;cs.NE
+2026-04-14T00:43:23Z,16,2026-04-14T00:43:23Z,2604.12163,1,'Nucleus-Image: Sparse MoE for Image Generation',cs.CV
+2026-04-14T00:43:20Z,16,2026-04-14T00:43:20Z,2604.12162,1,'AlphaEval: Evaluating Agents in Production',cs.CL
+2026-04-14T00:35:40Z,16,2026-04-14T00:35:40Z,2604.12161,1,"'Development, Evaluation, and Deployment of a Multi-Agent System for Thoracic Tumor Board'",cs.AI
+2026-04-14T00:35:39Z,16,2026-04-14T00:35:39Z,2604.12160,1,'PubSwap: Public-Data Off-Policy Coordination for Federated RLVR',cs.LG
+2026-04-14T00:35:07Z,16,2026-04-14T00:35:07Z,2604.12159,1,'VidTAG: Temporally Aligned Video to GPS Geolocalization with Denoising Sequence Prediction at a Global Scale',cs.CV
+2026-04-14T00:12:01Z,16,2026-04-14T00:12:01Z,2604.13131,1,'Depth-Resolved Coral Reef Thermal Fields from Satellite SST and Sparse In-Situ Loggers Using Physics-Informed Neural Networks',cs.LG;cs.CV
+2026-04-14T00:11:23Z,16,2026-04-14T00:11:23Z,2604.12152,1,'Domain-Specific Latent Representations Improve the Fidelity of Diffusion-Based Medical Image Super-Resolution',cs.CV;cs.AI
+2026-04-14T00:01:14Z,16,2026-04-14T00:01:14Z,2604.12151,1,'Distinct mechanisms underlying in-context learning in transformers',cs.LG;cond-mat.dis-nn;cond-mat.stat-mech
+2026-04-13T23:55:41Z,16,2026-04-13T23:55:41Z,2604.12149,1,'Uncertainty Guided Exploratory Trajectory Optimization for Sampling-Based Model Predictive Control',cs.RO
+2026-04-13T23:54:58Z,16,2026-04-13T23:54:58Z,2604.12148,1,'ViLL-E: Video LLM Embeddings for Retrieval',cs.CV
+2026-04-13T23:54:55Z,16,2026-04-13T23:54:55Z,2604.12147,1,'From Plan to Action: How Well Do Agents Follow the Plan?',cs.SE;cs.AI;cs.CL
+2026-04-13T23:42:14Z,16,2026-04-13T23:42:14Z,2604.12140,1,'XANE(3): An E(3)-Equivariant Graph Neural Network for Accurate Prediction of XANES Spectra from Atomic Structures',cs.LG;cond-mat.mtrl-sci;physics.chem-ph
+2026-04-13T23:39:39Z,16,2026-04-13T23:39:39Z,2604.12138,1,'Beyond Factual Grounding: The Case for Opinion-Aware Retrieval-Augmented Generation',cs.AI;cs.CL;cs.IR
+2026-04-13T23:38:43Z,16,2026-04-13T23:38:43Z,2604.12137,1,'Observing the unobserved confounding through its effects: toward randomized trial-like estimates from real-world survival data',stat.AP;cs.AI;stat.ME
+2026-04-13T23:33:43Z,16,2026-04-13T23:33:43Z,2604.12133,1,'Towards Platonic Representation for Table Reasoning: A Foundation for Permutation-Invariant Retrieval',cs.AI
+2026-04-13T23:23:15Z,16,2026-04-13T23:23:15Z,2604.12129,1,'Aethon: A Reference-Based Replication Primitive for Constant-Time Instantiation of Stateful AI Agents',cs.AI;cs.AR;cs.DC;cs.MA
+2026-04-13T23:23:02Z,16,2026-04-13T23:23:02Z,2604.12128,1,'When Self-Reference Fails to Close: Matrix-Level Dynamics in Large Language Models',cs.CL
+2026-04-13T23:14:32Z,16,2026-04-13T23:14:32Z,2604.12126,1,'Long-Horizon Plan Execution in Large Tool Spaces through Entropy-Guided Branching',cs.AI;cs.CL
+2026-04-13T22:53:39Z,16,2026-04-13T22:53:39Z,2604.12119,1,'Beyond Perception Errors: Semantic Fixation in Large Vision-Language Models',cs.CV;cs.LG
+2026-04-13T22:50:21Z,16,2026-04-13T22:50:21Z,2604.12116,1,'The A-R Behavioral Space: Execution-Level Profiling of Tool-Using Language Model Agents in Organizational Deployment',cs.AI;cs.SE
+2026-04-13T22:47:27Z,16,2026-04-13T22:47:27Z,2604.12115,1,'HTDC: Hesitation-Triggered Differential Calibration for Mitigating Hallucination in Large Vision-Language Models',cs.CV
+2026-04-13T22:40:04Z,16,2026-04-13T22:40:04Z,2604.12113,1,'PR-MaGIC: Prompt Refinement Via Mask Decoder Gradient Flow For In-Context Segmentation',cs.CV;cs.AI
+2026-04-13T22:33:28Z,16,2026-04-13T22:33:28Z,2604.12110,1,'SOLARIS: Speculative Offloading of Latent-bAsed Representation for Inference Scaling',cs.LG
+2026-04-13T22:30:53Z,16,2026-04-13T22:30:53Z,2604.12108,1,'LLM-Based Automated Diagnosis Of Integration Test Failures At Google',cs.SE;cs.AI
+2026-04-13T22:27:31Z,16,2026-04-13T22:27:31Z,2604.13130,1,'Generalization Guarantees on Data-Driven Tuning of Gradient Descent with Langevin Updates',cs.LG;stat.ML
+2026-04-13T22:23:29Z,16,2026-04-13T22:23:29Z,2604.12103,1,'Parametric Interpolation of Dynamic Mode Decomposition for Predicting Nonlinear Systems',eess.SY;cs.LG
+2026-04-13T22:22:07Z,16,2026-04-15T03:29:47Z,2604.12102,2,'Spatial Atlas: Compute-Grounded Reasoning for Spatial-Aware Research Agent Benchmarks',cs.AI;cs.CV;cs.LG
+2026-04-13T22:19:28Z,16,2026-04-13T22:19:28Z,2604.12100,1,'PC-MIL: Decoupling Feature Resolution from Supervision Scale in Whole-Slide Learning',cs.CV
+2026-04-13T22:19:20Z,16,2026-04-13T22:19:20Z,2604.12099,1,'The Effect of Document Selection on Query-focused Text Analysis',cs.IR;cs.CL
+2026-04-13T22:13:41Z,16,2026-04-13T22:13:41Z,2604.12097,1,'Temporal Flattening in LLM-Generated Text: Comparing Human and LLM Writing Trajectories',cs.CL
+2026-04-13T22:12:40Z,16,2026-04-13T22:12:40Z,2604.12096,1,'LLM-HYPER: Generative CTR Modeling for Cold-Start Ad Personalization via LLM-Based Hypernetworks',cs.AI
+2026-04-13T22:11:51Z,16,2026-04-13T22:11:51Z,2604.12095,1,'A Nonparametric Adaptive EWMA Control Chart for Binary Monitoring of Multiple Stream Processes',stat.ML;cs.LG;stat.AP;stat.ME
+2026-04-13T22:07:05Z,16,2026-04-13T22:07:05Z,2604.12092,1,'Ternary Logic Encodings of Temporal Behavior Trees with Application to Control Synthesis',cs.RO;eess.SY
+2026-04-13T21:49:41Z,16,2026-04-13T21:49:41Z,2604.13128,1,'Learning Probabilistic Responsibility Allocations for Multi-Agent Interactions',cs.MA;cs.LG;cs.RO;eess.SY
+2026-04-13T21:47:49Z,16,2026-04-13T21:47:49Z,2604.12086,1,'Robust Optimization for Mitigating Reward Hacking with Correlated Proxies',cs.LG
+2026-04-13T21:44:18Z,16,2026-04-13T21:44:18Z,2604.12084,1,'INST-Align: Implicit Neural Alignment for Spatial Transcriptomics via Canonical Expression Fields',cs.CV
+2026-04-13T21:42:40Z,16,2026-04-13T21:42:40Z,2604.12081,1,'Human-Inspired Context-Selective Multimodal Memory for Social Robots',cs.AI
+2026-04-13T21:35:53Z,16,2026-04-13T21:35:53Z,2604.12079,1,'Robust Reasoning and Learning with Brain-Inspired Representations under Hardware-Induced Nonlinearities',cs.ET;cs.LG
+2026-04-13T21:29:46Z,16,2026-04-13T21:29:46Z,2604.12076,1,'Narrative over Numbers: The Identifiable Victim Effect and its Amplification Under Alignment and Reasoning in Large Language Models',cs.CL;cs.AI;cs.CY
+2026-04-13T21:27:29Z,16,2026-04-13T21:27:29Z,2604.12075,1,'OpenTME: An Open Dataset of AI-powered H&E Tumor Microenvironment Profiles from TCGA',cs.CV;cs.AI;cs.LG;q-bio.QM
+2026-04-13T21:19:59Z,16,2026-04-13T21:19:59Z,2604.12069,1,'Robust Explanations for User Trust in Enterprise NLP Systems',cs.CL;cs.AI;cs.LG
+2026-04-13T21:16:32Z,16,2026-04-13T21:16:32Z,2604.12068,1,'Privacy-Preserving Structureless Visual Localization via Image Obfuscation',cs.CV
+2026-04-13T21:14:54Z,16,2026-04-13T21:14:54Z,2604.13127,1,'Graph Propagated Projection Unlearning: A Unified Framework for Vision and Audio Discriminative Models',cs.CV;cs.AI;cs.SD
+2026-04-13T21:10:52Z,16,2026-04-13T21:10:52Z,2604.12066,1,'Mathematics Teachers Interactions with a Multi-Agent System for Personalized Problem Generation',cs.AI;cs.CY
+2026-04-13T20:58:01Z,16,2026-04-13T20:58:01Z,2604.12060,1,'Interpretable DNA Sequence Classification via Dynamic Feature Generation in Decision Trees',cs.LG;cs.AI;q-bio.GN
+2026-04-13T20:53:51Z,16,2026-04-13T20:53:51Z,2604.12056,1,'LoSA: Locality Aware Sparse Attention for Block-Wise Diffusion Language Models',cs.CL;cs.LG
+2026-04-13T20:41:36Z,16,2026-04-13T20:41:36Z,2604.12049,1,'Leveraging Weighted Syntactic and Semantic Context Assessment Summary (wSSAS) Towards Text Categorization Using LLMs',cs.CL;cs.AI
+2026-04-13T20:39:43Z,16,2026-04-13T20:39:43Z,2604.12047,1,'Empirical Evaluation of PDF Parsing and Chunking for Financial Question Answering with RAG',cs.CL;cs.IR
+2026-04-13T20:38:36Z,16,2026-04-13T20:38:36Z,2604.12046,1,'Think Through Uncertainty: Improving Long-Form Generation Factuality via Reasoning Calibration',cs.CL
+2026-04-13T20:36:29Z,16,2026-04-13T20:36:29Z,2604.12044,1,'VISTA: Validation-Informed Trajectory Adaptation via Self-Distillation',cs.LG;cs.AI
+2026-04-13T20:32:28Z,16,2026-04-13T20:32:28Z,2604.12041,1,'On the continuum limit of t-SNE for data visualization',stat.ML;cs.LG;math.AP;math.ST
+2026-04-13T20:32:03Z,16,2026-04-13T20:32:03Z,2604.12040,1,'SIR-Bench: Evaluating Investigation Depth in Security Incident Response Agents',cs.CR;cs.AI;cs.SE
+2026-04-13T20:24:58Z,16,2026-04-13T20:24:58Z,2604.12036,1,'Constant-Factor Approximation for the Uniform Decision Tree',cs.DS;cs.IR;cs.LG
+2026-04-13T20:24:03Z,16,2026-04-13T20:24:03Z,2604.12035,1,'Does Visual Token Pruning Improve Calibration? An Empirical Study on Confidence in MLLMs',cs.CV
+2026-04-13T20:22:53Z,16,2026-04-13T20:22:53Z,2604.12034,1,'Memory as Metabolism: A Design for Companion Knowledge Systems',cs.AI
+2026-04-13T20:22:22Z,16,2026-04-13T20:22:22Z,2604.12033,1,'Benchmarking Deflection and Hallucination in Large Vision-Language Models',cs.CL;cs.AI;cs.CV
+2026-04-13T20:20:03Z,16,2026-04-13T20:20:03Z,2604.12031,1,'Dynamic Modeling and Robust Gait Optimization of a Compliant Worm Robot',cs.RO;eess.SY
+2026-04-13T20:14:17Z,16,2026-04-13T20:14:17Z,2604.12028,1,'Curvelet-Based Frequency-Aware Feature Enhancement for Deepfake Detection',cs.CV;cs.AI
+2026-04-13T20:11:54Z,16,2026-04-13T20:11:54Z,2604.12027,1,'3DRO: Lidar-level SE(3) Direct Radar Odometry Using a 2D Imaging Radar and a Gyroscope',cs.RO
+2026-04-13T20:11:09Z,16,2026-04-13T20:11:09Z,2604.12026,1,'TriFit: Trimodal Fusion with Protein Dynamics for Mutation Fitness Prediction',cs.LG;q-bio.BM;q-bio.QM
+2026-04-13T20:09:16Z,16,2026-04-13T20:09:16Z,2604.12025,1,'WiseOWL: A Methodology for Evaluating Ontological Descriptiveness and Semantic Correctness for Ontology Reuse and Ontology Recommendations',cs.AI
+2026-04-13T20:03:53Z,16,2026-04-13T20:03:53Z,2604.12019,1,'A longitudinal health agent framework',cs.AI;cs.HC
+2026-04-13T20:03:23Z,16,2026-04-13T20:03:23Z,2604.12018,1,'LLMs Struggle with Abstract Meaning Comprehension More Than Expected',cs.CL;cs.AI
+2026-04-13T20:00:42Z,16,2026-04-13T20:00:42Z,2604.12016,1,'Identity as Attractor: Geometric Evidence for Persistent Agent Architecture in LLM Activation Space',cs.AI;cs.LG
+2026-04-13T20:00:41Z,16,2026-04-13T20:00:41Z,2604.12015,1,'UCS: Estimating Unseen Coverage for Improved In-Context Learning',cs.LG;cs.CL
+2026-04-13T20:00:13Z,16,2026-04-13T20:00:13Z,2604.12013,1,'Sample Complexity of Autoregressive Reasoning: Chain-of-Thought vs. End-to-End',cs.LG
+2026-04-13T20:00:04Z,16,2026-04-13T20:00:04Z,2604.12012,1,'TIPSv2: Advancing Vision-Language Pretraining with Enhanced Patch-Text Alignment',cs.CV
+2026-04-13T19:54:14Z,16,2026-04-13T19:54:14Z,2604.12007,1,'When to Forget: A Memory Governance Primitive',cs.AI
+2026-04-13T19:53:52Z,16,2026-04-13T19:53:52Z,2604.12006,1,'A Foot Resistive Force Model for Legged Locomotion on Muddy Terrains',cs.RO
+2026-04-13T19:52:08Z,16,2026-04-13T19:52:08Z,2604.12005,1,'BayMOTH: Bayesian optiMizatiOn with meTa-lookahead -- a simple approacH',cs.LG;cs.AI
+2026-04-13T19:46:55Z,16,2026-04-13T19:46:55Z,2604.12002,1,'Self-Distillation Zero: Self-Revision Turns Binary Rewards into Dense Supervision',cs.CL
+2026-04-13T19:38:49Z,16,2026-04-13T19:38:49Z,2604.11998,1,'The Second Challenge on Cross-Domain Few-Shot Object Detection at NTIRE 2026: Methods and Results',cs.CV;cs.AI
+2026-04-13T19:37:09Z,16,2026-04-13T19:37:09Z,2604.11996,1,'Filtered Reasoning Score: Evaluating Reasoning Quality on a Models Most-Confident Traces',cs.CL;cs.AI
+2026-04-13T19:36:03Z,16,2026-04-13T19:36:03Z,2604.11995,1,'Loss-Driven Bayesian Active Learning',cs.LG
+2026-04-13T19:36:00Z,16,2026-04-13T19:36:00Z,2604.13125,1,"'Synthetic Tabular Generators Fail to Preserve Behavioral Fraud Patterns: A Benchmark on Temporal, Velocity, and Multi-Account Signals'",cs.LG
+2026-04-13T19:34:30Z,16,2026-04-13T19:34:30Z,2604.11994,1,'Offline-Online Reinforcement Learning for Linear Mixture MDPs',cs.LG;math.OC;stat.ML
+2026-04-13T19:34:23Z,16,2026-04-13T19:34:23Z,2604.11993,1,'Ultra-low-light computer vision using trained photon correlations',cs.CV;physics.optics
+2026-04-13T19:32:53Z,16,2026-04-13T19:32:53Z,2604.11992,1,'ReefMapGS: Enabling Large-Scale Underwater Reconstruction by Closing the Loop Between Multimodal SLAM and Gaussian Splatting',cs.RO;cs.CV
+2026-04-13T19:31:41Z,16,2026-04-13T19:31:41Z,2604.11991,1,'Complementarity by Construction: A Lie-Group Approach to Solving Quadratic Programs with Linear Complementarity Constraints',cs.RO
+2026-04-13T19:26:36Z,16,2026-04-13T19:26:36Z,2604.11986,1,'Exploring Concept Subspace for Self-explainable Text-Attributed Graph Learning',cs.LG
+2026-04-13T19:20:29Z,16,2026-04-13T19:20:29Z,2604.11983,1,'A Geometric Algebra-informed NeRF Framework for Generalizable Wireless Channel Prediction',cs.NI;cs.LG
+2026-04-13T19:12:22Z,16,2026-04-13T19:12:22Z,2604.11981,1,'Bipedal-Walking-Dynamics Model on Granular Terrains',cs.RO
+2026-04-13T19:11:42Z,16,2026-04-13T19:11:42Z,2604.11978,1,'The Long-Horizon Task Mirage? Diagnosing Where and Why Agentic Systems Break',cs.AI
+2026-04-13T19:08:05Z,16,2026-04-13T19:08:05Z,2604.11975,1,'M2HRI: An LLM-Driven Multimodal Multi-Agent Framework for Personalized Human-Robot Interaction',cs.RO
+2026-04-13T19:05:49Z,16,2026-04-13T19:05:49Z,2604.11972,1,'Multi-Head Residual-Gated DeepONet for Coherent Nonlinear Wave Dynamics',cs.LG
+2026-04-13T19:04:30Z,16,2026-04-13T19:04:30Z,2604.11971,1,'Classification of Epileptic iEEG using Topological Machine Learning',cs.LG;stat.AP
+2026-04-13T19:03:10Z,16,2026-04-13T19:03:10Z,2604.11970,1,'INDOTABVQA: A Benchmark for Cross-Lingual Table Understanding in Bahasa Indonesia Documents',cs.CV;cs.AI;cs.CL;cs.LG
+2026-04-13T19:03:03Z,16,2026-04-13T19:03:03Z,2604.11969,1,'Narrative-Driven Paper-to-Slide Generation via ArcDeck',cs.AI
+2026-04-13T18:54:38Z,16,2026-04-13T18:54:38Z,2604.11962,1,'The Linear Centroids Hypothesis: How Deep Network Features Represent Data',cs.LG
+2026-04-13T18:52:12Z,16,2026-04-13T18:52:12Z,2604.11961,1,'Fall Risk and Gait Analysis in Community-Dwelling Older Adults using World-Spaced 3D Human Mesh Recovery',cs.CV
+2026-04-13T18:49:12Z,16,2026-04-13T18:49:12Z,2604.11957,1,'Agentic LLM Reasoning in a Self-Driving Laboratory for Air-Sensitive Lithium Halide Spinel Conductors',cond-mat.mtrl-sci;cs.LG
+2026-04-13T18:48:51Z,16,2026-04-13T18:48:51Z,2604.11954,1,'Dynamic Multi-Robot Task Allocation under Uncertainty and Communication Constraints: A Game-Theoretic Approach',eess.SY;cs.GT;cs.RO
+2026-04-13T18:44:02Z,16,2026-04-13T18:44:02Z,2604.11950,1,'AnyPoC: Universal Proof-of-Concept Test Generation for Scalable LLM-Based Bug Detection',cs.SE;cs.AI;cs.CL;cs.CR
+2026-04-13T18:41:45Z,16,2026-04-13T18:41:45Z,2604.11948,1,'Active Imitation Learning for Thermal- and Kernel-Aware LFM Inference on 3D S-NUCA Many-Cores',cs.LG;cs.AR
+2026-04-13T18:40:45Z,16,2026-04-13T18:40:45Z,2604.11947,1,'ResBM: Residual Bottleneck Models for Low-Bandwidth Pipeline Parallelism',cs.LG;cs.AI;cs.DC
+2026-04-13T18:36:02Z,16,2026-04-13T18:36:02Z,2604.11945,1,'AutoSurrogate: An LLM-Driven Multi-Agent Framework for Autonomous Construction of Deep Learning Surrogate Models in Subsurface Flow',cs.LG;cs.AI;cs.MA
+2026-04-13T18:35:23Z,16,2026-04-13T18:35:23Z,2604.11944,1,'A unified data format for managing diabetes time-series data: DIAbetes eXchange (DIAX)',cs.LG;q-bio.QM
+2026-04-13T18:32:02Z,16,2026-04-13T18:32:02Z,2604.11943,1,'ProbeLogits: Kernel-Level LLM Inference Primitives for AI-Native Operating Systems',cs.OS;cs.LG
+2026-04-13T18:23:16Z,16,2026-04-13T18:23:16Z,2604.13123,1,'Spectral Entropy Collapse as an Empirical Signature of Delayed Generalisation in Grokking',cs.LG;cs.AI
+2026-04-13T18:18:12Z,16,2026-04-13T18:18:12Z,2604.11932,1,'EigenCoin: sassanid coins classification based on Bhattacharyya distance',cs.CV
+2026-04-13T18:17:05Z,16,2026-04-15T11:50:16Z,2604.11929,2,'Fast and principled equation discovery from chaos to climate',cs.LG;math.DS;physics.comp-ph
+2026-04-13T18:16:39Z,16,2026-04-13T18:16:39Z,2604.11928,1,'INTARG: Informed Real-Time Adversarial Attack Generation for Time-Series Regression',cs.LG;cs.CR
+2026-04-13T18:15:37Z,16,2026-04-13T18:15:37Z,2604.11927,1,'A Workflow to Efficiently Generate Dense Tissue Ground Truth Masks for Digital Breast Tomosynthesis',cs.CV
+2026-04-13T18:12:57Z,16,2026-04-13T18:12:57Z,2604.11924,1,'GoodPoint: Learning Constructive Scientific Paper Feedback from Author Responses',cs.AI;cs.CL
+2026-04-13T18:09:32Z,16,2026-04-13T18:09:32Z,2604.11922,1,'FlowBoost Reveals Phase Transitions and Spectral Structure in Finite Free Information Inequalities',math.PR;cs.LG;math.CO
+2026-04-13T18:05:57Z,16,2026-04-13T18:05:57Z,2604.11915,1,'Can AI Detect Life? Lessons from Artificial Life',cs.LG;cs.AI;cs.NE;q-bio.PE
+2026-04-13T18:05:31Z,16,2026-04-13T18:05:31Z,2604.11914,1,'Self-Monitoring Benefits from Structural Integration: Lessons from Metacognition in Continuous-Time Multi-Timescale Agents',cs.AI
+2026-04-13T18:04:58Z,16,2026-04-13T18:04:58Z,2604.11913,1,'V-Nutri: Dish-Level Nutrition Estimation from Egocentric Cooking Videos',cs.CV
+2026-04-13T18:04:09Z,16,2026-04-13T18:04:09Z,2604.11912,1,'How Transformers Learn to Plan via Multi-Token Prediction',cs.LG;cs.AI
+2026-04-13T18:02:47Z,16,2026-04-13T18:02:47Z,2604.11909,1,'Thermodynamic Liquid Manifold Networks: Physics-Bounded Deep Learning for Solar Forecasting in Autonomous Off-Grid Microgrids',cs.LG;cs.AI;eess.SY
+2026-04-13T18:00:04Z,16,2026-04-13T18:00:04Z,2604.11890,1,'Subcritical Signal Propagation at Initialization in Normalization-Free Transformers',cs.LG;stat.ML
+2026-04-13T17:59:49Z,16,2026-04-14T06:11:22Z,2604.11807,2,'Physics-Informed State Space Models for Reliable Solar Irradiance Forecasting in Off-Grid Systems',cs.LG;cs.AI;eess.SY
+2026-04-13T17:58:06Z,16,2026-04-14T21:52:23Z,2604.11797,2,'SyncFix: Fixing 3D Reconstructions via Multi-View Synchronization',cs.CV
+2026-04-13T17:53:41Z,16,2026-04-13T17:53:41Z,2604.11868,1,'MedConcept: Unsupervised Concept Discovery for Interpretability in Medical VLMs',cs.CV
+2026-04-13T17:40:31Z,16,2026-04-13T17:40:31Z,2604.11867,1,'Disposition Distillation at Small Scale: A Three-Arc Negative Result',cs.LG;cs.AI
+2026-04-13T17:21:41Z,16,2026-04-15T16:15:30Z,2604.11748,3,'LangFlow: Continuous Diffusion Rivals Discrete in Language Modeling',cs.CL;cs.LG
+2026-04-13T17:13:46Z,16,2026-04-14T07:22:13Z,2604.11734,2,'Multi-ORFT: Stable Online Reinforcement Fine-Tuning for Multi-Agent Diffusion Planning in Cooperative Driving',cs.RO;cs.AI
+2026-04-13T17:05:38Z,16,2026-04-14T11:00:18Z,2604.11730,2,'Ambivalence/Hesitancy Recognition in Videos for Personalized Digital Health Interventions',cs.CV;cs.HC;cs.LG
+2026-04-13T16:16:28Z,16,2026-04-15T01:48:41Z,2604.11671,2,'VLMaterial: Vision-Language Model-Based Camera-Radar Fusion for Physics-Grounded Material Identification',eess.SP;cs.RO
+2026-04-13T16:13:17Z,16,2026-04-15T06:10:49Z,2604.11665,2,"'Beyond LLMs, Sparse Distributed Memory, and Neuromorphics <A Hyper-Dimensional SRAM-CAM VaCoAl for Ultra-High Speed, Ultra-Low Power, and Low Cost>'",cs.NE;cs.AI
+2026-04-13T16:10:44Z,16,2026-04-14T04:56:30Z,2604.11661,2,'Towards Autonomous Mechanistic Reasoning in Virtual Cells',cs.LG;cs.AI
+2026-04-13T15:59:50Z,16,2026-04-13T15:59:50Z,2604.12710,1,'LASA: Language-Agnostic Semantic Alignment at the Semantic Bottleneck for LLM Safety',cs.LG;cs.AI;cs.CL
+2026-04-13T15:52:24Z,16,2026-04-13T15:52:24Z,2604.13121,1,'Olfactory pursuit: catching a moving odor source in complex flows',cs.RO
+2026-04-13T15:52:03Z,16,2026-04-15T14:20:56Z,2604.11641,3,'CodeTracer: Towards Traceable Agent States',cs.SE;cs.AI
+2026-04-13T15:38:09Z,16,2026-04-14T06:06:15Z,2604.11626,2,'RationalRewards: Reasoning Rewards Scale Visual Generation Both Training and Test Time',cs.AI;cs.LG
+2026-04-13T15:35:55Z,16,2026-04-14T07:45:16Z,2604.11623,2,'Context Kubernetes: Declarative Orchestration of Enterprise Knowledge for Agentic AI Systems',cs.AI;cs.SE
+2026-04-13T15:00:53Z,16,2026-04-14T14:29:21Z,2604.11584,2,'Computation of Least Trimmed Squares: A Branch-and-Bound framework with Hyperplane Arrangement Enhancements',math.OC;cs.LG;math.ST
+2026-04-13T14:42:03Z,16,2026-04-14T09:26:26Z,2604.11554,2,'Relax: An Asynchronous Reinforcement Learning Engine for Omni-Modal Post-Training at Scale',cs.CL
+2026-04-13T14:36:34Z,16,2026-04-13T14:36:34Z,2604.11862,1,'Obtaining Partition Crossover masks using Statistical Linkage Learning for solving noised optimization problems with hidden variable dependency structure',stat.ML;cs.LG
+2026-04-13T13:51:13Z,16,2026-04-13T13:51:13Z,2604.13120,1,'AgentForge: Execution-Grounded Multi-Agent LLM Framework for Autonomous Software Engineering',cs.SE;cs.AI
+2026-04-13T13:46:07Z,16,2026-04-14T09:38:12Z,2604.11479,2,'Structural Consequences of Policy-Based Interventions on the Global Supply Chain Network',cs.LG;econ.GN;physics.soc-ph
+2026-04-13T13:40:33Z,16,2026-04-15T13:28:59Z,2604.11465,2,"'Three Roles, One Model: Role Orchestration at Inference Time to Close the Performance Gap Between Small and Large Agents'",cs.AI
+2026-04-13T13:12:02Z,16,2026-04-14T14:01:04Z,2604.11427,2,'METRO: Towards Strategy Induction from Expert Dialogue Transcripts for Non-collaborative Dialogues',cs.CL;cs.AI
+2026-04-13T12:50:48Z,16,2026-04-13T12:50:48Z,2604.11861,1,'BIND-USBL: Bounding IMU Navigation Drift using USBL in Heterogeneous ASV-AUV Teams',cs.RO;cs.MA
+2026-04-13T12:31:50Z,16,2026-04-14T07:23:52Z,2604.11390,2,'Beyond Reconstruction: Reconstruction-to-Vector Diffusion for Hyperspectral Anomaly Detection',cs.CV
+2026-04-13T12:14:33Z,16,2026-04-15T01:56:43Z,2604.11372,3,'MR.ScaleMaster: Scale-Consistent Collaborative Mapping from Crowd-Sourced Monocular Videos',cs.RO
+2026-04-13T11:16:58Z,16,2026-04-15T13:43:50Z,2604.11312,2,'Network Effects and Agreement Drift in LLM Debates',cs.SI;cs.AI;cs.CY;cs.MA;physics.soc-ph
+2026-04-13T10:44:15Z,16,2026-04-15T09:34:57Z,2604.11284,2,'THEIA: Learning Complete Kleene Three-Valued Logic in a Pure-Neural Modular Architecture',cs.LG;cs.AI;cs.LO
+2026-04-13T10:02:04Z,16,2026-04-14T04:29:42Z,2604.11251,2,'CLAW: Composable Language-Annotated Whole-body Motion Generation',cs.RO
+2026-04-13T09:55:11Z,16,2026-04-14T09:07:27Z,2604.11246,2,'Judge Like Human Examiners: A Weighted Importance Multi-Point Evaluation Framework for Generative Tasks with Long-form Answers',cs.CL
+2026-04-13T09:50:36Z,16,2026-04-15T07:55:01Z,2604.11244,2,'Script-a-Video: Deep Structured Audio-visual Captions via Factorized Streams and Relational Grounding',cs.CV
+2026-04-13T09:00:10Z,16,2026-04-14T08:14:40Z,2604.11201,2,'CocoaBench: Evaluating Unified Digital Agents in the Wild',cs.CL;cs.AI
+2026-04-13T08:54:19Z,16,2026-04-14T15:07:49Z,2604.11198,2,'Towards Situation-aware State Modeling for Air Traffic Flow Prediction',cs.LG
+2026-04-13T08:26:27Z,16,2026-04-15T01:51:43Z,2604.11165,2,'Cost-optimal Sequential Testing via Doubly Robust Q-learning',stat.ML;cs.AI;cs.LG;math.ST
+2026-04-13T08:06:02Z,16,2026-04-14T07:11:31Z,2604.11146,2,'A Full Compression Pipeline for Green Federated Learning in Communication-Constrained Environments',cs.LG;cs.DC
+2026-04-13T07:44:41Z,16,2026-04-15T02:31:20Z,2604.11133,2,'How Robust Are Large Language Models for Clinical Numeracy? An Empirical Study on Numerical Reasoning Abilities in Clinical Contexts',cs.CL
+2026-04-13T07:34:02Z,16,2026-04-14T02:35:21Z,2604.11120,2,'Persona Non Grata: Single-Method Safety Evaluation Is Incomplete for Persona-Imbued LLMs',cs.AI
+2026-04-13T06:50:28Z,16,2026-04-14T08:15:13Z,2604.11071,2,'Lightweight Low-Light Image Enhancement via Distribution-Normalizing Preprocessing and Depthwise U-Net',cs.CV;cs.AI;cs.LG
+2026-04-13T06:45:25Z,16,2026-04-15T01:05:22Z,2604.11064,2,'A Faster Path to Continual Learning',cs.LG;cs.CV
+2026-04-13T06:15:11Z,16,2026-04-14T03:20:35Z,2604.11043,2,'EmergentBridge: Improving Zero-Shot Cross-Modal Transfer in Unified Multimodal Embedding Models',cs.AI
+2026-04-13T05:49:59Z,16,2026-04-15T09:15:32Z,2604.11026,2,'Optimal Stability of KL Divergence under Gaussian Perturbations',cs.LG;cs.AI
+2026-04-13T05:05:04Z,16,2026-04-13T05:05:04Z,2604.11854,1,'MVAdapt: Zero-Shot Multi-Vehicle Adaptation for End-to-End Autonomous Driving',cs.RO;cs.AI
+2026-04-13T04:49:30Z,16,2026-04-14T12:18:13Z,2604.10992,2,'ArtiCAD: Articulated CAD Assembly Design via Multi-Agent Code Generation',cs.CV
+2026-04-13T04:23:54Z,16,2026-04-15T07:15:04Z,2604.10974,2,'Robust Adversarial Policy Optimization Under Dynamics Uncertainty',cs.LG;cs.RO
+2026-04-13T03:54:24Z,16,2026-04-13T03:54:24Z,2604.11852,1,'Evaluating the Limitations of Protein Sequence Representations for Parkinsons Disease Classification',q-bio.QM;cs.AI;cs.LG
+2026-04-13T03:47:08Z,16,2026-04-14T08:11:15Z,2604.10950,2,'Bootstrapping Video Semantic Segmentation Model via Distillation-assisted Test-Time Adaptation',cs.CV
+2026-04-13T02:54:28Z,16,2026-04-14T17:48:14Z,2604.10929,2,'Ro-SLM: Onboard Small Language Models for Robot Task Planning and Operation Code Generation',cs.RO
+2026-04-13T02:32:51Z,16,2026-04-14T16:22:32Z,2604.10916,2,'ReXSonoVQA: A Video QA Benchmark for Procedure-Centric Ultrasound Understanding',cs.CV;cs.AI
+2026-04-13T02:24:32Z,16,2026-04-14T03:47:31Z,2604.10911,2,'EvoNash-MARL: A Closed-Loop Multi-Agent Reinforcement Learning Framework for Medium-Horizon Equity Allocation',cs.AI;cs.LG
+2026-04-13T02:23:51Z,16,2026-04-14T02:52:04Z,2604.10910,2,'STGV: Spatio-Temporal Hash Encoding for Gaussian-based Video Representation',cs.CV
