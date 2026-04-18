@@ -2743,3 +2743,17 @@ Published,ISOWeek,Updated,ID,Version,Title,Categories
 2026-04-09T08:55:38Z,15,2026-04-15T08:44:25Z,2604.07985,2,'Rag Performance Prediction for Question Answering',cs.CL;cs.IR
 2026-04-09T05:26:09Z,15,2026-04-14T22:09:01Z,2604.07823,2,'LPM 1.0: Video-based Character Performance Model',cs.CV;cs.AI;cs.MM
 2026-04-09T01:54:33Z,15,2026-04-14T19:57:43Z,2604.07709,3,'IatroBench: Pre-Registered Evidence of Iatrogenic Harm from AI Safety Measures',cs.AI;cs.CL;cs.CY;cs.LG
+2026-04-12T15:19:35Z,15,2026-04-16T17:29:53Z,2604.10681,2,'Critical-CoT: A Robust Defense Framework against Reasoning-Level Backdoor Attacks in Large Language Models',cs.CR;cs.AI
+2026-04-12T09:38:00Z,15,2026-04-16T03:00:59Z,2604.10548,2,"'Simple but Stable, Fast and Safe: Achieve End-to-end Control by High-Fidelity Differentiable Simulation'",cs.RO
+2026-04-12T07:14:30Z,15,2026-04-16T01:21:13Z,2604.10500,2,'Visual Enhanced Depth Scaling for Multimodal Latent Reasoning',cs.CV
+2026-04-12T02:52:24Z,15,2026-04-16T12:55:31Z,2604.10427,2,'A Queueing-Theoretic Framework for Dynamic Attack Surfaces: Data-Integrated Risk Analysis and Adaptive Defense',cs.CR;cs.AI;cs.LG;eess.SY;math.OC
+2026-04-12T02:10:28Z,15,2026-04-15T21:33:56Z,2604.10410,2,'CWCD: Category-Wise Contrastive Decoding for Structured Medical Report Generation',cs.AI
+2026-04-11T21:36:34Z,15,2026-04-16T09:31:43Z,2604.10351,2,'Trajectory-based actuator identification via differentiable simulation',cs.RO
+2026-04-11T08:52:08Z,15,2026-04-16T07:39:05Z,2604.10101,2,'Who Wrote This Line? Evaluating the Detection of LLM-Generated Classical Chinese Poetry',cs.CL
+2026-04-11T07:55:32Z,15,2026-04-16T13:48:14Z,2604.10079,2,'Why Supervised Fine-Tuning Fails to Learn: A Systematic Study of Incomplete Learning in Large Language Models',cs.CL
+2026-04-11T07:35:08Z,15,2026-04-16T13:43:45Z,2604.10072,2,'Reason Only When Needed: Efficient Generative Reward Modeling via Model-Internal Uncertainty',cs.CL
+2026-04-11T01:36:33Z,15,2026-04-16T04:09:13Z,2604.09982,2,'Reproduction Beyond Benchmarks: ConstBERT and ColBERT-v2 Across Backends and Query Distributions',cs.IR;cs.CL;cs.LG
+2026-04-10T21:47:25Z,15,2026-04-10T21:47:25Z,2604.14216,1,'Neuro-Oracle: A Trajectory-Aware Agentic RAG Framework for Interpretable Epilepsy Surgical Prognosis',cs.MM;cs.AI;cs.CL;cs.CV;cs.GR;cs.LG
+2026-04-10T07:37:03Z,15,2026-04-16T03:03:01Z,2604.09057,2,'Tora3: Trajectory-Guided Audio-Video Generation with Physical Coherence',cs.CV;cs.MM;cs.SD
+2026-04-10T06:47:43Z,15,2026-04-10T06:47:43Z,2604.14215,1,'PriHA: A RAG-Enhanced LLM Framework for Primary Healthcare Assistant in Hong Kong',cs.IR;cs.AI
+2026-04-10T04:50:18Z,15,2026-04-16T07:20:25Z,2604.08952,2,'MAB-DQA: Addressing Query Aspect Importance in Document Question Answering with Multi-Armed Bandits',cs.CL;cs.IR
