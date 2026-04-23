@@ -71,7 +71,7 @@ def get_api_response(api_url, max_retries=3, backoff_base=2.0):
     req = Request(api_url)
     for attempt in range(max_retries):
         try:
-            with urlopen(req, timeout=30) as url:
+            with urlopen(req, timeout=30) as url:  # noqa: S310
                 assert url.status == 200, f"arxiv did not return status 200 response: {api_url}"
                 return url.read()
         except (URLError, AssertionError):
