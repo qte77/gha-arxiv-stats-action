@@ -31,7 +31,7 @@ def get_citations(arxiv_id: str) -> dict:
         raise ValueError(f"Only HTTPS URLs are allowed, got: {url[:50]}")
     try:
         req = Request(url)
-        with urlopen(req, timeout=10) as resp:
+        with urlopen(req, timeout=10) as resp:  # noqa: S310
             data = json.loads(resp.read())
             _last_call = time.time()
             return {
