@@ -10,7 +10,7 @@ requires-python = ">=3.10"
 dependencies = ["feedparser>=6.0.12"]
 
 [dependency-groups]
-dev = ["pytest>=8.0", "ruff>=0.15.10"]
+dev = ["pytest>=9.0.3", "ruff>=0.15.10"]
 
 [tool.pytest.ini_options]
 testpaths = ["tests"]
