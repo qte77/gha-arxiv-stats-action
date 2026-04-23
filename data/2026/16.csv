@@ -2763,3 +2763,39 @@ Published,ISOWeek,Updated,ID,Version,Title,Categories
 2026-04-14T05:31:40Z,16,2026-04-19T10:15:47Z,2604.12306,2,'GCA Framework: A GCC Countries-Grounded Dataset and Agentic Pipeline for Climate Decision Support',cs.LG;cs.AI
 2026-04-14T04:39:16Z,16,2026-04-14T04:39:16Z,2604.16498,1,'Forge-UGC: FX optimization and register-graph engine for universal graph compiler',cs.AR;cs.AI;cs.DC
 2026-04-14T03:16:26Z,16,2026-04-14T03:16:26Z,2604.16496,1,'Gradient-Free Continual Learning in Spiking Neural Networks via Inter-Spike Interval Regularization',cs.NE;cs.AI;cs.LG
+2026-04-19T21:44:53Z,16,2026-04-19T21:44:53Z,2604.18645,1,'On Solving the Multiple Variable Gapped Longest Common Subsequence Problem',cs.AI
+2026-04-19T21:22:45Z,16,2026-04-19T21:22:45Z,2604.18644,1,'FASE : A Fairness-Aware Spatiotemporal Event Graph Framework for Predictive Policing',cs.LG;cs.AI
+2026-04-19T14:18:49Z,16,2026-04-21T06:43:15Z,2604.17458,2,'EHRAG: Bridging Semantic Gaps in Lightweight GraphRAG via Hybrid Hypergraph Construction and Retrieval',cs.AI
+2026-04-19T14:18:18Z,16,2026-04-21T11:49:02Z,2604.17457,2,'Beyond the Bellman Fixed Point: Geometry and Fast Policy Identification in Value Iteration',math.OC;cs.AI;eess.SY
+2026-04-19T12:26:05Z,16,2026-04-21T06:36:45Z,2604.17406,2,'EvoMaster: A Foundational Evolving Agent Framework for Agentic Science at Scale',cs.AI
+2026-04-19T11:42:55Z,16,2026-04-21T16:02:36Z,2604.17393,2,'Who Watches the Watchmen? Humans Disagree With Translation Metrics on Unseen Domains',cs.CL
+2026-04-19T11:38:03Z,16,2026-04-21T13:03:32Z,2604.17390,2,'MESA: A Training-Free Multi-Exemplar Deep Framework for Restoring Ancient Inscription Textures',cs.CV;cs.AI;cs.GR
+2026-04-19T08:02:31Z,16,2026-04-19T08:02:31Z,2604.18639,1,'Easy Samples Are All You Need: Self-Evolving LLMs via Data-Efficient Reinforcement Learning',cs.LG;cs.AI
+2026-04-19T07:29:37Z,16,2026-04-21T06:17:50Z,2604.17299,2,'Cat-DPO: Category-Adaptive Safety Alignment',cs.CL;cs.AI
+2026-04-19T04:41:55Z,16,2026-04-21T06:47:04Z,2604.17257,2,'REZE: Representation Regularization for Domain-adaptive Text Embedding Pre-finetuning',cs.CL;cs.AI
+2026-04-19T01:42:30Z,16,2026-04-19T01:42:30Z,2604.18637,1,'NeuroAI and Beyond: Bridging Between Advances in Neuroscience and ArtificialIntelligence',q-bio.NC;cs.AI;cs.CY
+2026-04-19T01:22:51Z,16,2026-04-19T01:22:51Z,2604.18636,1,'Virtual boundary integral neural network for three-dimensional exterior acoustic problems',cs.SD;cs.LG
+2026-04-18T20:33:31Z,16,2026-04-21T07:55:19Z,2604.17141,2,"'SciImpact: A Multi-Dimensional, Multi-Field Benchmark for Scientific Impact Prediction'",cs.CL
+2026-04-18T17:33:03Z,16,2026-04-18T17:33:03Z,2604.18632,1,'StomaD2: An All-in-One System for Intelligent Stomatal Phenotype Analysis via Diffusion-Based Restoration Detection Network',cs.CV;stat.AP
+2026-04-18T11:15:29Z,16,2026-04-18T11:15:29Z,2604.18627,1,'Vision-Based Human Awareness Estimation for Enhanced Safety and Efficiency of AMRs in Industrial Warehouses',cs.CV;cs.RO
+2026-04-18T09:40:51Z,16,2026-04-21T03:26:34Z,2604.16937,2,'No One Fits All: From Fixed Prompting to Learned Routing in Multilingual LLMs',cs.CL
+2026-04-18T02:00:27Z,16,2026-04-21T01:47:00Z,2604.16779,2,'Q-SINDy: Quantum-Kernel Sparse Identification of Nonlinear Dynamics with Provable Coefficient Debiasing',quant-ph;cs.LG
+2026-04-18T01:48:43Z,16,2026-04-18T01:48:43Z,2604.18623,1,"'Can We Build Scene Graphs, Not Classify Them? FlowSG: Progressive Image-Conditioned Scene Graph Generation with Flow Matching'",cs.CV
+2026-04-18T00:26:10Z,16,2026-04-21T03:21:58Z,2604.16763,2,'LLM-Extracted Covariates for Clinical Causal Inference: Rethinking Integration Strategies',cs.LG
+2026-04-18T00:17:13Z,16,2026-04-18T00:17:13Z,2604.18621,1,'Quantum AI for Cancer Diagnostic Biomarker Discovery',q-bio.GN;cs.LG
+2026-04-18T00:02:41Z,16,2026-04-21T13:23:23Z,2604.16755,2,'Machine individuality: Separating genuine idiosyncrasy from response bias in large language models',cs.AI
+2026-04-17T21:19:41Z,16,2026-04-17T21:19:41Z,2604.18620,1,'Optimising Urban Flood Resilience',cs.NE
+2026-04-17T19:19:57Z,16,2026-04-21T17:02:41Z,2604.16654,2,'IYKYK (But AI Doesnt): Automated Content Moderation Does Not Capture Communities Heterogeneous Attitudes Towards Reclaimed Language',cs.CL
+2026-04-17T15:43:04Z,16,2026-04-21T08:32:58Z,2604.16177,2,'Winner of CVPR2026 NTIRE Challenge on Image Shadow Removal: Semantic and Geometric Guidance for Shadow Removal via Cascaded Refinement',cs.CV
+2026-04-17T15:38:37Z,16,2026-04-21T16:37:19Z,2604.16171,2,'JumpLoRA: Sparse Adapters for Continual Learning in Large Language Models',cs.LG;cs.AI;cs.CL
+2026-04-17T14:05:33Z,16,2026-04-21T08:05:28Z,2604.16079,2,'The Amazing Stability of Flow Matching',cs.CV
+2026-04-17T08:05:46Z,16,2026-04-21T03:35:14Z,2604.15804,2,'Qwen3.5-Omni Technical Report',cs.CL;eess.AS
+2026-04-17T05:15:15Z,16,2026-04-21T00:31:16Z,2604.15702,2,'The Metacognitive Monitoring Battery: A Cross-Domain Benchmark for LLM Self-Monitoring',cs.CL;cs.LG
+2026-04-16T22:26:29Z,16,2026-04-21T04:44:16Z,2604.15560,2,"'ExoNet: Multimodal Deep Learning for TESS Exoplanet Candidate Identification via Phase-Folded Light Curves, Stellar Parameters, and Multi-Head Attention Fusion'",astro-ph.EP;astro-ph.IM;cs.LG
+2026-04-16T20:16:20Z,16,2026-04-21T02:55:24Z,2604.16535,2,'SCATR: Simple Calibrated Test-Time Ranking',cs.LG;cs.AI
+2026-04-16T15:49:31Z,16,2026-04-16T15:49:31Z,2604.18616,1,'ARGUS: Agentic GPU Optimization Guided by Data-Flow Invariants',cs.DC;cs.AI;cs.PL
+2026-04-16T14:04:06Z,16,2026-04-21T11:30:19Z,2604.15034,2,'Autogenesis: A Self-Evolving Agent Protocol',cs.AI
+2026-04-16T11:52:11Z,16,2026-04-21T03:58:54Z,2604.14910,2,'Reward-Aware Trajectory Shaping for Few-step Visual Generation',cs.CV
+2026-04-16T07:37:59Z,16,2026-04-21T03:27:44Z,2604.14726,2,'Catching Every Ripple: Enhanced Anomaly Awareness via Dynamic Concept Adaptation',cs.LG;cs.AI
+2026-04-15T09:17:38Z,16,2026-04-21T03:52:24Z,2604.16514,2,'BARD: Bridging AutoRegressive and Diffusion Vision-Language Models Via Highly Efficient Progressive Block Merging and Stage-Wise Distillation',cs.CV;cs.LG
+2026-04-15T07:31:54Z,16,2026-04-21T14:55:23Z,2604.13571,2,'Radar-Informed 3D Multi-Object Tracking under Adverse Conditions',cs.CV
