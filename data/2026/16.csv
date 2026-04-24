@@ -2799,3 +2799,25 @@ Published,ISOWeek,Updated,ID,Version,Title,Categories
 2026-04-16T07:37:59Z,16,2026-04-21T03:27:44Z,2604.14726,2,'Catching Every Ripple: Enhanced Anomaly Awareness via Dynamic Concept Adaptation',cs.LG;cs.AI
 2026-04-15T09:17:38Z,16,2026-04-21T03:52:24Z,2604.16514,2,'BARD: Bridging AutoRegressive and Diffusion Vision-Language Models Via Highly Efficient Progressive Block Merging and Stage-Wise Distillation',cs.CV;cs.LG
 2026-04-15T07:31:54Z,16,2026-04-21T14:55:23Z,2604.13571,2,'Radar-Informed 3D Multi-Object Tracking under Adverse Conditions',cs.CV
+2026-04-19T21:22:45Z,16,2026-04-22T02:27:58Z,2604.18644,2,'FASE : A Fairness-Aware Spatiotemporal Event Graph Framework for Predictive Policing',cs.LG;cs.AI
+2026-04-19T17:48:17Z,16,2026-04-21T18:00:25Z,2604.17555,2,'CoSearch: Joint Training of Reasoning and Document Ranking via Reinforcement Learning for Agentic Search',cs.AI;cs.CL;cs.IR
+2026-04-19T16:19:57Z,16,2026-04-21T18:18:32Z,2604.17517,2,'From Admission to Invariants: Measuring Deviation in Delegated Agent Systems',cs.AI;cs.CR
+2026-04-19T16:03:47Z,16,2026-04-21T18:00:40Z,2604.17511,2,'Atomic Decision Boundaries: A Structural Requirement for Guaranteeing Execution-Time Admissibility in Autonomous Systems',cs.LO;cs.AI;cs.CR
+2026-04-19T00:05:36Z,16,2026-04-21T04:46:04Z,2604.17172,2,'UCCL-Zip: Lossless Compression Supercharged GPU Communication',cs.DC;cs.AI
+2026-04-18T08:46:58Z,16,2026-04-22T12:38:58Z,2604.16914,2,'Unified Ultrasound Intelligence Toward an End-to-End Agentic System',cs.CV;eess.IV
+2026-04-18T08:25:52Z,16,2026-04-22T05:33:29Z,2604.16902,2,'Beyond Text-Dominance: Understanding Modality Preference of Omni-modal Large Language Models',cs.AI
+2026-04-18T07:07:53Z,16,2026-04-22T07:00:49Z,2604.16879,2,'Adaptive Forensic Feature Refinement via Intrinsic Importance Perception',cs.CV
+2026-04-18T03:53:22Z,16,2026-04-21T22:06:55Z,2604.16813,2,'PersonalHomeBench: Evaluating Agents in Personalized Smart Homes',cs.AI;cs.CL;cs.DB
+2026-04-18T02:00:27Z,16,2026-04-22T04:58:24Z,2604.16779,3,'Q-SINDy: Quantum-Kernel Sparse Identification of Nonlinear Dynamics with Provable Coefficient Debiasing',quant-ph;cs.LG
+2026-04-18T01:10:44Z,16,2026-04-18T01:10:44Z,2604.19816,1,'Emergence Transformer: Dynamical Temporal Attention Matters',cs.AI
+2026-04-18T00:11:35Z,16,2026-04-22T10:51:32Z,2604.16756,2,'Mitigating Prompt-Induced Cognitive Biases in General-Purpose AI for Software Engineering',cs.SE;cs.AI
+2026-04-17T18:01:10Z,16,2026-04-22T04:41:17Z,2604.16607,2,'Spotlights and Blindspots: Evaluating Machine-Generated Text Detection',cs.CL;cs.AI
+2026-04-17T15:29:52Z,16,2026-04-17T15:29:52Z,2604.19815,1,'Large Language Models Meet Biomedical Knowledge Graphs for Mechanistically Grounded Therapeutic Prioritization',cs.AI
+2026-04-17T08:08:09Z,16,2026-04-17T08:08:09Z,2604.19850,1,'What Makes a Bacterial Model a Good Reservoir Computer? Predicting Performance from Separability and Similarity',cs.ET;cs.LG;cs.NE;q-bio.MN;q-bio.QM
+2026-04-16T22:26:29Z,16,2026-04-22T11:08:34Z,2604.15560,3,"'ExoNet: Calibrated Multimodal Deep Learning for TESS Exoplanet Candidate Vetting using Phase-Folded Light Curves, Stellar Parameters, and Multi-Head Attention'",astro-ph.EP;astro-ph.IM;cs.LG
+2026-04-16T18:10:18Z,16,2026-04-21T21:08:15Z,2604.15451,2,'Weak-to-Strong Knowledge Distillation Accelerates Visual Learning',cs.CV
+2026-04-16T17:35:49Z,16,2026-04-22T15:48:32Z,2604.15259,2,'Stability and Generalization in Looped Transformers',cs.LG;cs.AI
+2026-04-16T15:32:45Z,16,2026-04-22T01:59:13Z,2604.15153,2,'Compressing Sequences in the Latent Embedding Space: $K$-Token Merging for Large Language Models',cs.CL;cs.AI
+2026-04-16T13:11:42Z,16,2026-04-22T10:12:34Z,2604.14980,2,'Hybrid Decision Making via Conformal VLM-generated Guidance',cs.AI;cs.CL;cs.HC
+2026-04-16T08:45:34Z,16,2026-04-22T14:57:48Z,2604.14785,2,'MirrorBench: Evaluating Self-centric Intelligence in MLLMs by Introducing a Mirror',cs.AI
+2026-04-16T03:54:03Z,16,2026-04-22T09:12:17Z,2604.14593,3,'Mechanistic Decoding of Cognitive Constructs in Large Language Models',cs.CL;cs.AI
