@@ -2821,3 +2821,12 @@ Published,ISOWeek,Updated,ID,Version,Title,Categories
 2026-04-16T13:11:42Z,16,2026-04-22T10:12:34Z,2604.14980,2,'Hybrid Decision Making via Conformal VLM-generated Guidance',cs.AI;cs.CL;cs.HC
 2026-04-16T08:45:34Z,16,2026-04-22T14:57:48Z,2604.14785,2,'MirrorBench: Evaluating Self-centric Intelligence in MLLMs by Introducing a Mirror',cs.AI
 2026-04-16T03:54:03Z,16,2026-04-22T09:12:17Z,2604.14593,3,'Mechanistic Decoding of Cognitive Constructs in Large Language Models',cs.CL;cs.AI
+2026-04-19T22:54:56Z,16,2026-04-22T20:49:39Z,2604.17656,2,'Video-Robin: Autoregressive Diffusion Planning for Intent-Grounded Video-to-Music Generation',cs.SD;cs.AI;cs.CL;cs.CV;cs.LG
+2026-04-19T21:52:59Z,16,2026-04-22T22:46:39Z,2604.17628,2,'Does Welsh media need a review? Detecting bias in Nation.Cymrus political reporting',cs.CL
+2026-04-19T21:21:11Z,16,2026-04-22T21:08:06Z,2604.17623,2,'ViPS: Video-informed Pose Spaces for Auto-Rigged Meshes',cs.CV;cs.GR
+2026-04-17T23:38:56Z,16,2026-04-17T23:38:56Z,2604.20887,1,'Spectral Kernel Dynamics for Planetary Surface Graphs: Distinction Dynamics and Topological Conservation',math.DS;astro-ph.EP;cs.LG;cs.RO
+2026-04-17T22:54:15Z,16,2026-04-17T22:54:15Z,2604.20886,1,'KinetiDiff: Docking-Guided Diffusion for De Novo ACVR1 Inhibitor Design in Fibrodysplasia Ossificans Progressiva',physics.chem-ph;cs.LG
+2026-04-17T12:16:57Z,16,2026-04-23T15:57:11Z,2604.15994,2,'ReactBench: A Benchmark for Topological Reasoning in MLLMs on Chemical Reaction Diagrams',cs.AI
+2026-04-17T10:17:16Z,16,2026-04-23T12:41:25Z,2604.16565,2,'Reasoning on the Manifold: Bidirectional Consistency for Self-Verification in Diffusion Language Models',cs.LG;cs.AI
+2026-04-17T08:29:44Z,16,2026-04-23T15:33:25Z,2604.15827,2,'UsefulBench: Towards Decision-Useful Information as a Target for Information Retrieval',cs.IR;cs.CL
+2026-04-17T07:24:14Z,16,2026-04-23T09:00:00Z,2604.15770,2,'PLAF: Pixel-wise Language-Aligned Feature Extraction for Efficient 3D Scene Understanding',cs.CV;cs.RO
