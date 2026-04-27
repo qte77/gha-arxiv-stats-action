@@ -28,7 +28,7 @@ Logs daily stats of papers submitted to [arxiv.org](https://arxiv.org/). Inspire
     OUT_DIR: './data'
     TOPICS: 'cat:cs.CV+OR+cat:cs.LG+OR+cat:cs.CL+OR+cat:cs.AI+OR+cat:cs.NE+OR+cat:cs.RO'
     TOKEN: ${{ secrets.GITHUB_TOKEN }}
-```
+```text
 
 ## Inputs
 
