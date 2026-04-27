@@ -1,0 +1,10 @@
+# Local lychee config: extends qte77/.github canonical with project-specific URL excludes.
+accept = [200, 202, 204, 301, 401, 403, 429]
+
+# URLs that fail in CI due to external service flakiness:
+# - arxiv-sanity-lite.com is intermittently slow/timeout
+# - arxiv.paperswithcode.com periodically returns TLS handshake errors
+exclude = [
+  "^https://arxiv-sanity-lite\\.com",
+  "^https://arxiv\\.paperswithcode\\.com",
+]
