@@ -2402,3 +2402,20 @@ Published,ISOWeek,Updated,ID,Version,Title,Categories
 2026-04-22T04:28:45Z,17,2026-04-28T08:10:22Z,2604.20174,2,'Lever: Inference-Time Policy Reuse under Support Constraints',cs.LG
 2026-04-22T03:00:28Z,17,2026-04-24T05:54:56Z,2604.20133,2,'EvoAgent: An Evolvable Agent Framework with Skill Learning and Multi-Agent Delegation',cs.AI
 2026-04-22T00:46:12Z,17,2026-04-22T00:46:12Z,2604.22847,1,'Dream-Cubed: Controllable Generative Modeling in Minecraft by Training on Billions of Cubes',cs.CV
+2026-04-26T20:36:12Z,17,2026-04-28T19:44:59Z,2604.23874,2,'Deep Learning of Solver-Aware Turbulence Closures from Nudged LES Dynamics',physics.flu-dyn;cs.LG;math.DS;physics.comp-ph;physics.geo-ph
+2026-04-26T20:12:53Z,17,2026-04-29T17:19:39Z,2604.23865,2,'Inverting Foundation Models of Brain Function with Simulation-Based Inference',cs.LG;cs.AI;stat.ML
+2026-04-26T15:14:38Z,17,2026-04-29T16:34:55Z,2604.23758,2,'Agentic Fusion of Large Atomic and Language Models to Accelerate Superconductors Discovery',cs.LG;cond-mat.mtrl-sci
+2026-04-26T07:31:25Z,17,2026-04-29T07:12:34Z,2604.23575,2,'The Collapse of Heterogeneity in Silicon Philosophers',cs.CY;cs.CL;cs.LG
+2026-04-26T03:22:18Z,17,2026-04-29T07:50:08Z,2604.23514,2,'Probabilistic Graphical Model using Graph Neural Networks for Bayesian Inversion of Discrete Structural Component States',stat.ML;cs.LG;stat.ME
+2026-04-24T17:54:47Z,17,2026-04-29T17:20:11Z,2604.22750,2,'How Do AI Agents Spend Your Money? Analyzing and Predicting Token Consumption in Agentic Coding Tasks',cs.CL;cs.AI;cs.CY;cs.HC;cs.SE
+2026-04-24T15:32:03Z,17,2026-04-28T18:36:30Z,2604.22658,2,'PASR: Pose-Aware 3D Shape Retrieval from Occluded Single Views',cs.CV
+2026-04-24T15:22:25Z,17,2026-04-29T11:19:34Z,2604.22904,2,'Triple-Phase Sequential Fusion Network for Hepatobiliary Phase Liver MRI Synthesis',eess.IV;cs.CV
+2026-04-24T11:55:50Z,17,2026-04-29T14:23:54Z,2604.22477,2,'Contrastive Semantic Projection: Faithful Neuron Labeling with Contrastive Examples',cs.CV;cs.LG
+2026-04-24T08:07:03Z,17,2026-04-29T05:35:17Z,2604.22334,3,'FILTR: Extracting Topological Features from Pretrained 3D Models',cs.CV
+2026-04-24T06:34:45Z,17,2026-04-29T01:34:01Z,2604.22274,4,'CAGE-SGG: Counterfactual Active Graph Evidence for Open-Vocabulary Scene Graph Generation',cs.CV
+2026-04-24T06:30:56Z,17,2026-04-29T05:23:00Z,2604.22269,2,'Semantic Error Correction and Decoding for Short Block Codes',cs.IT;cs.AI
+2026-04-24T05:02:20Z,17,2026-04-29T07:51:58Z,2604.22227,3,"'A Co-Evolutionary Theory of Human-AI Coexistence: Mutualism, Governance, and Dynamics in Complex Societies'",cs.CY;cs.AI;cs.HC;cs.NE
+2026-04-24T01:13:19Z,17,2026-04-29T11:34:22Z,2604.22140,3,'Concave Statistical Utility Maximization Bandits via Influence-Function Gradients',stat.ML;cs.LG;math.ST;stat.AP
+2026-04-23T20:42:22Z,17,2026-04-29T13:18:01Z,2604.22063,2,'Reliability Auditing for Downstream LLM tasks in Psychiatry: LLM-Generated Hospitalization Risk Scores',cs.LG;cs.AI
+2026-04-23T17:59:47Z,17,2026-04-29T07:43:20Z,2604.21928,2,'Evaluation of Automatic Speech Recognition Using Generative Large Language Models',cs.CL
+2026-04-23T13:18:13Z,17,2026-04-29T07:26:38Z,2604.21654,2,'Causal Disentanglement for Full-Reference Image Quality Assessment',cs.CV;cs.AI
