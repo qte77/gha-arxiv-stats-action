@@ -2419,3 +2419,10 @@ Published,ISOWeek,Updated,ID,Version,Title,Categories
 2026-04-23T20:42:22Z,17,2026-04-29T13:18:01Z,2604.22063,2,'Reliability Auditing for Downstream LLM tasks in Psychiatry: LLM-Generated Hospitalization Risk Scores',cs.LG;cs.AI
 2026-04-23T17:59:47Z,17,2026-04-29T07:43:20Z,2604.21928,2,'Evaluation of Automatic Speech Recognition Using Generative Large Language Models',cs.CL
 2026-04-23T13:18:13Z,17,2026-04-29T07:26:38Z,2604.21654,2,'Causal Disentanglement for Full-Reference Image Quality Assessment',cs.CV;cs.AI
+2026-04-26T15:37:01Z,17,2026-04-26T15:37:01Z,2604.26973,1,'MAEO: Multiobjective Animorphic Ensemble Optimization for Scalable Large-scale Engineering Applications',cs.NE;cs.LG;stat.CO
+2026-04-26T15:28:02Z,17,2026-04-30T04:05:16Z,2604.23763,2,'Edit Where You Mean: Region-Aware Adapter Injection for Mask-Free Local Image Editing',cs.CV
+2026-04-25T15:01:12Z,17,2026-04-29T23:11:20Z,2604.23341,2,'Evaluating Jailbreaking Vulnerabilities in LLMs Deployed as Assistants for Smart Grid Operations: A Benchmark Against NERC Standards',cs.CR;cs.AI
+2026-04-24T15:29:59Z,17,2026-04-29T23:45:38Z,2604.22655,2,'Associativity-Peakiness Metric for Contingency Tables',cs.LG
+2026-04-24T14:46:03Z,17,2026-04-30T12:27:46Z,2604.22615,2,'GazeVLA: Learning Human Intention for Robotic Manipulation',cs.RO
+2026-04-24T14:23:31Z,17,2026-04-24T14:23:31Z,2604.26972,1,'How Hard Is Continuous Clustering? Lower Bounds from the Existential Theory of the Reals',cs.CC;cs.LG
+2026-04-24T02:21:59Z,17,2026-04-29T23:14:42Z,2604.22161,2,'Logistic Bandits with $\tilde{O}(\sqrt{dT})$ Regret without Context Diversity Assumptions',cs.LG
