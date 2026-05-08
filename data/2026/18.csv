@@ -2402,3 +2402,29 @@ Published,ISOWeek,Updated,ID,Version,Title,Categories
 2026-04-29T04:29:48Z,18,2026-04-29T04:29:48Z,2605.00907,1,'TRIP-Evaluate: An Open Multimodal Benchmark for Evaluating Large Models in Transportation',cs.CV;cs.AI;cs.LG
 2026-04-29T02:54:33Z,18,2026-04-29T02:54:33Z,2605.00906,1,'Generalized Category Discovery under Domain Shifts: From Vision to Vision-Language Models',cs.CV;cs.AI;cs.LG
 2026-04-29T02:34:51Z,18,2026-04-29T02:34:51Z,2605.00905,1,'DIAGRAMS: A Review Framework for Reasoning-Level Attribution in Diagram QA',cs.CL;cs.AI;cs.CV
+2026-05-03T18:12:42Z,18,2026-05-06T11:03:18Z,2605.02003,2,'RamanBench: A Large-Scale Benchmark for Machine Learning on Raman Spectroscopy',cs.LG;cs.AI
+2026-05-03T17:27:44Z,18,2026-05-06T17:51:05Z,2605.01978,2,'Stability of Control Lyapunov Function Guided Reinforcement Learning',eess.SY;cs.RO
+2026-05-03T17:27:37Z,18,2026-05-03T17:27:37Z,2605.04103,1,"'HERCULES: Hardware-Efficient, Robust, Continual Learning Neural Architecture Search'",cs.LG;cs.AR;cs.CL;cs.CV;cs.NE
+2026-05-03T16:17:38Z,18,2026-05-06T05:19:18Z,2605.02973,2,'Structured Diffusion Bridges: Inductive Bias for Denoising Diffusion Bridges',cs.LG;cs.AI
+2026-05-03T12:30:58Z,18,2026-05-06T14:48:36Z,2605.01847,2,'NeuroState-Bench: A Human-Calibrated Benchmark for Commitment Integrity in LLM Agent Profiles',cs.AI
+2026-05-03T10:55:16Z,18,2026-05-03T10:55:16Z,2605.04102,1,'Meta-LegNet: A Transferable and Interpretable Framework for Surface Adsorption Prediction via Self-Defined Adsorption-Environment Learning',cond-mat.mtrl-sci;cs.AI;cs.LG
+2026-05-03T05:26:26Z,18,2026-05-06T16:29:09Z,2605.01720,2,'SignVerse-2M: A Two-Million-Clip Pose-Native Universe of 55+ Sign Languages',cs.CV;cs.AI;cs.CL
+2026-05-03T04:51:30Z,18,2026-05-06T08:34:25Z,2605.01711,2,'Linear-Time Global Visual Modeling without Explicit Attention',cs.CV
+2026-05-03T03:44:15Z,18,2026-05-06T14:52:19Z,2605.01699,2,'Probe-Geometry Alignment: Erasing the Cross-Sequence Memorization Signature Below Chance',cs.LG;cs.AI;cs.CR;cs.NE
+2026-05-02T23:28:02Z,18,2026-05-06T02:25:12Z,2605.01643,2,'AI Alignment via Incentives and Correction',cs.LG;cs.AI
+2026-05-02T18:16:04Z,18,2026-05-05T22:50:16Z,2605.01562,2,'Neuro-Symbolic Agents for Hallucination-Free Requirements Reuse',cs.SE;cs.AI
+2026-05-02T10:32:24Z,18,2026-05-02T10:32:24Z,2605.04100,1,'Regularized Centered Emphatic Temporal Difference Learning',cs.AI
+2026-05-02T09:39:42Z,18,2026-05-06T08:19:25Z,2605.01345,2,'The Perceptual Bandwidth Bottleneck in Vision-Language Models: Active Visual Reasoning via Sequential Experimental Design',cs.CV;cs.AI;cs.LG
+2026-05-02T06:25:48Z,18,2026-05-06T13:38:25Z,2605.01278,2,'Valley3: Scaling Omni Foundation Models for E-commerce',cs.AI
+2026-05-01T07:22:01Z,18,2026-05-06T11:29:43Z,2605.00473,2,'Near-optimal and Efficient First-Order Algorithm for Multi-Task Learning with Shared Linear Representation',cs.LG;math.OC
+2026-05-01T06:43:09Z,18,2026-05-06T14:52:21Z,2605.00457,2,'A Policy-Driven DRL Framework for System-Level Tradeoff Control in NR-U/Wi-Fi Coexistence',cs.NI;cs.LG;eess.SY
+2026-05-01T06:25:55Z,18,2026-05-06T06:39:15Z,2605.00445,2,'The Power of Order: Fooling LLMs with Adversarial Table Permutations',cs.LG
+2026-05-01T02:59:03Z,18,2026-05-06T12:12:22Z,2605.00364,2,'Unlearning What Matters: Token-Level Attribution for Precise Language Model Unlearning',cs.CL
+2026-05-01T02:54:07Z,18,2026-05-01T02:54:07Z,2605.04098,1,'Are Multimodal LLMs Ready for Clinical Dermatology? A Real-World Evaluation in Dermatology',cs.CV;cs.AI;cs.CY
+2026-04-30T20:48:03Z,18,2026-04-30T20:48:03Z,2605.04097,1,'CTM-AI: A Blueprint for General AI Inspired by a Model of Consciousness',q-bio.NC;cs.AI
+2026-04-30T17:59:52Z,18,2026-05-06T16:08:45Z,2604.28192,2,'LaST-R1: Reinforcing Robotic Manipulation via Adaptive Physical Latent Reasoning',cs.RO;cs.CV
+2026-04-30T14:50:48Z,18,2026-05-06T14:48:56Z,2604.27953,2,'The Effects of Visual Priming on Cooperative Behavior in Vision-Language Models',cs.AI;cs.CV
+2026-04-30T14:07:37Z,18,2026-05-05T20:25:24Z,2604.27891,2,'In-Context Prompting Obsoletes Agent Orchestration for Procedural Tasks',cs.AI;cs.LG
+2026-04-30T13:43:25Z,18,2026-05-06T01:22:36Z,2604.27859,2,'A Brief Overview: Agentic Reinforcement Learning In Large Language Models',cs.AI;cs.ET
+2026-04-30T12:57:53Z,18,2026-05-06T15:06:05Z,2604.27814,2,'Probabilistic Circuits for Irregular Multivariate Time Series Forecasting',cs.LG
+2026-04-30T09:19:26Z,18,2026-05-06T07:17:48Z,2604.27629,2,'WaferSAGE: Large Language Model-Powered Wafer Defect Analysis via Synthetic Data Generation and Rubric-Guided Reinforcement Learning',cs.AI
