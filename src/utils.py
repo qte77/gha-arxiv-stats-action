@@ -30,7 +30,10 @@ def parse_arxiv_url(url):
     if ix < 0:
         raise ValueError(f"bad url: {url}")
     idv = url[ix + 1 :]  # extract just the id (and the version)
-    rawid, version = idv.split("v")
+    try:
+        rawid, version = idv.split("v")
+    except ValueError as e:
+        raise ValueError(f"malformed arxiv id (expected 'rawidvN'): {idv}") from e
     return idv, rawid, int(version)
 
 

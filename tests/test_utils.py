@@ -1,11 +1,11 @@
-"""Tests for get_api_response() retry behavior in src/utils.py."""
+"""Tests for get_api_response() retry behavior and parse_arxiv_url() in src/utils.py."""
 
 from unittest.mock import MagicMock, patch
 
 import pytest
 import requests
 
-from src.utils import get_api_response
+from src.utils import get_api_response, parse_arxiv_url
 
 
 def _make_response(data=b"ok"):
@@ -52,3 +52,23 @@ def test_success_no_retry():
         result = get_api_response("https://export.arxiv.org/api/query?id_list=1234")
     assert result == b"success"
     assert mock_get.call_count == 1
+
+
+def test_parse_arxiv_url_happy_path():
+    """Standard arxiv URL parses into (idv, rawid, version)."""
+    idv, rawid, version = parse_arxiv_url("http://arxiv.org/abs/1512.08756v2")
+    assert idv == "1512.08756v2"
+    assert rawid == "1512.08756"
+    assert version == 2
+
+
+def test_parse_arxiv_url_rejects_missing_v():
+    """ID without version separator raises ValueError naming the malformed input."""
+    with pytest.raises(ValueError, match="malformed arxiv id"):
+        parse_arxiv_url("http://arxiv.org/abs/1512.08756")
+
+
+def test_parse_arxiv_url_rejects_no_slash():
+    """URL without / raises ValueError with 'bad url' message."""
+    with pytest.raises(ValueError, match="bad url"):
+        parse_arxiv_url("not-a-url")
