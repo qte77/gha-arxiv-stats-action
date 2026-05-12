@@ -72,3 +72,15 @@ def test_parse_arxiv_url_rejects_no_slash():
     """URL without / raises ValueError with 'bad url' message."""
     with pytest.raises(ValueError, match="bad url"):
         parse_arxiv_url("not-a-url")
+
+
+def test_parse_arxiv_url_rejects_non_numeric_version():
+    """Non-numeric version raises ValueError with helpful message, not bare int() error."""
+    with pytest.raises(ValueError, match="malformed arxiv id"):
+        parse_arxiv_url("http://arxiv.org/abs/1512.08756vabc")
+
+
+def test_parse_arxiv_url_rejects_multiple_v():
+    """ID with multiple 'v' separators raises ValueError with helpful message."""
+    with pytest.raises(ValueError, match="malformed arxiv id"):
+        parse_arxiv_url("http://arxiv.org/abs/1512.08756v2v3")

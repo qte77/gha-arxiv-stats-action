@@ -32,9 +32,9 @@ def parse_arxiv_url(url):
     idv = url[ix + 1 :]  # extract just the id (and the version)
     try:
         rawid, version = idv.split("v")
-    except ValueError as e:
-        raise ValueError(f"malformed arxiv id (expected 'rawidvN'): {idv}") from e
-    return idv, rawid, int(version)
+        return idv, rawid, int(version)
+    except ValueError:
+        raise ValueError(f"malformed arxiv id (expected 'rawidvN'): {idv}") from None
 
 
 def get_api_response(api_url, max_retries=3, backoff_base=2.0):
