@@ -1,6 +1,5 @@
 """Semantic Scholar citation enrichment for arxiv paper IDs."""
 
-import json
 import time
 
 import requests
@@ -37,7 +36,7 @@ def get_citations(arxiv_id: str) -> dict:
             "reference_count": data.get("referenceCount", 0),
             "influential_count": data.get("influentialCitationCount", 0),
         }
-    except (requests.RequestException, json.JSONDecodeError):
+    except requests.RequestException:
         _last_call = time.time()
         return {"citation_count": 0, "reference_count": 0, "influential_count": 0}
 
