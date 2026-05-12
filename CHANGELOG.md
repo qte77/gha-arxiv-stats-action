@@ -16,6 +16,10 @@ Types of changes:
 
 ## [Unreleased]
 
+---
+
+## [0.0.2] - 2026-05-13
+
 ### Changed
 
 - HTTP client migrated from `urllib.request` to `requests` in `src/utils.py`

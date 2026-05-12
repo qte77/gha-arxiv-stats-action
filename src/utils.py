@@ -1,27 +1,4 @@
-"""
-TODO short description
-
-arxiv API output
-  'id': 'http://arxiv.org/abs/2406.04221v1',
-  'guidislink': True,
-  'link': 'http://arxiv.org/abs/2406.04221v1',
-  'updated': '2024-06-06T16:20:07Z',
-  'updated_parsed': time.struct_time(
-    tm_year=2024, tm_mon=6, tm_mday=6, tm_hour=16,
-    tm_min=20, tm_sec=7, tm_wday=3, tm_yday=158, tm_isdst=0
-  ),
-  'published': '2024-06-06T16:20:07Z',
-  'published_parsed': time.struct_time(
-    tm_year=2024, tm_mon=6, tm_mday=6, tm_hour=16,
-    tm_min=20, tm_sec=7, tm_wday=3, tm_yday=158, tm_isdst=0
-  ),
-  'title': 'Matching Anything by Segmenting Anything',
-  'title_detail': {
-    'type': 'text/plain', 'language': None,
-    'base': '', 'value': 'Matching Anything by Segmenting Anything'
-    },
-  'summary': 'The robust association of the same'
-"""
+"""Helpers for fetching and parsing arXiv API responses into CSV rows."""
 
 import csv
 import os
@@ -31,7 +8,7 @@ from os import makedirs
 from os.path import dirname, exists
 
 import requests
-from feedparser import FeedParserDict, parse
+from feedparser import FeedParserDict, parse  # type: ignore[import-untyped]
 
 
 def encode_feedparser_dict(d):
@@ -53,8 +30,11 @@ def parse_arxiv_url(url):
     if ix < 0:
         raise ValueError(f"bad url: {url}")
     idv = url[ix + 1 :]  # extract just the id (and the version)
-    rawid, version = idv.split("v")
-    return idv, rawid, int(version)
+    try:
+        rawid, version = idv.split("v")
+        return idv, rawid, int(version)
+    except ValueError:
+        raise ValueError(f"malformed arxiv id (expected 'rawidvN'): {idv}") from None
 
 
 def get_api_response(api_url, max_retries=3, backoff_base=2.0):
