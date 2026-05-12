@@ -58,6 +58,8 @@ def parse_arxiv_url(url):
 
 
 def get_api_response(api_url, max_retries=3, backoff_base=2.0):
+    if not api_url.lower().startswith("https://"):
+        raise ValueError(f"Only HTTPS URLs are allowed, got: {api_url[:50]}")
     for attempt in range(max_retries):
         try:
             resp = requests.get(api_url, timeout=30)

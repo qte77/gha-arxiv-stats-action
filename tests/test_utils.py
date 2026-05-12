@@ -37,6 +37,14 @@ def test_raises_after_max_retries():
             get_api_response("https://export.arxiv.org/api/query?id_list=1234")
 
 
+def test_rejects_non_https():
+    """http:// URL should raise ValueError immediately, never calling requests.get."""
+    with patch("src.utils.requests.get") as mock_get:
+        with pytest.raises(ValueError):
+            get_api_response("http://export.arxiv.org/api/query?id_list=1234")
+    assert mock_get.call_count == 0
+
+
 def test_success_no_retry():
     """Single 200 response — requests.get called exactly once."""
     resp = _make_response(b"success")
