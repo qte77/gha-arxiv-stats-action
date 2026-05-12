@@ -1,19 +1,18 @@
 """Tests for Semantic Scholar citation enrichment in src/citations.py."""
 
-import json
 from unittest.mock import MagicMock, patch
-from urllib.error import HTTPError
+
+import requests
 
 import src.citations as citations_module
 from src.citations import enrich_row, get_citations
 
 
 def _make_response(data: dict):
-    """Create a mock HTTP response returning JSON bytes."""
+    """Create a mock requests.Response returning JSON via .json()."""
     resp = MagicMock()
-    resp.read.return_value = json.dumps(data).encode()
-    resp.__enter__ = lambda s: s
-    resp.__exit__ = MagicMock(return_value=False)
+    resp.json.return_value = data
+    resp.raise_for_status = MagicMock()
     return resp
 
 
@@ -21,15 +20,16 @@ def test_get_citations_success():
     """Returns correct dict when API responds with citation data."""
     payload = {"citationCount": 42, "referenceCount": 10, "influentialCitationCount": 5}
     resp = _make_response(payload)
-    with patch("src.citations.urlopen", return_value=resp):
+    with patch("src.citations.requests.get", return_value=resp):
         result = get_citations("2406.04221")
     assert result == {"citation_count": 42, "reference_count": 10, "influential_count": 5}
 
 
 def test_get_citations_not_found():
     """Returns zero-filled dict on 404 HTTPError (graceful fallback)."""
-    http_error = HTTPError(url="", code=404, msg="Not Found", hdrs={}, fp=None)
-    with patch("src.citations.urlopen", side_effect=http_error):
+    resp = MagicMock()
+    resp.raise_for_status.side_effect = requests.HTTPError("404 Not Found")
+    with patch("src.citations.requests.get", return_value=resp):
         result = get_citations("9999.99999")
     assert result == {"citation_count": 0, "reference_count": 0, "influential_count": 0}
 
@@ -39,11 +39,10 @@ def test_get_citations_respects_rate_limit():
     payload = {"citationCount": 1, "referenceCount": 0, "influentialCitationCount": 0}
     resp = _make_response(payload)
 
-    # Reset module-level _last_call so first call does NOT sleep
     citations_module._last_call = 0.0
 
     with (
-        patch("src.citations.urlopen", return_value=resp),
+        patch("src.citations.requests.get", return_value=resp),
         patch("src.citations.time") as mock_time,
     ):
         mock_time.time.return_value = 0.0
