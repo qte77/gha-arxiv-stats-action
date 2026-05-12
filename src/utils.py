@@ -8,7 +8,7 @@ from os import makedirs
 from os.path import dirname, exists
 
 import requests
-from feedparser import FeedParserDict, parse
+from feedparser import FeedParserDict, parse  # type: ignore[import-untyped]
 
 
 def encode_feedparser_dict(d):
