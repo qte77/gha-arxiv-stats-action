@@ -29,9 +29,8 @@ import time
 from datetime import datetime
 from os import makedirs
 from os.path import dirname, exists
-from urllib.error import URLError
-from urllib.request import Request, urlopen
 
+import requests
 from feedparser import FeedParserDict, parse
 
 
@@ -51,30 +50,20 @@ def parse_arxiv_url(url):
     we want to extract the raw id (1512.08756) and the version (2)
     """
     ix = url.rfind("/")
-    assert ix >= 0, "bad url: " + url
+    if ix < 0:
+        raise ValueError(f"bad url: {url}")
     idv = url[ix + 1 :]  # extract just the id (and the version)
     rawid, version = idv.split("v")
-    assert rawid is not None and version is not None, (
-        f"error splitting id and version in idv string: {idv}"
-    )
     return idv, rawid, int(version)
 
 
-def _ensure_https(url):
-    """Reject non-HTTPS URLs to prevent file:/ and custom scheme access."""
-    if not url.lower().startswith("https://"):
-        raise ValueError(f"Only HTTPS URLs are allowed, got: {url[:50]}")
-
-
 def get_api_response(api_url, max_retries=3, backoff_base=2.0):
-    _ensure_https(api_url)
-    req = Request(api_url)
     for attempt in range(max_retries):
         try:
-            with urlopen(req, timeout=30) as url:  # noqa: S310
-                assert url.status == 200, f"arxiv did not return status 200 response: {api_url}"
-                return url.read()
-        except (URLError, AssertionError):
+            resp = requests.get(api_url, timeout=30)
+            resp.raise_for_status()
+            return resp.content
+        except requests.RequestException:
             if attempt < max_retries - 1:
                 time.sleep(backoff_base**attempt)
             else:
