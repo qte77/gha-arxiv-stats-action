@@ -16,6 +16,19 @@ Types of changes:
 
 ## [Unreleased]
 
+### Changed
+
+- HTTP client migrated from `urllib.request` to `requests` in `src/utils.py`
+  and `src/citations.py`
+- Ruff lint config tightened: enabled `S` (flake8-bandit) and `C90` (mccabe
+  complexity, max 10) rule sets
+
+### Security
+
+- Removed `# noqa: S310` / `# nosec B310` suppressions; `requests` rejects
+  `file://` and custom URL schemes by default, addressing the warning at
+  the source rather than suppressing it
+
 ---
 
 ## [0.0.1] - 2026-03-23
