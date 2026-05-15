@@ -3761,3 +3761,50 @@ Published,ISOWeek,Updated,ID,Version,Title,Categories
 2026-05-06T08:52:32Z,19,2026-05-12T01:59:41Z,2605.04647,2,'ReflectDrive-2: Reinforcement-Learning-Aligned Self-Editing for Discrete Diffusion Driving',cs.RO
 2026-05-06T06:36:09Z,19,2026-05-12T05:46:48Z,2605.04539,3,'RLearner-LLM: Balancing Logical Grounding and Fluency in Large Language Models via Hybrid Direct Preference Optimization',cs.CL;cs.AI
 2026-05-06T03:51:22Z,19,2026-05-12T10:27:55Z,2605.04474,2,'Geometry-Aware Neural Optimizer for Shape Optimization and Inversion',cs.LG
+2026-05-10T23:38:26Z,19,2026-05-10T23:38:26Z,2605.11033,1,'TokaMind for Power Grid: Cross-Domain Transfer from Fusion Plasma',physics.plasm-ph;cs.AI
+2026-05-10T19:49:00Z,19,2026-05-13T03:08:23Z,2605.09725,2,'On-Policy Distillation with Best-of-N Teacher Rollout Selection',cs.CV
+2026-05-10T12:27:32Z,19,2026-05-13T15:59:22Z,2605.09505,2,'EpiGraph: Building Generalists for Evidence-Intensive Epilepsy Reasoning in the Wild',cs.AI
+2026-05-10T08:51:50Z,19,2026-05-13T08:34:40Z,2605.09423,2,'SimWorld Studio: Automatic Environment Generation with Evolving Coding Agent for Embodied Agent Learning',cs.AI
+2026-05-10T08:34:51Z,19,2026-05-13T17:09:54Z,2605.09415,2,'Strategic commitments shape collective cybersecurity under AI inequality',cs.AI
+2026-05-10T07:17:08Z,19,2026-05-10T07:17:08Z,2605.12550,1,'SSDA: Bridging Spectral and Structural Gaps via Dual Adaptation for Vision-Based Time Series Forecasting',cs.CV;cs.AI
+2026-05-10T07:04:07Z,19,2026-05-10T07:04:07Z,2605.12549,1,'What Happens Before Decoding? Prefill Determines GUI Grounding in VLMs',cs.CV
+2026-05-09T20:59:29Z,19,2026-05-09T20:59:29Z,2605.12547,1,'The Payment Heterogeneity Index: An Integrated Unsupervised Framework for High-Volume Procurement Oversight and Decision Support',econ.EM;cs.LG;q-fin.ST;stat.AP
+2026-05-09T20:57:18Z,19,2026-05-13T06:09:23Z,2605.09163,2,'FORTIS: Benchmarking Over-Privilege in Agent Skills',cs.AI
+2026-05-09T19:31:02Z,19,2026-05-13T16:38:24Z,2605.09134,3,'BoostAPR: Boosting Automated Program Repair via Execution-Grounded Reinforcement Learning with Dual Reward Models',cs.AI;cs.SE
+2026-05-09T17:45:36Z,19,2026-05-13T15:28:39Z,2605.09081,2,'FactoryNet: A Large-Scale Dataset toward Industrial Time-Series Foundation Models',cs.LG;cs.AI
+2026-05-09T16:26:48Z,19,2026-05-13T07:20:14Z,2605.09040,2,'UxSID: Semantic-Aware User Interests Modeling for Ultra-Long Sequence',cs.AI;cs.IR;cs.LG
+2026-05-09T16:07:23Z,19,2026-05-13T07:49:42Z,2605.09027,2,'GAMBIT: A Three-Mode Benchmark for Adversarial Robustness in Multi-Agent LLM Collectives',cs.CL;cs.LG
+2026-05-09T16:00:12Z,19,2026-05-13T15:32:01Z,2605.09020,2,'The Direct Integration Theorem: A Rigorous Framework for Consistent Discrete Solutions of the Inverse Radon Problem',cs.CV
+2026-05-09T13:12:33Z,19,2026-05-13T07:11:30Z,2605.08935,2,'PnP-Corrector: A Universal Correction Framework for Coupled Spatiotemporal Forecasting',cs.AI;cs.LG
+2026-05-09T10:30:30Z,19,2026-05-13T05:44:50Z,2605.08863,2,'Max-pooling Network Revisited: Analyzing the Role of Semantic Probability in Multiple Instance Learning for Hallucination Detection',cs.CL;cs.LG
+2026-05-09T10:21:51Z,19,2026-05-09T10:21:51Z,2605.12545,1,'CROP: Expert-Aligned Image Cropping via Compositional Reasoning and Optimizing Preference',cs.CV;cs.AI
+2026-05-09T09:20:34Z,19,2026-05-13T12:14:37Z,2605.08825,2,'Rethinking Event-Based Object Dtection through Representation-Level Temporal Aggregation and Model-Level Hypergraph Reasoning',cs.CV
+2026-05-09T08:52:04Z,19,2026-05-09T08:52:04Z,2605.12543,1,'Why the Unfinished Keeps Returning: Canxianization and the Dynamics of Conscious Priority',q-bio.NC;cs.AI
+2026-05-09T08:34:30Z,19,2026-05-09T08:34:30Z,2605.12542,1,'Earth Science Foundation Models: From Perception to Reasoning and Discovery',astro-ph.IM;astro-ph.EP;cs.LG
+2026-05-09T07:42:41Z,19,2026-05-13T06:17:56Z,2605.08759,2,'MDL-GBG: A Non-parametric and Interpretable Granular-Ball Generation Method for Clustering',cs.LG
+2026-05-09T07:39:58Z,19,2026-05-09T07:39:58Z,2605.12541,1,'PG-LRF: Physiology-Guided Latent Rectified Flow for Electro-Hemodynamic PPG-to-ECG Generation',eess.SP;cs.AI;cs.LG
+2026-05-09T04:41:02Z,19,2026-05-13T08:00:49Z,2605.10983,2,'TMPO: Trajectory Matching Policy Optimization for Diverse and Efficient Diffusion Alignment',cs.LG;cs.AI;cs.CV
+2026-05-08T23:21:17Z,19,2026-05-13T17:19:56Z,2605.08550,2,'A Call to Lagrangian Action: Learning Population Mechanics from Temporal Snapshots',cs.LG;stat.ML
+2026-05-08T23:00:17Z,19,2026-05-12T22:27:47Z,2605.08541,2,'Tokens-per-Parameter Coverage Is Critical for Robust LLM Scaling Law Extrapolation',cs.LG
+2026-05-08T21:37:27Z,19,2026-05-12T18:33:07Z,2605.08504,2,'A Single Layer to Explain Them All:Understanding Massive Activations in Large Language Models',cs.CL
+2026-05-08T17:57:14Z,19,2026-05-12T22:42:27Z,2605.08078,2,'Normalizing Trajectory Models',cs.CV;cs.LG
+2026-05-08T16:20:10Z,19,2026-05-08T16:20:10Z,2605.08320,1,'Improved monocular depth prediction using distance transform over pre-semantic contours with self-supervised neural networks',eess.IV;cs.CV
+2026-05-08T12:27:32Z,19,2026-05-13T12:32:39Z,2605.07653,2,'Aquatic Neuromorphic Optical Flow',cs.CV;eess.IV
+2026-05-08T09:39:59Z,19,2026-05-13T09:48:13Z,2605.08293,2,"'Distill, Diffuse, and Semanticize (DDS): Annotation-Free 3D Scene Understanding Based on Multi-Granularity Distillation and Graph-Diffusion-Based Segmentation'",cs.CV
+2026-05-08T09:25:52Z,19,2026-05-12T23:48:15Z,2605.07483,2,'Does Your Neural Network Extrapolate? Feature Engineering as Identifiability Bias for OOD Generalization',cs.LG;cs.AI
+2026-05-08T08:34:50Z,19,2026-05-13T13:21:45Z,2605.07433,2,'Inference of Qualitative Models from Steady-State Data via Weighted MaxSMT',q-bio.MN;cs.LG;cs.LO
+2026-05-08T03:34:09Z,19,2026-05-13T10:35:30Z,2605.07188,2,'PicoEyes: Unified Gaze Estimation Framework for Mixed Reality with a Large-Scale Multi-View Dataset',cs.CV
+2026-05-08T02:47:07Z,19,2026-05-13T05:21:47Z,2605.07161,2,'SREGym: A Live Benchmark for AI SRE Agents with High-Fidelity Failure Scenarios',cs.AI
+2026-05-08T02:32:01Z,19,2026-05-13T01:55:38Z,2605.07147,2,'MathlibPR: Pull Request Merge-Readiness Benchmark for Formal Mathematical Libraries',cs.LO;cs.AI;cs.LG
+2026-05-07T19:12:03Z,19,2026-05-12T18:33:33Z,2605.06869,2,'Agentick: A Unified Benchmark for General Sequential Decision-Making Agents',cs.AI
+2026-05-07T18:45:46Z,19,2026-05-13T01:13:33Z,2605.06840,4,'Extracting Search Trees from LLM Reasoning Traces Reveals Myopic Planning',cs.AI
+2026-05-07T17:56:32Z,19,2026-05-13T16:47:04Z,2605.06651,2,'AI co-mathematician: Accelerating mathematicians with agentic AI',cs.AI
+2026-05-07T17:27:23Z,19,2026-05-12T22:57:53Z,2605.06607,3,'AI CFD Scientist: Toward Open-Ended Computational Fluid Dynamics Discovery with Physics-Aware AI Agents',physics.flu-dyn;cs.AI
+2026-05-07T15:06:37Z,19,2026-05-13T14:04:46Z,2605.06390,2,'Automated alignment is harder than you think',cs.AI
+2026-05-07T15:02:49Z,19,2026-05-13T04:44:13Z,2605.06387,3,'Asymmetric On-Policy Distillation: Bridging Exploitation and Imitation at the Token Level',cs.LG;cs.AI
+2026-05-07T14:11:44Z,19,2026-05-13T09:35:17Z,2605.06309,2,'MultiLinguahah : A New Unsupervised Multilingual Acoustic Laughter Segmentation Method',cs.CL
+2026-05-07T10:09:18Z,19,2026-05-13T05:26:30Z,2605.08245,2,'When Language Overwrites Vision: Over-Alignment and Geometric Debiasing in Vision-Language Models',cs.CV;cs.AI
+2026-05-07T09:55:20Z,19,2026-05-13T08:11:03Z,2605.05945,3,'MobileEgo Anywhere: Open Infrastructure for long horizon egocentric data on commodity hardware',cs.CV;cs.CL
+2026-05-07T08:43:51Z,19,2026-05-13T12:24:19Z,2605.05876,3,'3DSS: 3D Surface Splatting for Inverse Rendering',cs.GR;cs.CV
+2026-05-07T08:43:26Z,19,2026-05-13T02:04:07Z,2605.05875,2,'Cycle-resolved Cephalopod-Inspired Pulsed-Jet Robot With High-Volume Expulsion and Drag-Reduced Gliding',cs.RO;physics.flu-dyn
+2026-05-07T06:31:34Z,19,2026-05-13T05:25:23Z,2605.05739,2,'Multi-Dimensional Behavioral Evaluation of Agentic Stock Prediction Systems Using Large Language Model Judges with Closed-Loop Reinforcement Learning Feedback',cs.LG;cs.AI;cs.CL;q-fin.CP
